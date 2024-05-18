@@ -1,0 +1,33 @@
+{
+  "image": "base:ubuntu-bullseye",
+  "remoteUser": "vscode@STEN",
+  "features": {
+    "ghcr.io/devcontainers/features/common-utils:2": {
+      "installZsh": "true",
+      "username": "vscode@STEN",
+      "userUid": "automatic",
+      "userGid": "automatic",
+      "upgradePackages": "true"
+    },
+    "ghcr.io/devcontainers/features/git:1": {
+      "version": "latest",
+      "ppa": "false"
+    }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "eamodio.gitlens",
+        "esbenp.prettier-vscode",
+        "github.copilot",
+        "github.vscode-github-actions",
+        "ms-azuretools.vscode-docker",
+        "ms-vscode.live-server",
+        "pkief.material-icon-theme",
+        "usernamehw.errorlens",
+        "vsls-contrib.gistfs"
+      ]
+    }
+  },
+  "shutdownAction": "stopContainer"
+}
