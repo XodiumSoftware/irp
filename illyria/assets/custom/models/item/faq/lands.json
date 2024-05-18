@@ -1,7 +1,6 @@
 {
-    "parent": "minecraft:item/generated",
-    "textures": {
-      "layer0": "custom:item/faq/lands"
-    }
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "custom:item/faq/lands"
   }
-  
+}
