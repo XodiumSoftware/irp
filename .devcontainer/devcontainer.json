@@ -1,5 +1,5 @@
 {
-  "image": "base:ubuntu-bullseye",
+  "image": "mcr.microsoft.com/vscode/devcontainers/base:ubuntu",
   "remoteUser": "vscode@STEN",
   "features": {
     "ghcr.io/devcontainers/features/common-utils:2": {
@@ -20,9 +20,7 @@
         "eamodio.gitlens",
         "esbenp.prettier-vscode",
         "github.copilot",
-        "github.vscode-github-actions",
         "ms-azuretools.vscode-docker",
-        "ms-vscode.live-server",
         "pkief.material-icon-theme",
         "usernamehw.errorlens",
         "vsls-contrib.gistfs"
