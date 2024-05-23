@@ -19,10 +19,6 @@ jobs:
         name: Checkout
         uses: actions/checkout@main
 
-      - id: setup_jq
-        name: Install jq
-        run: sudo apt-get install jq
-
       - id: create_zip
         name: Create Zip File
         run: |
