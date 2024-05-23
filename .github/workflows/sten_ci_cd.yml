@@ -33,13 +33,6 @@ jobs:
           echo "TAG=$VERSION" >> $GITHUB_ENV
         shell: bash
 
-      - id: get_changelog
-        name: Get Changelog
-        run: |
-          CHANGELOG=$(awk -v version="$VERSION" '/## \[/{flag=0} /## \['$version'\]/{flag=1} flag' CHANGELOG.md)
-          echo "CHANGELOG=$CHANGELOG" >> $GITHUB_ENV
-        shell: bash
-
       - id: create_release
         name: Create Release
         uses: softprops/action-gh-release@master
@@ -49,4 +42,3 @@ jobs:
         with:
           tag_name: ${{ env.TAG }}
           files: Illyria.zip
-          body: ${{ env.CHANGELOG }}
