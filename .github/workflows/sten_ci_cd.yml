@@ -1,0 +1,48 @@
+name: Sten's CI/CD
+run-name: "Sten's CI/CD"
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  release:
+    name: Release
+    if: contains(github.event.head_commit.message, '.deploy')
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ubuntu-latest]
+        version: [3.12]
+    steps:
+      - id: checkout
+        name: Checkout
+        uses: actions/checkout@main
+
+      - id: setup_jq
+        name: Install jq
+        run: sudo apt-get install jq
+
+      - id: create_zip
+        name: Create Zip File
+        run: |
+          zip -r Illyria.zip Illyria/assets Illyria/pack.mcmeta Illyria/pack.png
+        shell: bash
+
+      - id: create_tag
+        name: Create & Push Tag
+        run: |
+          VERSION=$(jq -r '.version.name' Illyria/pack.mcmeta)
+          echo "TAG=$VERSION" >> $GITHUB_ENV
+        shell: bash
+
+      - id: create_release
+        name: Create Release
+        uses: softprops/action-gh-release@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: ${{ steps.create_tag.outputs.TAG }}
+          draft: false
+          prerelease: false
+          files: Illyria.zip
