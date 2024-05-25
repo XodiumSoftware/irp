@@ -3,7 +3,6 @@ run-name: "Sten's CI/CD"
 
 on:
   push:
-    branches: [main]
 
 jobs:
   release:
