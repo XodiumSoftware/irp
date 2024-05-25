@@ -3,16 +3,14 @@ run-name: "Sten's CI/CD"
 
 on:
   push:
+    paths:
+      - "illyria/**"
 
 jobs:
   release:
     name: Release
     if: contains(github.event.head_commit.message, '.deploy')
-    runs-on: ${{ matrix.os }}
-    strategy:
-      matrix:
-        os: [ubuntu-latest]
-        version: [3.12]
+    runs-on: ubuntu-latest
     steps:
       - id: checkout
         name: Checkout
@@ -20,9 +18,7 @@ jobs:
 
       - id: get_version
         name: Get Version
-        run: |
-          VERSION=$(jq -r '.version.name' Illyria/pack.mcmeta)
-          echo "VERSION=${VERSION}" >> $GITHUB_ENV
+        run: echo "VERSION=$(jq -r '.version.name' Illyria/pack.mcmeta)" >> $GITHUB_ENV
         shell: bash
 
       - id: create_zip
@@ -30,17 +26,11 @@ jobs:
         run: zip -r "Illyria_v${{ env.VERSION }}.zip" Illyria/assets Illyria/pack.mcmeta Illyria/pack.png
         shell: bash
 
-      - id: create_tag
-        name: Create & Push Tag
-        run: echo "TAG=${{ env.VERSION }}" >> $GITHUB_ENV
-        shell: bash
-
       - id: create_release
         name: Create Release
         uses: softprops/action-gh-release@master
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          TAG: ${{ env.TAG }}
         with:
-          tag_name: ${{ env.TAG }}
-          files: Illyria_v${{ env.TAG }}.zip
+          tag_name: ${{ env.VERSION }}
+          files: Illyria_v${{ env.VERSION }}.zip
