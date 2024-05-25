@@ -3,16 +3,14 @@ run-name: "Sten's CI/CD"
 
 on:
   push:
-    branches:
-      - main
-    paths:
-      - "illyria/**"
+    branches: [main]
+    paths: ["illyria/**"]
 
 jobs:
   release:
     name: Release
     if: contains(github.event.head_commit.message, '.deploy')
-    runs-on: ubuntu-latest
+    runs-on: [ubuntu-latest]
     steps:
       - id: checkout
         name: Checkout
