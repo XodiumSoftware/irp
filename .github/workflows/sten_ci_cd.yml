@@ -18,21 +18,19 @@ jobs:
         name: Checkout
         uses: actions/checkout@main
 
+      - id: get_version
+        name: Get Version
+        run: |
+          VERSION=$(jq -r '.version.name' Illyria/pack.mcmeta)
+          echo $VERSION >> $GITHUB_ENV
+
       - id: create_zip
         name: Create Zip File
-        run: |
-          cd Illyria
-          VERSION=$(jq -r '.version.name' pack.mcmeta)
-          zip -r "../Illyria_v$VERSION.zip" assets pack.mcmeta pack.png
-        shell: bash
+        run: zip -r "Illyria_v${{ env.VERSION }}.zip" Illyria/assets Illyria/pack.mcmeta Illyria/pack.png
 
       - id: create_tag
         name: Create & Push Tag
-        run: |
-          cd Illyria
-          VERSION=$(jq -r '.version.name' pack.mcmeta)
-          echo "TAG=$VERSION" >> $GITHUB_ENV
-        shell: bash
+        run: echo "TAG=${{ env.VERSION }}" >> $GITHUB_ENV
 
       - id: create_release
         name: Create Release
