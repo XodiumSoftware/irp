@@ -3,10 +3,8 @@ run-name: "Sten's CI/CD"
 
 on:
   push:
-    branches:
-      - main
-    paths:
-      - "illyria/**"
+    branches: [main]
+    paths: ["illyria/**"]
 
 jobs:
   release:
@@ -20,11 +18,11 @@ jobs:
 
       - id: get_version
         name: Get Version
-        run: echo "VERSION=$(jq -r '.version.name' illyria/pack.mcmeta)" >> $GITHUB_ENV
+        run: echo "VERSION=$(jq -r '.version.name' illyria/pack.mcmeta)" >> $GITHUB_OUTPUT
 
       - id: create_zip
         name: Create Zip File
-        run: zip -r "Illyria_v${{ env.VERSION }}.zip" illyria/assets illyria/pack.mcmeta illyria/pack.png
+        run: zip -r "Illyria_v${{ steps.get_version.outputs.VERSION }}.zip" illyria/assets illyria/pack.mcmeta illyria/pack.png
 
       - id: create_release
         name: Create Release
@@ -32,7 +30,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          tag_name: ${{ env.VERSION }}
-          files: Illyria_v${{ env.VERSION }}.zip
+          draft: ${{ contains(github.event.head_commit.message, '.draft') }}
+          files: Illyria_v${{ steps.get_version.outputs.VERSION }}.zip
           generate_release_notes: true
           prerelease: ${{ contains(github.event.head_commit.message, '.pre') }}
+          tag_name: ${{ steps.get_version.outputs.VERSION }}
