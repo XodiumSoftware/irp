@@ -25,7 +25,7 @@
   "material-icon-theme.folders.color": "#ef5350",
   "material-icon-theme.folders.associations": {
     "ISSUE_TEMPLATE": "template",
-    "Illyria": "src"
+    "illyria": "src"
   },
   // Terminal Settings
   "terminal.integrated.enableMultiLinePasteWarning": "never",
