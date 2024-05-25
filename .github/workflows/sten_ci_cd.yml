@@ -3,6 +3,8 @@ run-name: "Sten's CI/CD"
 
 on:
   push:
+    branches:
+      - main
     paths:
       - "illyria/**"
 
