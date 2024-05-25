@@ -8,26 +8,21 @@ on:
 
 jobs:
   release:
-    name: Release
     if: contains(github.event.head_commit.message, '.deploy')
     runs-on: ubuntu-latest
     steps:
       - id: checkout
-        name: Checkout
         uses: actions/checkout@main
 
       - id: get_version
-        name: Get Version
         run: echo "VERSION=$(jq -r '.version.name' illyria/pack.mcmeta)" >> $GITHUB_ENV
         shell: bash
 
       - id: create_zip
-        name: Create Zip File
         run: zip -r "Illyria_v${{ env.VERSION }}.zip" illyria/assets illyria/pack.mcmeta illyria/pack.png
         shell: bash
 
       - id: create_release
-        name: Create Release
         uses: softprops/action-gh-release@master
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
