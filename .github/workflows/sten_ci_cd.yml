@@ -4,7 +4,7 @@ run-name: "Sten's CI/CD"
 on:
   push:
     branches: [main]
-    paths: ["illyria/**"]
+    # paths: ["illyria/**"]
 
 jobs:
   release:
@@ -18,11 +18,15 @@ jobs:
 
       - id: get_version
         name: Get Version
-        run: echo "VERSION=$(jq -r '.version.name' illyria/pack.mcmeta)" >> $GITHUB_OUTPUT
+        run: |
+          cd illyria 
+          echo "VERSION=$(jq -r '.version.name' pack.mcmeta)" >> $GITHUB_OUTPUT
 
       - id: create_zip
         name: Create Zip File
-        run: zip -r "Illyria_v${{ steps.get_version.outputs.VERSION }}.zip" illyria/assets illyria/pack.mcmeta illyria/pack.png
+        run: |
+          cd illyria
+          zip -r "Illyria_v${{ steps.get_version.outputs.VERSION }}.zip" assets pack.mcmeta pack.png
 
       - id: create_release
         name: Create Release
