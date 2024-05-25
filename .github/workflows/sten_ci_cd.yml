@@ -22,7 +22,7 @@ jobs:
         name: Get Version
         run: |
           VERSION=$(jq -r '.version.name' Illyria/pack.mcmeta)
-          echo $VERSION >> $GITHUB_ENV
+          echo "VERSION=${VERSION}" >> $GITHUB_ENV
         shell: bash
 
       - id: create_zip
