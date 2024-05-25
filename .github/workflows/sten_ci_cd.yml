@@ -22,14 +22,8 @@ jobs:
         name: Create Zip File
         run: |
           cd Illyria
-          zip -r ../Illyria.zip assets pack.mcmeta pack.png
-        shell: bash
-
-      - id: create_tag
-        name: Create & Push Tag
-        run: |
-          VERSION=$(jq -r '.version.name' Illyria/pack.mcmeta)
-          echo "TAG=$VERSION" >> $GITHUB_ENV
+          VERSION=$(jq -r '.version.name' pack.mcmeta)
+          zip -r "../Illyria_v$VERSION.zip" assets pack.mcmeta pack.png
         shell: bash
 
       - id: create_release
@@ -37,7 +31,7 @@ jobs:
         uses: softprops/action-gh-release@master
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          TAG: ${{ env.TAG }}
+          TAG: ${{ steps.create_zip.outputs.VERSION }}
         with:
-          tag_name: ${{ env.TAG }}
-          files: Illyria.zip
+          tag_name: ${{ steps.create_zip.outputs.VERSION }}
+          files: Illyria_v${{ steps.create_zip.outputs.VERSION }}.zip
