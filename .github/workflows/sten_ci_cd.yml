@@ -26,7 +26,7 @@ jobs:
         name: Create Zip File
         run: |
           cd illyria
-          zip -r "Illyria_v${{ steps.get_version.outputs.VERSION }}.zip" assets pack.mcmeta pack.png
+          zip -r "../Illyria_v${{ steps.get_version.outputs.VERSION }}.zip" assets pack.mcmeta pack.png
 
       - id: create_release
         name: Create Release
@@ -35,7 +35,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           draft: ${{ contains(github.event.head_commit.message, '.draft') }}
-          files: illyria/Illyria_v${{ steps.get_version.outputs.VERSION }}.zip
+          files: Illyria_v${{ steps.get_version.outputs.VERSION }}.zip
           generate_release_notes: true
           prerelease: ${{ contains(github.event.head_commit.message, '.pre') }}
           tag_name: ${{ steps.get_version.outputs.VERSION }}
