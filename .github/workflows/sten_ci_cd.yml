@@ -18,12 +18,12 @@ jobs:
 
       - id: get_version
         name: Get Version
-        run: echo "VERSION=$(jq -r '.version.name' Illyria/pack.mcmeta)" >> $GITHUB_ENV
+        run: echo "VERSION=$(jq -r '.version.name' illyria/pack.mcmeta)" >> $GITHUB_ENV
         shell: bash
 
       - id: create_zip
         name: Create Zip File
-        run: zip -r "Illyria_v${{ env.VERSION }}.zip" Illyria/assets Illyria/pack.mcmeta Illyria/pack.png
+        run: zip -r "Illyria_v${{ env.VERSION }}.zip" illyria/assets illyria/pack.mcmeta illyria/pack.png
         shell: bash
 
       - id: create_release
