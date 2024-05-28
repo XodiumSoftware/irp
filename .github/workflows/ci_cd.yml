@@ -1,10 +1,10 @@
-name: Sten's CI/CD
-run-name: "Sten's CI/CD"
+name: Illyrian's CI/CD
+run-name: "Illyrian's CI/CD"
 
 on:
   push:
     branches: [main]
-    paths: ["illyria/**"]
+    paths: ["illyriamc/**"]
 
 jobs:
   release:
@@ -19,13 +19,13 @@ jobs:
       - id: get_version
         name: Get Version
         run: |
-          cd illyria 
+          cd illyriamc 
           echo "VERSION=$(jq -r '.version.name' pack.mcmeta)" >> $GITHUB_OUTPUT
 
       - id: create_zip
         name: Create Zip File
         run: |
-          cd illyria
+          cd illyriamc
           zip -r "../Illyria_v${{ steps.get_version.outputs.VERSION }}.zip" assets pack.mcmeta pack.png
 
       - id: create_release
