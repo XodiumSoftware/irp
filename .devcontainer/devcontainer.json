@@ -1,10 +1,10 @@
 {
   "image": "mcr.microsoft.com/vscode/devcontainers/base:ubuntu",
-  "remoteUser": "vscode@STEN",
+  "remoteUser": "vscode@IllyrianEngineering",
   "features": {
     "ghcr.io/devcontainers/features/common-utils:2": {
       "installZsh": "true",
-      "username": "vscode@STEN",
+      "username": "vscode@IllyrianEngineering",
       "userUid": "automatic",
       "userGid": "automatic",
       "upgradePackages": "true"
