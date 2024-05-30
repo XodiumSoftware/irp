@@ -5,12 +5,23 @@ on:
   push:
     branches: [main]
     paths: ["illyriamc/**"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  packages: write
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
   release:
     name: Release
-    if: contains(github.event.head_commit.message, '.deploy')
+    if: github.event_name == 'workflow_dispatch' || contains(github.event.head_commit.message, '.deploy')
     runs-on: [ubuntu-latest]
+    environment:
+      name: ${{ github.ref_name }}
     steps:
       - id: checkout
         name: Checkout
