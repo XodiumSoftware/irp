@@ -76,6 +76,7 @@ jobs:
       - id: download_server_properties
         name: Download server.properties
         run: |
+          mkdir -p temp
           wget ftp://${{ secrets.FTP_USERNAME }}:${{ secrets.FTP_PASSWORD }}@${{ secrets.FTP_SERVER }}/server.properties -O temp/server.properties
 
       - id: get_release
