@@ -22,6 +22,7 @@ jobs:
     runs-on: [ubuntu-latest]
     environment:
       name: ${{ github.ref_name }}
+      url: ${{ steps.create_release.outputs.url }}
     steps:
       - id: checkout
         name: Checkout
