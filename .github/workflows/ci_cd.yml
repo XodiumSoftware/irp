@@ -52,7 +52,9 @@ jobs:
         with:
           draft: ${{ contains(github.event.head_commit.message, '.draft') }}
           files: Illyria_v${{ steps.get_version.outputs.VERSION }}.zip
-          body: "SHA-1 Hash: ${{ steps.calculate_sha1.outputs.SHA1 }}"
+          body: |
+            Direct Download Link: https://github.com/${{ github.repository }}/releases/download/${{ steps.get_version.outputs.VERSION }}/Illyria_v${{ steps.get_version.outputs.VERSION }}.zip
+            SHA-1 Hash: ${{ steps.calculate_sha1.outputs.SHA1 }}
           generate_release_notes: true
           prerelease: ${{ contains(github.event.head_commit.message, '.pre') }}
           tag_name: ${{ steps.get_version.outputs.VERSION }}
