@@ -77,7 +77,7 @@ jobs:
         name: Download server.properties
         run: |
           mkdir -p temp
-          wget ftp://${{ secrets.FTP_USERNAME }}:${{ secrets.FTP_PASSWORD }}@${{ secrets.FTP_SERVER }}/server.properties -O temp/server.properties
+          wget ${{ secrets.FTP_URI }}/server.properties -O temp/server.properties
 
       - id: get_release
         name: Update server.properties with new resource pack info
