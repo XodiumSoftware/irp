@@ -40,6 +40,11 @@ jobs:
           cd illyriamc
           zip -r "../Illyria_v${{ steps.get_version.outputs.VERSION }}.zip" assets pack.mcmeta pack.png
 
+      - id: calculate_sha256
+        name: Calculate SHA256
+        run: |
+          echo "SHA256=$(sha256sum "Illyria_v${{ steps.get_version.outputs.VERSION }}.zip" | awk '{ print $1 }')" >> $GITHUB_OUTPUT
+
       - id: create_release
         name: Create Release
         uses: softprops/action-gh-release@master
@@ -48,6 +53,7 @@ jobs:
         with:
           draft: ${{ contains(github.event.head_commit.message, '.draft') }}
           files: Illyria_v${{ steps.get_version.outputs.VERSION }}.zip
+          body: "SHA-256 Hash: ${{ steps.calculate_sha256.outputs.SHA256 }}"
           generate_release_notes: true
           prerelease: ${{ contains(github.event.head_commit.message, '.pre') }}
           tag_name: ${{ steps.get_version.outputs.VERSION }}
