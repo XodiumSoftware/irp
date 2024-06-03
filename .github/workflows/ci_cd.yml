@@ -1,10 +1,10 @@
-name: Illyrian's CI/CD
-run-name: "Illyrian's CI/CD"
+name: Illyrion CI/CD
+run-name: "Illyrion CI/CD"
 
 on:
   push:
     branches: [main]
-    # paths: ["illyriamc/**"]
+    paths: ["illyriamc/**"]
   workflow_dispatch:
 
 permissions:
@@ -22,7 +22,7 @@ jobs:
     runs-on: [ubuntu-latest]
     environment:
       name: ${{ github.ref_name }}
-      # url: ${{ steps.create_release.outputs.url }}
+      url: ${{ steps.create_release.outputs.url }}
     outputs:
       VERSION: ${{ steps.get_version.outputs.VERSION }}
       SHA1: ${{ steps.calculate_sha1.outputs.SHA1 }}
@@ -41,26 +41,26 @@ jobs:
         name: Create Zip File
         run: |
           cd illyriamc
-          zip -r "../Illyria_v${{ steps.get_version.outputs.VERSION }}.zip" assets pack.mcmeta pack.png
+          zip -r "../Illyria_${{ steps.get_version.outputs.VERSION }}.zip" assets pack.mcmeta pack.png
 
       - id: calculate_sha1
         name: Calculate SHA1
-        run: echo "SHA1=$(sha1sum "Illyria_v${{ steps.get_version.outputs.VERSION }}.zip" | awk '{ print $1 }')" >> $GITHUB_OUTPUT
+        run: echo "SHA1=$(sha1sum "Illyria_${{ steps.get_version.outputs.VERSION }}.zip" | awk '{ print $1 }')" >> $GITHUB_OUTPUT
 
-      # - id: create_release
-      #   name: Create Release
-      #   uses: softprops/action-gh-release@master
-      #   env:
-      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      #   with:
-      #     draft: ${{ contains(github.event.head_commit.message, '.draft') }}
-      #     files: Illyria_v${{ steps.get_version.outputs.VERSION }}.zip
-      #     body: |
-      #       Direct Download Link: https://github.com/${{ github.repository }}/releases/download/${{ steps.get_version.outputs.VERSION }}/Illyria_v${{ steps.get_version.outputs.VERSION }}.zip
-      #       SHA-1 Hash: ${{ steps.calculate_sha1.outputs.SHA1 }}
-      #     generate_release_notes: true
-      #     prerelease: ${{ contains(github.event.head_commit.message, '.pre') }}
-      #     tag_name: ${{ steps.get_version.outputs.VERSION }}
+      - id: create_release
+        name: Create Release
+        uses: softprops/action-gh-release@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          draft: ${{ contains(github.event.head_commit.message, '.draft') }}
+          files: Illyria_v${{ steps.get_version.outputs.VERSION }}.zip
+          body: |
+            Direct Download Link: https://github.com/${{ github.repository }}/releases/download/${{ steps.get_version.outputs.VERSION }}/Illyria_${{ steps.get_version.outputs.VERSION }}.zip
+            SHA-1 Hash: ${{ steps.calculate_sha1.outputs.SHA1 }}
+          generate_release_notes: true
+          prerelease: ${{ contains(github.event.head_commit.message, '.pre') }}
+          tag_name: ${{ steps.get_version.outputs.VERSION }}
 
   update-server:
     name: Update Server
@@ -83,7 +83,7 @@ jobs:
         name: Update server.properties with new resource pack info
         run: |
           cd ./temp
-          sed -i 's#^resource-pack=.*$#resource-pack=https:\/\/github.com\/${{ github.repository }}\/releases\/download\/${{ needs.release.outputs.version }}/Illyria_v${{ needs.release.outputs.version }}.zip#' server.properties
+          sed -i 's#^resource-pack=.*$#resource-pack=https:\/\/github.com\/${{ github.repository }}\/releases\/download\/${{ needs.release.outputs.version }}/Illyria_${{ needs.release.outputs.version }}.zip#' server.properties
           sed -i 's#^resource-pack-sha1=.*$#resource-pack-sha1=${{ needs.release.outputs.sha1 }}#' server.properties
 
       - id: upload_server_properties
