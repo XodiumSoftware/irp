@@ -4,7 +4,7 @@ run-name: "Illyrian's CI/CD"
 on:
   push:
     branches: [main]
-    paths: ["illyriamc/**"]
+    # paths: ["illyriamc/**"]
   workflow_dispatch:
 
 permissions:
@@ -83,8 +83,8 @@ jobs:
         name: Update server.properties with new resource pack info
         run: |
           cd ./temp
-          sed -i 's/^resource-pack=.*$/resource-pack=https:\/\/github.com\/${{ github.repository }}\/releases\/download\/${{ needs.release.outputs.version }}/Illyria_v${{ needs.release.outputs.version }}.zip/' server.properties
-          sed -i 's/^resource-pack-sha1=.*$/resource-pack-sha1=${{ needs.release.outputs.sha1 }}/' server.properties
+          sed -i 's#^resource-pack=.*$#resource-pack=https:\/\/github.com\/${{ github.repository }}\/releases\/download\/${{ needs.release.outputs.version }}/Illyria_v${{ needs.release.outputs.version }}.zip#' server.properties
+          sed -i 's#^resource-pack-sha1=.*$#resource-pack-sha1=${{ needs.release.outputs.sha1 }}#' server.properties
 
       - id: upload_server_properties
         name: Upload updated server.properties
