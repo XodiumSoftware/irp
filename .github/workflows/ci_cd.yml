@@ -4,7 +4,7 @@ run-name: "Illyrion CI/CD"
 on:
   push:
     branches: [main]
-    paths: ["illyriamc/**"]
+    paths: ["illyriarp/**"]
   workflow_dispatch:
 
 permissions:
@@ -34,18 +34,18 @@ jobs:
       - id: get_version
         name: Get Version
         run: |
-          cd illyriamc 
+          cd illyriarp 
           echo "VERSION=$(jq -r '.version.name' pack.mcmeta)" >> $GITHUB_OUTPUT
 
       - id: create_zip
         name: Create Zip File
         run: |
-          cd illyriamc
-          zip -r "../Illyria_${{ steps.get_version.outputs.VERSION }}.zip" assets pack.mcmeta pack.png
+          cd illyriarp
+          zip -r "../IllyriaRP_${{ steps.get_version.outputs.VERSION }}.zip" assets pack.mcmeta pack.png
 
       - id: calculate_sha1
         name: Calculate SHA1
-        run: echo "SHA1=$(sha1sum "Illyria_${{ steps.get_version.outputs.VERSION }}.zip" | awk '{ print $1 }')" >> $GITHUB_OUTPUT
+        run: echo "SHA1=$(sha1sum "IllyriaRP_${{ steps.get_version.outputs.VERSION }}.zip" | awk '{ print $1 }')" >> $GITHUB_OUTPUT
 
       - id: create_release
         name: Create Release
@@ -54,9 +54,9 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           draft: ${{ contains(github.event.head_commit.message, '.draft') }}
-          files: Illyria_v${{ steps.get_version.outputs.VERSION }}.zip
+          files: IllyriaRP_v${{ steps.get_version.outputs.VERSION }}.zip
           body: |
-            Direct Download Link: https://github.com/${{ github.repository }}/releases/download/${{ steps.get_version.outputs.VERSION }}/Illyria_${{ steps.get_version.outputs.VERSION }}.zip
+            Direct Download Link: https://github.com/${{ github.repository }}/releases/download/${{ steps.get_version.outputs.VERSION }}/IllyriaRP_${{ steps.get_version.outputs.VERSION }}.zip
             SHA-1 Hash: ${{ steps.calculate_sha1.outputs.SHA1 }}
           generate_release_notes: true
           prerelease: ${{ contains(github.event.head_commit.message, '.pre') }}
@@ -83,7 +83,7 @@ jobs:
         name: Update server.properties with new resource pack info
         run: |
           cd ./temp
-          sed -i 's#^resource-pack=.*$#resource-pack=https:\/\/github.com\/${{ github.repository }}\/releases\/download\/${{ needs.release.outputs.version }}/Illyria_${{ needs.release.outputs.version }}.zip#' server.properties
+          sed -i 's#^resource-pack=.*$#resource-pack=https:\/\/github.com\/${{ github.repository }}\/releases\/download\/${{ needs.release.outputs.version }}/IllyriaRP_${{ needs.release.outputs.version }}.zip#' server.properties
           sed -i 's#^resource-pack-sha1=.*$#resource-pack-sha1=${{ needs.release.outputs.sha1 }}#' server.properties
 
       - id: upload_server_properties

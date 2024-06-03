@@ -1,8 +1,0 @@
-{
-  "variants": {
-    "": [
-      { "model": "block/netherrack", "weight": 5 },
-      { "model": "block/stone/nether/netherrack1", "weight": 4 }
-    ]
-  }
-}
