@@ -22,7 +22,7 @@ jobs:
     runs-on: [ubuntu-latest]
     environment:
       name: ${{ github.ref_name }}
-      url: ${{ steps.create_release.outputs.url }}
+      # url: ${{ steps.create_release.outputs.url }}
     outputs:
       VERSION: ${{ steps.get_version.outputs.VERSION }}
       SHA1: ${{ steps.calculate_sha1.outputs.SHA1 }}
@@ -47,20 +47,20 @@ jobs:
         name: Calculate SHA1
         run: echo "SHA1=$(sha1sum "Illyria_v${{ steps.get_version.outputs.VERSION }}.zip" | awk '{ print $1 }')" >> $GITHUB_OUTPUT
 
-      - id: create_release
-        name: Create Release
-        uses: softprops/action-gh-release@master
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          draft: ${{ contains(github.event.head_commit.message, '.draft') }}
-          files: Illyria_v${{ steps.get_version.outputs.VERSION }}.zip
-          body: |
-            Direct Download Link: https://github.com/${{ github.repository }}/releases/download/${{ steps.get_version.outputs.VERSION }}/Illyria_v${{ steps.get_version.outputs.VERSION }}.zip
-            SHA-1 Hash: ${{ steps.calculate_sha1.outputs.SHA1 }}
-          generate_release_notes: true
-          prerelease: ${{ contains(github.event.head_commit.message, '.pre') }}
-          tag_name: ${{ steps.get_version.outputs.VERSION }}
+      # - id: create_release
+      #   name: Create Release
+      #   uses: softprops/action-gh-release@master
+      #   env:
+      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      #   with:
+      #     draft: ${{ contains(github.event.head_commit.message, '.draft') }}
+      #     files: Illyria_v${{ steps.get_version.outputs.VERSION }}.zip
+      #     body: |
+      #       Direct Download Link: https://github.com/${{ github.repository }}/releases/download/${{ steps.get_version.outputs.VERSION }}/Illyria_v${{ steps.get_version.outputs.VERSION }}.zip
+      #       SHA-1 Hash: ${{ steps.calculate_sha1.outputs.SHA1 }}
+      #     generate_release_notes: true
+      #     prerelease: ${{ contains(github.event.head_commit.message, '.pre') }}
+      #     tag_name: ${{ steps.get_version.outputs.VERSION }}
 
   update-server:
     name: Update Server
