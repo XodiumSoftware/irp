@@ -54,7 +54,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           draft: ${{ contains(github.event.head_commit.message, '.draft') }}
-          files: IllyriaRP_v${{ steps.get_version.outputs.VERSION }}.zip
+          files: IllyriaRP_${{ steps.get_version.outputs.VERSION }}.zip
           body: |
             Direct Download Link: https://github.com/${{ github.repository }}/releases/download/${{ steps.get_version.outputs.VERSION }}/IllyriaRP_${{ steps.get_version.outputs.VERSION }}.zip
             SHA-1 Hash: ${{ steps.calculate_sha1.outputs.SHA1 }}
