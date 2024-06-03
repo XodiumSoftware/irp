@@ -88,10 +88,10 @@ jobs:
 
       - id: upload_server_properties
         name: Upload updated server.properties
-        uses: SamKirkland/FTP-Deploy-Action@4.0.0
+        uses: SamKirkland/FTP-Deploy-Action@master
         with:
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: ./temp
+          local-dir: ./temp/
           server-dir: /
