@@ -86,8 +86,8 @@ jobs:
           sed -i 's#^resource-pack=.*$#resource-pack=https:\/\/github.com\/${{ github.repository }}\/releases\/download\/${{ needs.release.outputs.version }}/IllyriaRP_${{ needs.release.outputs.version }}.zip#' server.properties
           sed -i 's#^resource-pack-sha1=.*$#resource-pack-sha1=${{ needs.release.outputs.sha1 }}#' server.properties
 
-      - id: upload_server_properties
-        name: Upload updated server.properties
+      - id: sync_files
+        name: Sync files
         uses: SamKirkland/FTP-Deploy-Action@master
         with:
           server: ${{ secrets.FTP_SERVER }}
