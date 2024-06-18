@@ -41,11 +41,11 @@ jobs:
         name: Create Zip File
         run: |
           cd illyriarp
-          zip -r "../IllyriaRP_${{ steps.get_version.outputs.VERSION }}.zip" assets pack.mcmeta pack.png
+          zip -r "../temp/IllyriaRP_${{ steps.get_version.outputs.VERSION }}.zip" assets pack.mcmeta pack.png
 
       - id: calculate_sha1
         name: Calculate SHA1
-        run: echo "SHA1=$(sha1sum "IllyriaRP_${{ steps.get_version.outputs.VERSION }}.zip" | awk '{ print $1 }')" >> $GITHUB_OUTPUT
+        run: echo "SHA1=$(sha1sum "temp/IllyriaRP_${{ steps.get_version.outputs.VERSION }}.zip" | awk '{ print $1 }')" >> $GITHUB_OUTPUT
 
       - id: create_release
         name: Create Release
@@ -54,7 +54,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           draft: ${{ contains(github.event.head_commit.message, '.draft') }}
-          files: IllyriaRP_${{ steps.get_version.outputs.VERSION }}.zip
+          files: temp/IllyriaRP_${{ steps.get_version.outputs.VERSION }}.zip
           body: |
             Direct Download Link: https://github.com/${{ github.repository }}/releases/download/${{ steps.get_version.outputs.VERSION }}/IllyriaRP_${{ steps.get_version.outputs.VERSION }}.zip
             SHA-1 Hash: ${{ steps.calculate_sha1.outputs.SHA1 }}
@@ -62,36 +62,12 @@ jobs:
           prerelease: ${{ contains(github.event.head_commit.message, '.pre') }}
           tag_name: ${{ steps.get_version.outputs.VERSION }}
 
-  # update-server:
-  #   name: Update Server
-  #   needs: release
-  #   runs-on: [ubuntu-latest]
-  #   environment:
-  #     name: ${{ github.ref_name }}
-  #   steps:
-  #     - id: checkout
-  #       name: Checkout
-  #       uses: actions/checkout@main
-
-  #     - id: download_server_properties
-  #       name: Download server.properties
-  #       run: |
-  #         mkdir -p temp
-  #         wget ${{ secrets.FTP_URI }}/server.properties -O temp/server.properties
-
-  #     - id: get_release
-  #       name: Update server.properties with new resource pack info
-  #       run: |
-  #         cd ./temp
-  #         sed -i 's#^resource-pack=.*$#resource-pack=https:\/\/github.com\/${{ github.repository }}\/releases\/download\/${{ needs.release.outputs.version }}/IllyriaRP_${{ needs.release.outputs.version }}.zip#' server.properties
-  #         sed -i 's#^resource-pack-sha1=.*$#resource-pack-sha1=${{ needs.release.outputs.sha1 }}#' server.properties
-
-  #     - id: sync_files
-  #       name: Sync files
-  #       uses: SamKirkland/FTP-Deploy-Action@master
-  #       with:
-  #         server: ${{ secrets.FTP_SERVER }}
-  #         username: ${{ secrets.FTP_USERNAME }}
-  #         password: ${{ secrets.FTP_PASSWORD }}
-  #         local-dir: ./temp/
-  #         server-dir: /
+      - id: sync_files
+        name: Sync files
+        uses: SamKirkland/FTP-Deploy-Action@master
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          local-dir: ./temp/
+          server-dir: /plugins/oraxen/pack/external_packs
