@@ -39,8 +39,8 @@ jobs:
       - id: create_zip
         name: Create Zip File
         run: |
-          cd illyriarp
           mkdir -p temp
+          cd illyriarp
           zip -r "../temp/IllyriaRP_${{ steps.get_version.outputs.VERSION }}.zip" assets pack.mcmeta pack.png
 
       - id: calculate_sha1
