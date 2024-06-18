@@ -34,14 +34,14 @@ jobs:
         name: Get Version
         run: |
           cd illyriarp 
-          echo "VERSION=$(jq -r '.version.name' pack.mcmeta)" >> $GITHUB_OUTPUT
+          echo "VERSION=$(jq -r '.version' version.json)" >> $GITHUB_OUTPUT
 
       - id: create_zip
         name: Create Zip File
         run: |
           mkdir -p temp
           cd illyriarp
-          zip -r "../temp/IllyriaRP_${{ steps.get_version.outputs.VERSION }}.zip" assets pack.mcmeta pack.png
+          zip -r "../temp/IllyriaRP_${{ steps.get_version.outputs.VERSION }}.zip" assets pack.mcmeta pack.png version.json
 
       - id: calculate_sha1
         name: Calculate SHA1
