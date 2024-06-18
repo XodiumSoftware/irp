@@ -4,7 +4,6 @@ run-name: "Illyrion CI/CD"
 on:
   push:
     branches: [main]
-    paths: ["illyriarp/**"]
   workflow_dispatch:
 
 permissions:
