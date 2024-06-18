@@ -1,7 +1,5 @@
 {
-    "variants": {
-        "": [
-            { "model": "block/dirt", "weight": 10 }
-		]
-    }
+  "variants": {
+    "": [{ "model": "block/dirt", "weight": 10 }]
+  }
 }
