@@ -16,17 +16,21 @@ The best way to interact with our API is to use one of our official libraries:
 
 {% tabs %}
 {% tab title="Node" %}
+
 ```
 # Install via NPM
 npm install --save my-api
 ```
+
 {% endtab %}
 
 {% tab title="Python" %}
+
 ```
 # Install via pip
 pip install --upgrade myapi
 ```
+
 {% endtab %}
 {% endtabs %}
 
@@ -49,12 +53,13 @@ Creates a new pet.
 | Name                                   | Type   | Description                           |
 | -------------------------------------- | ------ | ------------------------------------- |
 | name<mark style="color:red;">\*</mark> | string | The name of the pet                   |
-| owner\_id                              | string | The `id` of the user who owns the pet |
+| owner_id                               | string | The `id` of the user who owns the pet |
 | species                                | string | The species of the pet                |
 | breed                                  | string | The breed of the pet                  |
 
 {% tabs %}
 {% tab title="200 Pet successfully created" %}
+
 ```javascript
 {
     "name"="Wilson",
@@ -65,6 +70,7 @@ Creates a new pet.
     "breed": "Golden Retriever",
 }
 ```
+
 {% endtab %}
 
 {% tab title="401 Permission denied" %}
@@ -80,16 +86,19 @@ Take a look at how you might call this method using our official libraries, or v
 
 {% tabs %}
 {% tab title="curl" %}
+
 ```
-curl https://api.myapi.com/v1/pet  
-    -u YOUR_API_KEY:  
-    -d name='Wilson'  
-    -d species='dog'  
-    -d owner_id='sha7891bikojbkreuy'  
+curl https://api.myapi.com/v1/pet
+    -u YOUR_API_KEY:
+    -d name='Wilson'
+    -d species='dog'
+    -d owner_id='sha7891bikojbkreuy'
 ```
+
 {% endtab %}
 
 {% tab title="Node" %}
+
 ```javascript
 // require the myapi module and set it up with your API key
 const myapi = require('myapi')(YOUR_API_KEY);
@@ -101,9 +110,11 @@ const newPet = away myapi.pet.create({
     breed: 'Golden Retriever',
 })
 ```
+
 {% endtab %}
 
 {% tab title="Python" %}
+
 ```python
 // Set your API key before making the request
 myapi.api_key = YOUR_API_KEY
@@ -115,5 +126,6 @@ myapi.Pet.create(
     breed='Golden Retriever',
 )
 ```
+
 {% endtab %}
 {% endtabs %}

@@ -1,7 +1,7 @@
 {
-    "parent": "block/cube_top",
-    "textures": {
-        "side": "block/bricks",
-        "top": "block/bricks"
-    }
+  "parent": "block/cube_top",
+  "textures": {
+    "side": "block/bricks",
+    "top": "block/bricks"
+  }
 }

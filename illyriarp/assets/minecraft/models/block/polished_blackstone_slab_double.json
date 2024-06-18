@@ -1,8 +1,8 @@
 {
-    "parent": "block/cube_bottom_top",
-    "textures": {
-        "bottom": "block/polished_blackstone",
-        "top": "block/polished_blackstone",
-        "side": "block/polished_blackstone_slab"
-    }
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "bottom": "block/polished_blackstone",
+    "top": "block/polished_blackstone",
+    "side": "block/polished_blackstone_slab"
+  }
 }

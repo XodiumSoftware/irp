@@ -13,12 +13,13 @@ Creates a new pet.
 | Name                                   | Type   | Description                           |
 | -------------------------------------- | ------ | ------------------------------------- |
 | name<mark style="color:red;">\*</mark> | string | The name of the pet                   |
-| owner\_id                              | string | The `id` of the user who owns the pet |
+| owner_id                               | string | The `id` of the user who owns the pet |
 | species                                | string | The species of the pet                |
 | breed                                  | string | The breed of the pet                  |
 
 {% tabs %}
 {% tab title="200 Pet successfully created" %}
+
 ```javascript
 {
     "name"="Wilson",
@@ -29,6 +30,7 @@ Creates a new pet.
     "breed": "Golden Retriever",
 }
 ```
+
 {% endtab %}
 
 {% tab title="401 Permission denied" %}
