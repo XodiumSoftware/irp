@@ -17,11 +17,9 @@
   "customizations": {
     "vscode": {
       "extensions": [
-        "eamodio.gitlens",
         "esbenp.prettier-vscode",
         "github.copilot",
         "github.vscode-github-actions",
-        "ms-azuretools.vscode-docker",
         "pkief.material-icon-theme",
         "usernamehw.errorlens",
         "vsls-contrib.gistfs"
