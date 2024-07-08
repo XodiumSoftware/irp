@@ -1,12 +1,9 @@
 {
   "image": "mcr.microsoft.com/devcontainers/base:debian",
-  "remoteUser": "vscode@Illyrion",
+  "remoteUser": "root",
   "features": {
     "ghcr.io/devcontainers/features/common-utils:2": {
       "installZsh": "true",
-      "username": "vscode@Illyrion",
-      "userUid": "automatic",
-      "userGid": "automatic",
       "upgradePackages": "true"
     },
     "ghcr.io/devcontainers/features/git:1": {
