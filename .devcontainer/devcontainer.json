@@ -1,15 +1,13 @@
 {
   "image": "mcr.microsoft.com/devcontainers/base:debian",
-  "remoteUser": "root",
+  "remoteUser": "vscode@illyrion",
   "features": {
     "ghcr.io/devcontainers/features/common-utils:2": {
-      "installZsh": "true",
-      "upgradePackages": "true"
+      "configureZshAsDefaultShell": true,
+      "installOhMyZsh": true,
+      "upgradePackages": true
     },
-    "ghcr.io/devcontainers/features/git:1": {
-      "version": "latest",
-      "ppa": "false"
-    }
+    "ghcr.io/devcontainers/features/git:1": {}
   },
   "customizations": {
     "vscode": {
