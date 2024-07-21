@@ -2,6 +2,7 @@
   // Editor Settings
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
+  "scm.experimental.showHistoryGraph": true,
   // General Settings
   "extensions.ignoreRecommendations": true,
   // Explorer Settings

@@ -1,6 +1,6 @@
-name: Illyria Bug Report
-description: File a bug report for Illyria
-labels: [bug]
+name: Bug Report
+description: File a bug report
+labels: [Bug]
 body:
   - type: markdown
     attributes:
@@ -11,8 +11,8 @@ body:
     attributes:
       label: Problem
       description: Please give a text description of how you reached the problem
-      value: |
-        1. Install Illyria...
+      placeholder: |
+        1. Install...
         2. Do this...
         3. Do that...
         4. Observe the error...
@@ -26,22 +26,11 @@ body:
       placeholder: The code to place a is missing b and c...
     validations:
       required: false
-  - type: dropdown
-    id: mcversion
-    attributes:
-      label: Minecraft Version
-      description: What version of Minecraft is the server on?
-      options:
-        - 1.22
-        - 1.21
-        - 1.20
-    validations:
-      required: true
   - type: input
     id: version
     attributes:
-      label: Illyria Version
-      description: What version of Illyria are you running?
+      label: Version
+      description: What version are you running?
       placeholder: DO NOT SAY "LATEST"
     validations:
       required: true
