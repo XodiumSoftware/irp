@@ -1,6 +1,6 @@
 {
   "image": "mcr.microsoft.com/devcontainers/base:debian",
-  "remoteUser": "vscode@illyrion",
+  "remoteUser": "root",
   "features": {
     "ghcr.io/devcontainers/features/common-utils:2": {
       "configureZshAsDefaultShell": true,
