@@ -59,13 +59,3 @@ jobs:
           generate_release_notes: true
           prerelease: ${{ contains(github.event.head_commit.message, '.pre') }}
           tag_name: ${{ steps.get_version.outputs.VERSION }}
-
-      # - id: sync_files
-      #   name: Sync files
-      #   uses: SamKirkland/FTP-Deploy-Action@master
-      #   with:
-      #     server: ${{ secrets.FTP_SERVER }}
-      #     username: ${{ secrets.FTP_USERNAME }}
-      #     password: ${{ secrets.FTP_PASSWORD }}
-      #     local-dir: ./temp/
-      #     server-dir: /plugins/oraxen/pack/external_packs/

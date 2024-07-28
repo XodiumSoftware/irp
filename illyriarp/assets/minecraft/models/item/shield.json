@@ -30,11 +30,7 @@
       "translation": [5, 5.25, 0],
       "scale": [0.65, 0.65, 0.65]
     },
-    "fixed": {
-      "rotation": [0.25, 180, 0],
-      "translation": [-16, 16, -14],
-      "scale": [2, 2, 2]
-    },
+
     "ground": {
       "rotation": [0, 0, 0],
       "translation": [4, 4, 2],
