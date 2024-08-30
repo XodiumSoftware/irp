@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "custom:item/faq/server_info"
+    "layer0": "custom:item/faq/settings"
   }
 }

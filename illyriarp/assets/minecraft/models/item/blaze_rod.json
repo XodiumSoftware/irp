@@ -45,12 +45,6 @@
         "custom_model_data": 7
       },
       "model": "custom:item/faq/settings"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 8
-      },
-      "model": "custom:item/faq/useful_cmds"
     }
   ]
 }
