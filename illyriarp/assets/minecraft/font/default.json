@@ -289,7 +289,7 @@
     },
     {
       "type": "bitmap",
-      "file": "custom:font/enchantments/wind_charge.png",
+      "file": "custom:font/enchantments/wind_burst.png",
       "ascent": 8,
       "height": 8,
       "chars": ["\uefe4"]
