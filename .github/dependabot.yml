@@ -12,9 +12,17 @@ updates:
       interval: daily
     labels:
       - "Dependencies"
+    reviewers:
+      - "dependabot-preview[bot]"
+    assignees:
+      - "dependabot-preview[bot]"
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
       interval: daily
     labels:
       - "Dependencies"
+    reviewers:
+      - "dependabot-preview[bot]"
+    assignees:
+      - "dependabot-preview[bot]"
