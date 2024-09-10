@@ -10,6 +10,9 @@
       { "name": "music/game/one_more_day", "stream": true },
       { "name": "music/game/stand_tall", "stream": true },
       { "name": "music/game/nether/soulsand_valley/so_below", "stream": true },
+      { "name": "music/game/featherfall", "stream": true },
+      { "name": "music/game/watcher", "stream": true },
+      { "name": "music/game/komorebi", "stream": true },
       { "name": "music/game/end/alpha", "stream": true }
     ]
   },
