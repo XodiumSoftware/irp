@@ -120,10 +120,10 @@
 
   "item.minecraft.netherite_scrap": "Netherite Scale",
   "item.minecraft.smithing_template.armor_trim.base_slot_description": "Add armor piece",
-  "item.minecraft.totem_of_undying": "Amulet of Undying",
+  "item.minecraft.totem_of_undying": "Crucifix of Resurrection",
 
-  "advancements.adventure.totem_of_undying.description": "Use an Amulet of Undying to cheat death",
-  "subtitles.item.totem.use": "Amulet of Undying activates",
+  "advancements.adventure.totem_of_undying.description": "Use an Crucifix of Resurrection to cheat death",
+  "subtitles.item.totem.use": "Crucifix of Resurrection activates",
 
   "biome.minecraft.the_end": "The End",
 
