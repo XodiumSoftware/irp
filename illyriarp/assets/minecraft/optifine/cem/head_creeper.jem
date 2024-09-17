@@ -1,0 +1,82 @@
+{
+	"textureSize": [64, 64],
+	"models": [
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0],
+			"submodels": [
+				{
+					"id": "head2",
+					"invertAxis": "xy",
+					"translate": [0, 0, 1.5],
+					"boxes": [
+						{
+							"coordinates": [-4, 0, -5.5, 8, 8, 8],
+							"uvNorth": [0, 0, 8, 8],
+							"uvEast": [0, 9, 8, 17],
+							"uvSouth": [9, 0, 17, 8],
+							"uvWest": [9, 9, 17, 17],
+							"uvUp": [8, 26, 0, 18],
+							"uvDown": [26, 0, 18, 8]
+						}
+					],
+					"submodels": [
+						{
+							"id": "cheekfluff",
+							"invertAxis": "xy",
+							"translate": [-3.25, 3.5, -3.25],
+							"rotate": [35, -70, 0],
+							"boxes": [
+								{
+									"coordinates": [0, -3.5, 0, 1, 8, 8],
+									"uvNorth": [50, 1, 50, 9],
+									"uvEast": [64, 56, 56, 64],
+									"uvSouth": [50, 1, 50, 9],
+									"uvWest": [52, 1, 60, 9],
+									"uvUp": [50, 8, 50, 0],
+									"uvDown": [50, 1, 50, 9]
+								}
+							]
+						},
+						{
+							"id": "cheekfluff2",
+							"invertAxis": "xy",
+							"translate": [3.25, 3.5, -3.25],
+							"rotate": [35, 70, 0],
+							"boxes": [
+								{
+									"coordinates": [-1, -3.5, 0, 1, 8, 8],
+									"uvNorth": [50, 1, 50, 9],
+									"uvEast": [60, 1, 52, 9],
+									"uvSouth": [50, 1, 50, 9],
+									"uvWest": [56, 56, 64, 64],
+									"uvUp": [50, 8, 50, 0],
+									"uvDown": [50, 1, 50, 9]
+								}
+							]
+						},
+						{
+							"id": "tuff",
+							"invertAxis": "xy",
+							"translate": [0, 8, -3.5],
+							"rotate": [-30, 0, 0],
+							"boxes": [
+								{
+									"coordinates": [-4, 0, 0, 8, 8, 1],
+									"uvNorth": [18, 18, 26, 26],
+									"uvEast": [0, 27, 0, 27],
+									"uvSouth": [64, 56, 56, 64],
+									"uvWest": [9, 27, 9, 27],
+									"uvUp": [27, 17, 27, 17],
+									"uvDown": [18, 27, 18, 27]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

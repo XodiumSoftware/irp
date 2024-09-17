@@ -1,0 +1,54 @@
+{
+	"textureSize": [64, 32],
+	"models": [
+		{
+			"part": "body",
+			"id": "body",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0],
+			"submodels": [
+				{
+					"id": "body2",
+					"invertAxis": "xy",
+					"translate": [0, 4, 0],
+					"boxes": [
+						{
+							"coordinates": [-4, -4, -4, 8, 8, 8],
+							"uvNorth": [8, 8, 16, 16],
+							"uvEast": [0, 8, 8, 16],
+							"uvSouth": [24, 8, 32, 16],
+							"uvWest": [16, 8, 24, 16],
+							"uvUp": [16, 8, 8, 0],
+							"uvDown": [24, 0, 16, 8]
+						}
+					],
+					"submodels": [
+						{
+							"id": "crown",
+							"invertAxis": "xy",
+							"translate": [0, -4, 0],
+							"boxes": [
+								{
+									"coordinates": [-2.5, 8, -2.5, 5, 3, 5],
+									"uvNorth": [49, 10, 54, 13],
+									"uvEast": [45, 10, 50, 13],
+									"uvSouth": [58, 10, 63, 13],
+									"uvWest": [53, 10, 58, 13],
+									"uvUp": [0, 0, 1, 1],
+									"uvDown": [62, 16, 63, 17]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"part": "body3",
+			"id": "body3",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0],
+			"attach": true
+		}
+	]
+}
