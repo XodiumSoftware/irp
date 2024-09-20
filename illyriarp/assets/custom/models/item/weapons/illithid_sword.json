@@ -2,8 +2,8 @@
   "credit": "Made by Elo106",
   "texture_size": [32, 32],
   "textures": {
-    "0": "custom:item/voxelspawns/corrupted_sword",
-    "particle": "custom:item/voxelspawns/corrupted_sword"
+    "0": "custom:item/weapons/illithid_sword",
+    "particle": "custom:item/weapons/illithid_sword"
   },
   "elements": [
     {
