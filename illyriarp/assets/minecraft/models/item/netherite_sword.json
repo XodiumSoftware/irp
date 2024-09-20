@@ -11,6 +11,18 @@
     {
       "predicate": { "custom_model_data": 2 },
       "model": "custom:item/weapons/vanquisher_sword"
+    },
+    {
+      "predicate": { "custom_model_data": 3 },
+      "model": "custom:item/weapons/peacekeeper_sword"
+    },
+    {
+      "predicate": { "custom_model_data": 4 },
+      "model": "custom:item/weapons/sword_dark_queen"
+    },
+    {
+      "predicate": { "custom_model_data": 5 },
+      "model": "custom:item/weapons/sword_ruby_vol_1"
     }
   ]
 }
