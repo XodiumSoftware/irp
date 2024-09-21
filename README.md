@@ -18,7 +18,7 @@
       <br><strong>Mickey Joe's 'Barely Default'</strong>
     </td>
     <td>
-      <a href="https://modrinth.com/resourcepack/colourful-containers-gui">
+      <a href="https://modrinth.com/resourcepack/colourful-containers-dark-mode-gui">
         <img src="images/colourful-containers-gui.webp" alt="Colourful containers GUI" title="Colourful containers GUI" width="200" height="200">
       </a>
       <br><strong>Colourful containers GUI</strong>
