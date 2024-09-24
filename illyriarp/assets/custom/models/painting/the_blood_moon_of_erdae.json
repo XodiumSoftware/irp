@@ -1,0 +1,4 @@
+{
+  "parent": "item/generated",
+  "textures": { "layer0": "custom:painting/the_blood_moon_of_erdae" }
+}
