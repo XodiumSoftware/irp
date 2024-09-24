@@ -2,7 +2,7 @@
 
 <table>
   <tr>
-    <th colspan="3">Resource Packs + Links</th>
+    <th colspan="4">Resource Packs + Links</th>
   </tr>
   <tr>
     <td>
