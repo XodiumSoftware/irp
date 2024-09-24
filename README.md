@@ -23,14 +23,14 @@
       </a>
       <br><strong>Colourful containers GUI</strong>
     </td>
-  </tr>
-  <tr>
     <td>
       <a href="https://modrinth.com/resourcepack/in-game-brewing-guide">
         <img src="images/in-game-brewing-guide.webp" alt="In-Game Brewing Guide" title="In-Game Brewing Guide" width="200" height="200">
       </a>
       <br><strong>In-Game Brewing Guide</strong>
     </td>
+  </tr>
+  <tr>
     <td>
       <a href="https://modrinth.com/resourcepack/icons">
         <img src="images/icons.webp" alt="Icons" title="Icons" width="200" height="200">
