@@ -1,0 +1,4 @@
+{
+  "parent": "item/generated",
+  "textures": { "layer0": "custom:painting/knights_of_the_rush_land" }
+}

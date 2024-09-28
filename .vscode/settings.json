@@ -2,7 +2,6 @@
   // Editor Settings
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
-  "scm.experimental.showHistoryGraph": true,
   // General Settings
   "extensions.ignoreRecommendations": true,
   // Explorer Settings
@@ -11,13 +10,11 @@
   // Git Settings
   "git.autofetch": true,
   "git.enableSmartCommit": true,
-  "github.copilot.enable": {
-    "*": true
-  },
+  "github.copilot.enable": { "*": true },
   // JSON Schema Settings
   "json.schemas": [
     {
-      "fileMatch": ["*.json", "*.jsonc"],
+      "fileMatch": ["*.jsonc"],
       "url": "https://json.schemastore.org/package"
     }
   ],

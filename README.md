@@ -2,7 +2,7 @@
 
 <table>
   <tr>
-    <th colspan="3">Resource Packs + Links</th>
+    <th colspan="4">Resource Packs + Links</th>
   </tr>
   <tr>
     <td>
@@ -23,14 +23,14 @@
       </a>
       <br><strong>Colourful containers GUI</strong>
     </td>
-  </tr>
-  <tr>
     <td>
       <a href="https://modrinth.com/resourcepack/in-game-brewing-guide">
         <img src="images/in-game-brewing-guide.webp" alt="In-Game Brewing Guide" title="In-Game Brewing Guide" width="200" height="200">
       </a>
       <br><strong>In-Game Brewing Guide</strong>
     </td>
+  </tr>
+  <tr>
     <td>
       <a href="https://modrinth.com/resourcepack/icons">
         <img src="images/icons.webp" alt="Icons" title="Icons" width="200" height="200">
@@ -42,6 +42,12 @@
         <img src="images/totem-cross.webp" alt="Totem Cross" title="Totem Cross" width="200" height="200">
       </a>
       <br><strong>Totem Cross</strong>
+    </td>
+        <td>
+      <a href="https://www.curseforge.com/minecraft/mc-mods/medieval-paintings">
+        <img src="images/medieval-paintings.webp" alt="Medieval Paintings" title="Medieval Paintings" width="200" height="200">
+      </a>
+      <br><strong>Medieval Paintings</strong>
     </td>
   </tr>
 </table>

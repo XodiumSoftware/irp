@@ -1,0 +1,4 @@
+{
+  "parent": "item/generated",
+  "textures": { "layer0": "custom:painting/the_servants_of_zol" }
+}
