@@ -43,11 +43,5 @@
       </a>
       <br><strong>Totem Cross</strong>
     </td>
-        <td>
-      <a href="https://www.curseforge.com/minecraft/mc-mods/medieval-paintings">
-        <img src="images/medieval-paintings.webp" alt="Medieval Paintings" title="Medieval Paintings" width="200" height="200">
-      </a>
-      <br><strong>Medieval Paintings</strong>
-    </td>
   </tr>
 </table>
