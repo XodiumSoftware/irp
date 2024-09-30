@@ -78,6 +78,7 @@ jobs:
           SHA1: ${{ needs.release.outputs.SHA1 }}
         run: |
           echo "Updating server.properties with new values..."
+          ssh-keyscan -p 2222 $SFTP_SERVER >> ~/.ssh/known_hosts
           sftp -P 2222 $SFTP_USERNAME@$SFTP_SERVER <<EOF
           get /server.properties server.properties
           bye
