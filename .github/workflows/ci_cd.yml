@@ -78,13 +78,13 @@ jobs:
           SHA1: ${{ needs.release.outputs.SHA1 }}
         run: |
           echo "Updating server.properties with new values..."
-          sftp -P $SFTP_SERVER_PORT $SFTP_USERNAME@$SFTP_SERVER <<EOF
+          sftp -P 2222 $SFTP_USERNAME@$SFTP_SERVER <<EOF
           get /server.properties server.properties
           bye
           EOF
           sed -i "s|resource-pack=.*|resource-pack=https://github.com/${{ github.repository }}/releases/download/${{ needs.release.outputs.VERSION }}/IllyriaRP_${{ needs.release.outputs.VERSION }}.zip|" server.properties
           sed -i "s|resource-pack-sha1=.*|resource-pack-sha1=${{ needs.release.outputs.SHA1 }}|" server.properties
-          sftp -P $SFTP_SERVER_PORT $SFTP_USERNAME@$SFTP_SERVER <<EOF
+          sftp -P 2222 $SFTP_USERNAME@$SFTP_SERVER <<EOF
           put server.properties /server.properties
           bye
           EOF
