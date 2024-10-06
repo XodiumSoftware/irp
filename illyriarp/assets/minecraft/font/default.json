@@ -355,7 +355,6 @@
         "\uE994": -16
       }
     },
-
     {
       "type": "bitmap",
       "file": "minecraft:gui/container/chests/chest.png",
@@ -391,7 +390,6 @@
       "ascent": 34,
       "chars": ["\uEC05"]
     },
-
     {
       "type": "bitmap",
       "file": "minecraft:gui/container/chests_slots/chest.png",
@@ -427,7 +425,6 @@
       "ascent": 34,
       "chars": ["\uED05"]
     },
-
     {
       "type": "bitmap",
       "file": "minecraft:gui/container/hopper_minecart.png",
@@ -484,7 +481,27 @@
       "ascent": 13,
       "chars": ["\uEc17"]
     },
-
+    {
+      "type": "bitmap",
+      "file": "minecraft:gui/container/blast_furnace_hat.png",
+      "height": 35,
+      "ascent": 35,
+      "chars": ["\uEc18"]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:gui/container/dispenser_block.png",
+      "height": 112,
+      "ascent": 45,
+      "chars": ["\uEc19"]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:gui/container/dropper_block.png",
+      "height": 112,
+      "ascent": 45,
+      "chars": ["\uEc20"]
+    },
     {
       "type": "bitmap",
       "file": "minecraft:gui/container/villagers/base_trades.png",
