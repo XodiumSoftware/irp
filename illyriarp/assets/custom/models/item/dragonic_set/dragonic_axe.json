@@ -1,4 +1,4 @@
 {
   "parent": "minecraft:item/generated",
-  "textures": { "layer0": "custom:item/ender_dragon_set/ender_dragon_axe" }
+  "textures": { "layer0": "custom:item/dragonic_set/dragonic_hoe" }
 }
