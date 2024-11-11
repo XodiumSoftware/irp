@@ -58,34 +58,3 @@ jobs:
           generate_release_notes: true
           prerelease: ${{ contains(github.event.head_commit.message, '.pre') }}
           tag_name: ${{ steps.get_version.outputs.VERSION }}
-
-  # update_server_properties:
-  #   name: Update Server Properties
-  #   runs-on: [ubuntu-latest]
-  #   needs: [release]
-  #   steps:
-  #     - id: install_ssh_client
-  #       name: Install SSH Client
-  #       run: sudo apt-get install -y openssh-client
-
-  #     - id: update_server_properties
-  #       name: Update server.properties
-  #       env:
-  #         SFTP_SERVER: ${{ secrets.SFTP_SERVER }}
-  #         SFTP_USERNAME: ${{ secrets.SFTP_USERNAME }}
-  #         SFTP_PASSWORD: ${{ secrets.SFTP_PASSWORD }}
-  #         VERSION: ${{ needs.release.outputs.VERSION }}
-  #         SHA1: ${{ needs.release.outputs.SHA1 }}
-  #       run: |
-  #         echo "Updating server.properties with new values..."
-  #         mkdir -p ~/.ssh
-  #         ssh-keyscan -p 2222 $SFTP_SERVER >> ~/.ssh/known_hosts
-  #         sftp -P 2222 $SFTP_USERNAME@$SFTP_SERVER <<EOF
-  #         get /server.properties server.properties
-  #         bye
-  #         EOF
-  #         sed -i "s|resource-pack=.*|resource-pack=https://github.com/${{ github.repository }}/releases/download/${{ needs.release.outputs.VERSION }}/IllyriaRP_${{ needs.release.outputs.VERSION }}.zip|" server.properties
-  #         sed -i "s|resource-pack-sha1=.*|resource-pack-sha1=${{ needs.release.outputs.SHA1 }}|" server.properties
-  #         sftp -P 2222 $SFTP_USERNAME@$SFTP_SERVER <<EOF
-  #         put server.properties /server.properties
-  #         bye
