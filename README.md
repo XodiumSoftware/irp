@@ -1,3 +1,5 @@
+<div id="readme-top"></div>
+
 <h1 align="center">
   <br />
     <a href="https://xodium.org/">
@@ -20,6 +22,8 @@
 
 ## Table of Contents
 
+- [Built With](#built-with)
+- [Credits](#credits)
 - [Code of Conduct][code_of_conduct_url]
 - [Contributing][contributing_url]
 - [License][license_url]
@@ -64,6 +68,8 @@
     </td>
   </tr>
 </table>
+
+<p align="right"><a href="#readme-top">▲</a></p>
 
 [built_with_shield_url]: https://skillicons.dev/icons?i=github,githubactions
 [built_with_url]: https://skillicons.dev
