@@ -5,7 +5,7 @@ on:
   push:
     branches: [main]
     paths:
-      - "src/**"
+      - "illyriarp/**"
   workflow_dispatch:
 
 permissions:
