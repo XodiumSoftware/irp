@@ -1,44 +1,54 @@
 {
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "minecraft:item/blaze_rod"
-  },
-  "overrides": [
-    {
-      "predicate": {
-        "custom_model_data": 1
-      },
-      "model": "custom:item/faq/rules"
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "model",
+      "model": "minecraft:item/blaze_rod"
     },
-    {
-      "predicate": {
-        "custom_model_data": 2
+    "entries": [
+      {
+        "threshold": 1,
+        "model": {
+          "type": "model",
+          "model": "custom:item/faq/rules"
+        }
       },
-      "model": "custom:item/faq/dimensions"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 3
+      {
+        "threshold": 2,
+        "model": {
+          "type": "model",
+          "model": "custom:item/faq/dimensions"
+        }
       },
-      "model": "custom:item/faq/settings"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 4
+      {
+        "threshold": 3,
+        "model": {
+          "type": "model",
+          "model": "custom:item/faq/settings"
+        }
       },
-      "model": "custom:item/dimensions/dim_overworld"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 5
+      {
+        "threshold": 4,
+        "model": {
+          "type": "model",
+          "model": "custom:item/dimensions/dim_overworld"
+        }
       },
-      "model": "custom:item/dimensions/dim_underworld"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 6
+      {
+        "threshold": 5,
+        "model": {
+          "type": "model",
+          "model": "custom:item/dimensions/dim_underworld"
+        }
       },
-      "model": "custom:item/dimensions/dim_endworld"
-    }
-  ]
+      {
+        "threshold": 6,
+        "model": {
+          "type": "model",
+          "model": "custom:item/dimensions/dim_endworld"
+        }
+      }
+    ]
+  }
 }
