@@ -10,7 +10,7 @@
       "z": -500,  
       "width": 206,  
       "height": 99,  
-      "texture": "minecraft:interfaces/loom_hat"
+      "texture": "textures/interfaces/loom_hat.png"
     }  
   ]  
 }

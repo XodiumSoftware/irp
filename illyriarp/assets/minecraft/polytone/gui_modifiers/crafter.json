@@ -10,7 +10,7 @@
       "z": -500,  
       "width": 168,  
       "height": 80,  
-      "texture": "minecraft:interfaces/crafter_hatncorner"
+      "texture": "textures/interfaces/crafter_hatncorner.png"
     }  
   ]  
 }
