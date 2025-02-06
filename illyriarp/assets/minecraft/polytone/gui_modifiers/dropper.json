@@ -10,7 +10,7 @@
       "z": -500,  
       "width": 78,  
       "height": 112,  
-      "texture": "minecraft:interfaces/dropper_block"
+      "texture": "textures/interfaces/dropper_block.png"
     }  
   ]  
 }
