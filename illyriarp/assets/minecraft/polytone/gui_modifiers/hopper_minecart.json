@@ -10,7 +10,7 @@
       "z": -500,  
       "width": 200,  
       "height": 68,  
-      "texture": "textures/interfaces/hopper_minecart.png"
+      "texture": "minecraft:interfaces/hopper_minecart"
     }  
   ]  
 }

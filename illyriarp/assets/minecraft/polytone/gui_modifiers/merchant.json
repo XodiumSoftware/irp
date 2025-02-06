@@ -10,7 +10,7 @@
       "z": -500,  
       "width": 88,  
       "height": 140,  
-      "texture": "textures/interfaces/trades.png"
+      "texture": "minecraft:interfaces/trades"
     }  
   ]  
 }

@@ -10,7 +10,7 @@
       "z": -500,  
       "width": 34,  
       "height": 125,  
-      "texture": "textures/interfaces/enchanting_table_corner.png"
+      "texture": "minecraft:interfaces/enchanting_table_corner"
     }  
   ]  
 }

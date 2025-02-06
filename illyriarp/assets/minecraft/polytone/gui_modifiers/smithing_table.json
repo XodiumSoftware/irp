@@ -10,7 +10,7 @@
       "z": -500,  
       "width": 34,  
       "height": 125,  
-      "texture": "textures/interfaces/smithing_corner.png"
+      "texture": "minecraft:interfaces/smithing_corner"
     }  
   ]  
 }

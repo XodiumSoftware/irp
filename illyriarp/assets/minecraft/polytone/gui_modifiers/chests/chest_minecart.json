@@ -10,7 +10,7 @@
       "z": -500,  
       "width": 190,  
       "height": 105,  
-      "texture": "textures/interfaces/chests/chest_minecart.png"
+      "texture": "minecraft:interfaces/chests/chest_minecart"
     }  
   ]  
 }
