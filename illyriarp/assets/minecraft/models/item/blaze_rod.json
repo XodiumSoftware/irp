@@ -6,12 +6,6 @@
   "overrides": [
     {
       "predicate": {
-        "custom_model_data": 1
-      },
-      "model": "custom:item/faq/rules"
-    },
-    {
-      "predicate": {
         "custom_model_data": 2
       },
       "model": "custom:item/faq/dimensions"
