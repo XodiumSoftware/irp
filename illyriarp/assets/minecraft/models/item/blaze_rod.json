@@ -1,38 +1,4 @@
 {
   "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "minecraft:item/blaze_rod"
-  },
-  "overrides": [
-    {
-      "predicate": {
-        "custom_model_data": 2
-      },
-      "model": "custom:item/faq/dimensions"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 3
-      },
-      "model": "custom:item/faq/settings"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 4
-      },
-      "model": "custom:item/dimensions/dim_overworld"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 5
-      },
-      "model": "custom:item/dimensions/dim_underworld"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 6
-      },
-      "model": "custom:item/dimensions/dim_endworld"
-    }
-  ]
+  "textures": { "layer0": "minecraft:item/blaze_rod" }
 }
