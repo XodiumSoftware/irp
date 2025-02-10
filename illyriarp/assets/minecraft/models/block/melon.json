@@ -3,6 +3,7 @@
 	"textures": {
 		"particle": "block/melon_top",
 		"top": "block/melon_top",
+		"front": "block/melon_side",		
 		"side": "block/melon_side"
 	},
 	"elements": [

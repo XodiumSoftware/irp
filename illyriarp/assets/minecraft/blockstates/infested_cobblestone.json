@@ -1,5 +1,5 @@
 {
-    "variants": {
-        "": { "model": "block/stone/silverfish/cobblestone" }
-    }
+  "variants": {
+    "": { "model": "block/stone/silverfish/cobblestone" }
+  }
 }

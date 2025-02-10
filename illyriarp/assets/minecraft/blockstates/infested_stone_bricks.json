@@ -1,5 +1,5 @@
 {
-    "variants": {
-        "": { "model": "block/stone/silverfish/stonebrick_normal" }
-    }
+  "variants": {
+    "": { "model": "block/stone/silverfish/stonebrick_normal" }
+  }
 }

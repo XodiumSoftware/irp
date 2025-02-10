@@ -1,0 +1,19 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/excalibur/golden_sword_piglin"
+        },
+        "when": ["minecraft:piglin", "minecraft:zombified_piglin"]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/golden_sword"
+    },
+    "property": "minecraft:context_entity_type"
+  }
+}

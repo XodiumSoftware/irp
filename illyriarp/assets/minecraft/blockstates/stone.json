@@ -1,8 +1,5 @@
 {
-    "variants": {
-        "": [
-            { "model": "block/stone" },
-			{ "model": "block/stone/stone/stone1"}
-		]
-    }
+  "variants": {
+    "": [{ "model": "block/stone" }, { "model": "block/stone/stone/stone1" }]
+  }
 }

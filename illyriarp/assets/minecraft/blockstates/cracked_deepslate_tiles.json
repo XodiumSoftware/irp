@@ -1,7 +1,5 @@
 {
-    "variants": {
-        "": [
-			{ "model": "block/deepslate/deepslate_tiles/cracked_deepslate_tiles" }
-		]
-    }
+  "variants": {
+    "": [{ "model": "block/deepslate/deepslate_tiles/cracked_deepslate_tiles" }]
+  }
 }
