@@ -49,12 +49,6 @@
       <br><strong>Excalibur</strong>
     </td>
     <td>
-      <a href="https://modrinth.com/resourcepack/icons">
-        <img src="https://cdn.modrinth.com/data/O7z3QKAG/781618226a84b66b3dfc2dbb718d614315988be1_96.webp" alt="Icons" title="Icons" width="200" height="200">
-      </a>
-      <br><strong>Icons</strong>
-    </td>
-    <td>
       <a href="https://modrinth.com/resourcepack/totem-cross">
         <img src="https://cdn.modrinth.com/data/X9XnINWS/9fa5fd72ab51eb91e811b34f26477886d7732fb6_96.webp" alt="Totem Cross" title="Totem Cross" width="200" height="200">
       </a>
