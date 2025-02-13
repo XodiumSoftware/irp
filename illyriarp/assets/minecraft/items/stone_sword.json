@@ -3,8 +3,42 @@
     "type": "select",
     "property": "context_entity_type",
     "fallback": {
-      "type": "model",
-      "model": "item/stone_sword"
+      "type": "select",
+      "property": "custom_model_data",
+      "fallback": {
+        "type": "model",
+        "model": "item/stone_sword"
+      },
+      "cases": [
+        {
+          "when": "wither",
+          "model": {
+            "type": "model",
+            "model": "custom:item/wither_sword"
+          }
+        },
+        {
+          "when": "elder_guardian",
+          "model": {
+            "type": "model",
+            "model": "custom:item/elder_guardian"
+          }
+        },
+        {
+          "when": "warden",
+          "model": {
+            "type": "model",
+            "model": "custom:item/warden"
+          }
+        },
+        {
+          "when": "ender_dragon",
+          "model": {
+            "type": "model",
+            "model": "custom:item/ender_dragon"
+          }
+        }
+      ]
     },
     "cases": [
       {
@@ -12,44 +46,6 @@
         "model": {
           "type": "model",
           "model": "item/excalibur/stone_sword_wither_skeleton"
-        }
-      }
-    ]
-  },
-  "model": {
-    "type": "select",
-    "property": "custom_model_data",
-    "fallback": {
-      "type": "model",
-      "model": "item/stone_sword"
-    },
-    "cases": [
-      {
-        "when": "wither",
-        "model": {
-          "type": "model",
-          "model": "custom:item/wither_sword"
-        }
-      },
-      {
-        "when": "elder_guardian",
-        "model": {
-          "type": "model",
-          "model": "custom:item/elder_guardian"
-        }
-      },
-      {
-        "when": "warden",
-        "model": {
-          "type": "model",
-          "model": "custom:item/warden"
-        }
-      },
-      {
-        "when": "ender_dragon",
-        "model": {
-          "type": "model",
-          "model": "custom:item/ender_dragon"
         }
       }
     ]
