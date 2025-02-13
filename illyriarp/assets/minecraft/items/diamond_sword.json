@@ -11,28 +11,28 @@
         "when": "wither",
         "model": {
           "type": "model",
-          "model": "custom:item/skins/wither_sword"
+          "model": "custom:item/skins/witherslayer_sword"
         }
       },
       {
         "when": "elder_guardian",
         "model": {
           "type": "model",
-          "model": "custom:item/skins/elder_guardian"
+          "model": "custom:item/skins/eliteguardianslayer_sword"
         }
       },
       {
         "when": "warden",
         "model": {
           "type": "model",
-          "model": "custom:item/skins/warden"
+          "model": "custom:item/skins/wardenslayer_sword"
         }
       },
       {
         "when": "ender_dragon",
         "model": {
           "type": "model",
-          "model": "custom:item/skins/ender_dragon"
+          "model": "custom:item/skins/enderdragonslayer_sword"
         }
       }
     ]
