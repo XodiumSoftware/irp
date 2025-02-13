@@ -21,7 +21,7 @@
           "when": "elder_guardian",
           "model": {
             "type": "model",
-            "model": "custom:item/skins/eliteguardianslayer_sword"
+            "model": "custom:item/skins/elderguardianslayer_sword"
           }
         },
         {
