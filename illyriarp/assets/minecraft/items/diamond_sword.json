@@ -11,28 +11,28 @@
         "when": "wither",
         "model": {
           "type": "model",
-          "model": "custom:item/wither_sword"
+          "model": "custom:item/skins/wither_sword"
         }
       },
       {
         "when": "elder_guardian",
         "model": {
           "type": "model",
-          "model": "custom:item/elder_guardian"
+          "model": "custom:item/skinselder_guardian"
         }
       },
       {
         "when": "warden",
         "model": {
           "type": "model",
-          "model": "custom:item/warden"
+          "model": "custom:itemskins/warden"
         }
       },
       {
         "when": "ender_dragon",
         "model": {
           "type": "model",
-          "model": "custom:item/ender_dragon"
+          "model": "custom:item/skinsender_dragon"
         }
       }
     ]
