@@ -1,8 +1,6 @@
 {
   "parent": "item/generated",
-  "textures": {
-    "layer0": "item/empty_armor_slot_shield"
-  },
+  "textures": { "layer0": "item/empty_armor_slot_shield" },
   "display": {
     "thirdperson_righthand": {
       "rotation": [45, 135, 0],

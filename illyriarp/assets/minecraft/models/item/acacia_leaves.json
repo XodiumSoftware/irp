@@ -1,7 +1,5 @@
 {
-  "textures": {
-    "particle": "block/acacia_leaves"
-  },
+  "textures": { "particle": "block/acacia_leaves" },
   "elements": [
     {
       "name": "leaves",

@@ -1,7 +1,5 @@
 {
-  "textures": {
-    "particle": "block/flowering_azalea_leaves"
-  },
+  "textures": { "particle": "block/flowering_azalea_leaves" },
   "elements": [
     {
       "name": "leaves",

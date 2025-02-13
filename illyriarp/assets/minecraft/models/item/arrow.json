@@ -1,6 +1,4 @@
 {
   "parent": "item/handheld",
-  "textures": {
-    "layer0": "item/arrow"
-  }
+  "textures": { "layer0": "item/arrow" }
 }
