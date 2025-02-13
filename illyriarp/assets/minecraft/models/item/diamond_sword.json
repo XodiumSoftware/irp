@@ -1,0 +1,30 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": { "layer0": "minecraft:item/diamond_sword" },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 100
+      },
+      "model": "custom:item/skins/wither"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 101
+      },
+      "model": "custom:item/skins/elder_guardian"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 102
+      },
+      "model": "custom:item/skins/warden"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 103
+      },
+      "model": "custom:item/skins/ender_dragon"
+    }
+  ]
+}
