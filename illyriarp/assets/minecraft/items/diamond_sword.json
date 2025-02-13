@@ -18,21 +18,21 @@
         "when": "elder_guardian",
         "model": {
           "type": "model",
-          "model": "custom:item/skinselder_guardian"
+          "model": "custom:item/skins/elder_guardian"
         }
       },
       {
         "when": "warden",
         "model": {
           "type": "model",
-          "model": "custom:itemskins/warden"
+          "model": "custom:item/skins/warden"
         }
       },
       {
         "when": "ender_dragon",
         "model": {
           "type": "model",
-          "model": "custom:item/skinsender_dragon"
+          "model": "custom:item/skins/ender_dragon"
         }
       }
     ]
