@@ -1,0 +1,40 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "model",
+      "model": "item/diamond_sword"
+    },
+    "cases": [
+      {
+        "when": "wither",
+        "model": {
+          "type": "model",
+          "model": "custom:item/skins/witherslayer_sword"
+        }
+      },
+      {
+        "when": "elder_guardian",
+        "model": {
+          "type": "model",
+          "model": "custom:item/skins/elderguardianslayer_sword"
+        }
+      },
+      {
+        "when": "warden",
+        "model": {
+          "type": "model",
+          "model": "custom:item/skins/wardenslayer_sword"
+        }
+      },
+      {
+        "when": "ender_dragon",
+        "model": {
+          "type": "model",
+          "model": "custom:item/skins/enderdragonslayer_sword"
+        }
+      }
+    ]
+  }
+}

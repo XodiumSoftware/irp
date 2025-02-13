@@ -1,19 +1,53 @@
 {
   "model": {
-    "type": "minecraft:select",
+    "type": "select",
+    "property": "context_entity_type",
+    "fallback": {
+      "type": "select",
+      "property": "custom_model_data",
+      "fallback": {
+        "type": "model",
+        "model": "item/golden_sword"
+      },
+      "cases": [
+        {
+          "when": "wither",
+          "model": {
+            "type": "model",
+            "model": "custom:item/skins/witherslayer_sword"
+          }
+        },
+        {
+          "when": "elder_guardian",
+          "model": {
+            "type": "model",
+            "model": "custom:item/skins/elderguardianslayer_sword"
+          }
+        },
+        {
+          "when": "warden",
+          "model": {
+            "type": "model",
+            "model": "custom:item/skins/wardenslayer_sword"
+          }
+        },
+        {
+          "when": "ender_dragon",
+          "model": {
+            "type": "model",
+            "model": "custom:item/skins/enderdragonslayer_sword"
+          }
+        }
+      ]
+    },
     "cases": [
       {
+        "when": ["piglin", "zombified_piglin"],
         "model": {
-          "type": "minecraft:model",
-          "model": "minecraft:item/excalibur/golden_sword_piglin"
-        },
-        "when": ["minecraft:piglin", "minecraft:zombified_piglin"]
+          "type": "model",
+          "model": "item/excalibur/golden_sword_piglin"
+        }
       }
-    ],
-    "fallback": {
-      "type": "minecraft:model",
-      "model": "minecraft:item/golden_sword"
-    },
-    "property": "minecraft:context_entity_type"
+    ]
   }
 }
