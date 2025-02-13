@@ -1,27 +1,10 @@
 {
   "model": {
     "type": "select",
-    "property": "context_entity_type",
-    "fallback": {
-      "type": "model",
-      "model": "item/stone_sword"
-    },
-    "cases": [
-      {
-        "when": "wither_skeleton",
-        "model": {
-          "type": "model",
-          "model": "item/excalibur/stone_sword_wither_skeleton"
-        }
-      }
-    ]
-  },
-  "model": {
-    "type": "select",
     "property": "custom_model_data",
     "fallback": {
       "type": "model",
-      "model": "item/stone_sword"
+      "model": "item/diamond_sword"
     },
     "cases": [
       {
