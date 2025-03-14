@@ -18,6 +18,7 @@
 [![Contributors][contributors_shield_url]][contributors_url]
 [![Issues][issues_shield_url]][issues_url]
 [![Roadmap][roadmap_shield_url]][roadmap_url]
+
 </div>
 
 ## Table of Contents
@@ -56,7 +57,7 @@
     </td>
     <td>
       <a href="https://modrinth.com/resourcepack/shrimps-immersive-interfaces">
-        <img src="https://cdn.modrinth.com/data/3sV1gvyJ/b46e5a7f91b2dd737aeff5621d694e9b50ce4610.png" alt="Totem Cross" title="Shrimp's Immersive Interfaces" width="200" height="200">
+        <img src="https://cdn.modrinth.com/data/3sV1gvyJ/94e543bad6d9a3745deb5354703d2babe066badd.png" alt="Shrimp's Immersive Interfaces" title="Shrimp's Immersive Interfaces" width="200" height="200">
       </a>
       <br><strong>Shrimp's Immersive Interfaces</strong>
     </td>
