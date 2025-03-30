@@ -1,0 +1,35 @@
+{
+  "targets": "minecraft:ominous_bottle",
+  "custom_models": [
+    {
+      "model": "minecraft:item/ominous/1",
+      "components": {
+        "minecraft:ominous_bottle_amplifier": 0
+      }
+    },
+    {
+      "model": "minecraft:item/ominous/2",
+      "components": {
+        "minecraft:ominous_bottle_amplifier": 1
+      }
+    },
+    {
+      "model": "minecraft:item/ominous/3",
+      "components": {
+        "minecraft:ominous_bottle_amplifier": 2
+      }
+    },
+    {
+      "model": "minecraft:item/ominous/4",
+      "components": {
+        "minecraft:ominous_bottle_amplifier": 3
+      }
+    },
+    {
+      "model": "minecraft:item/ominous/5",
+      "components": {
+        "minecraft:ominous_bottle_amplifier": 4
+      }
+    }
+  ]
+}

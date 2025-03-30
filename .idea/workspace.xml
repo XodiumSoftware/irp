@@ -58,6 +58,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "code.cleanup.on.save": "true",
+    "git-widget-placeholder": "main",
     "last_opened_file_path": "/media/hdd/intellij/IllyriaRP/illyriarp/assets/minecraft/models/item",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -93,6 +94,7 @@
       <updated>1743351533125</updated>
       <workItem from="1743351534174" duration="1315000" />
       <workItem from="1743352999213" duration="102000" />
+      <workItem from="1743353106209" duration="380000" />
     </task>
     <task id="LOCAL-00001" summary="cleanup">
       <option name="closed" value="true" />
@@ -134,7 +136,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743353080996</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="+">
+      <option name="closed" value="true" />
+      <created>1743353117798</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1743353117798</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
