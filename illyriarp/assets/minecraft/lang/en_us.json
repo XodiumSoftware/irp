@@ -2,7 +2,6 @@
   "language.name": "English",
   "language.region": "United States",
   "language.code": "en_us",
-
   "inventory.binSlot": "§cDestroy Item",
   "itemGroup.brewing": "§7Brewing",
   "itemGroup.buildingBlocks": "§7Building Blocks",
@@ -17,7 +16,6 @@
   "itemGroup.search": "§7Search Items",
   "itemGroup.tools": "§7Tools § Utilities",
   "itemGroup.transportation": "§7Transportation",
-
   "itemGroup.coloredBlocks": "§7Colored Blocks",
   "itemGroup.consumables": "§7Consumables",
   "itemGroup.crafting": "§7Crafting Materials",
@@ -27,7 +25,6 @@
   "itemGroup.natural": "§7Natural Blocks",
   "itemGroup.nature": "§7Nature Blocks",
   "itemGroup.spawnEggs": "§7Spawn Eggs",
-
   "merchant.current_level": "Trader's current level",
   "merchant.deprecated": "Villagers restock up to two times per day.",
   "merchant.level.1": "§6Lvl. I",
@@ -38,7 +35,6 @@
   "merchant.next_level": "Trader's next level",
   "merchant.title": "§f\uE994\uE994\uE994\uE994\uE994\uE995\uE995\uE995\uE995\uE999\uE999\uE998%s",
   "merchant.trades": "§f\uE996\uE995\uE995\uE995\uEe00",
-
   "entity.minecraft.chest_minecart": "§f\uE999\uE999\uE998\uEd02",
   "entity.minecraft.hopper_minecart": "§f\uE999\uE999\uE999\uE997\uEc10",
   "entity.minecraft.villager.armorer": "§f\uE994\uE994\uE994\uE994\uE994\uE996\uE995\uEe01\uE995\uEe02",
@@ -56,7 +52,6 @@
   "entity.minecraft.villager.toolsmith": "§f\uE994\uE994\uE994\uE994\uE994\uE996\uE995\uEe01\uE995\uEe02",
   "entity.minecraft.villager.weaponsmith": "§f\uE994\uE994\uE994\uE994\uE994\uE996\uE995\uEe01\uE995\uEe02",
   "entity.minecraft.wandering_trader": "§f\uE994\uE994\uE994\uE994\uE994\uE995\uE995\uE995\uE995\uE999\uE999\uE998\uEe01\uE995\uEe02",
-
   "container.barrel": "§f\uE999\uEd03",
   "container.beacon": "",
   "container.blast_furnace": "§f\uE999\uE999\uE999\uE999\uE996\uE995\uE995\uE999\uE998\uE995\uEc18",
@@ -82,7 +77,6 @@
   "container.smoker": "§f\uE999\uE999\uE999\uE999\uE996\uE995\uE995\uE999\uEc13",
   "container.stonecutter": "",
   "container.upgrade": "§f\uE999\uE999\uE999\uE999\uE999\uE999\uE999\uE999\uE999\uE995\uE995\uE996\uEc15",
-
   "block.minecraft.bamboo_mosaic": "Bamboo Thatch",
   "block.minecraft.bamboo_mosaic_slab": "Bamboo Thatch Slab",
   "block.minecraft.bamboo_mosaic_stairs": "Bamboo Thatch Stairs",
@@ -98,7 +92,6 @@
   "block.minecraft.stripped_warped_stem": "Stripped Warped Log",
   "block.minecraft.warped_hyphae": "Warped Wood",
   "block.minecraft.stripped_warped_hyphae": "Stripped Warped Wood",
-
   "block.minecraft.infested_chiseled_stone_bricks": "§cInfested Chiseled Stone Bricks",
   "block.minecraft.infested_cobblestone": "§cInfested Cobblestone",
   "block.minecraft.infested_cracked_stone_bricks": "§cInfested Cracked Stone Bricks",
@@ -106,7 +99,6 @@
   "block.minecraft.infested_mossy_stone_bricks": "§cInfested Mossy Stone Bricks",
   "block.minecraft.infested_stone": "§cInfested Stone",
   "block.minecraft.infested_stone_bricks": "§cInfested Stone Bricks",
-
   "block.minecraft.waxed_copper_block": "§eWaxed §fBlock of Copper",
   "block.minecraft.waxed_cut_copper": "§eWaxed §fCut Copper",
   "block.minecraft.waxed_cut_copper_slab": "§eWaxed §fCut Copper Slab",
@@ -123,14 +115,11 @@
   "block.minecraft.waxed_weathered_cut_copper": "§eWaxed §fWeathered Cut Copper",
   "block.minecraft.waxed_weathered_cut_copper_slab": "§eWaxed §fWeathered Cut Copper Slab",
   "block.minecraft.waxed_weathered_cut_copper_stairs": "§eWaxed §fWeathered Cut Copper Stairs",
-
   "item.minecraft.netherite_scrap": "Netherite Scale",
   "item.minecraft.smithing_template.armor_trim.base_slot_description": "Add armor piece",
   "item.minecraft.totem_of_undying": "Crucifix of Resurrection",
-
   "advancements.adventure.totem_of_undying.description": "Use an Crucifix of Resurrection to cheat death",
   "subtitles.item.totem.use": "Crucifix of Resurrection activates",
-
   "enchantment.level.1": "§f򱀁§r",
   "enchantment.level.2": "§f򱀂§r",
   "enchantment.level.3": "§f򱀃§r",
