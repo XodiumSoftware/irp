@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9439fca7-19d3-4187-ac72-97b1a8893024" name="Changes" comment="added excal 1.21.5" />
+    <list default="true" id="9439fca7-19d3-4187-ac72-97b1a8893024" name="Changes" comment="fix shield and shovel models">
+      <change afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/models/item/shovel.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/assets/minecraft/models/item/stone_shovel.json" beforeDir="false" afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/models/item/stone_shovel.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/assets/minecraft/models/item/wooden_shovel.json" beforeDir="false" afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/models/item/wooden_shovel.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -65,7 +70,7 @@
     "code.cleanup.on.save": "true",
     "git-widget-placeholder": "feat/1.21.5",
     "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "/home/illyrius/.jetbrains/IllyriaRP/illyriarp/assets/minecraft/models/item/enchanted_books",
+    "last_opened_file_path": "/home/illyrius/.jetbrains/IllyriaRP/illyriarp/assets/minecraft/models/item",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -112,11 +117,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/illyriarp/assets/minecraft/models/item" />
       <recent name="$PROJECT_DIR$/illyriarp/assets/minecraft/models/item/enchanted_books" />
       <recent name="$PROJECT_DIR$/illyriarp/assets/minecraft/items" />
       <recent name="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/enchanted_books" />
       <recent name="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item" />
-      <recent name="$PROJECT_DIR$/illyriarp" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/illyriarp" />
@@ -134,7 +139,7 @@
       <workItem from="1743352999213" duration="102000" />
       <workItem from="1743353106209" duration="380000" />
       <workItem from="1745919741391" duration="457000" />
-      <workItem from="1745920264321" duration="3830000" />
+      <workItem from="1745920264321" duration="4954000" />
     </task>
     <task id="LOCAL-00001" summary="cleanup">
       <option name="closed" value="true" />
@@ -216,7 +221,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745929871192</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="fix shield and shovel models">
+      <option name="closed" value="true" />
+      <created>1745930249797</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1745930249797</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -234,7 +247,8 @@
     <MESSAGE value="Update pack.mcmeta and README.md; add overlays support and note for Excalibur updates" />
     <MESSAGE value="Add JSON files for enchanted book textures" />
     <MESSAGE value="added excal 1.21.5" />
-    <option name="LAST_COMMIT_MESSAGE" value="added excal 1.21.5" />
+    <MESSAGE value="fix shield and shovel models" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix shield and shovel models" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
