@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9439fca7-19d3-4187-ac72-97b1a8893024" name="Changes" comment="fix shield and shovel models">
-      <change afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/models/item/shovel.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/illyriarp/assets/minecraft/models/item/stone_shovel.json" beforeDir="false" afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/models/item/stone_shovel.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/illyriarp/assets/minecraft/models/item/wooden_shovel.json" beforeDir="false" afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/models/item/wooden_shovel.json" afterDir="false" />
-    </list>
+    <list default="true" id="9439fca7-19d3-4187-ac72-97b1a8893024" name="Changes" comment="init potions" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,7 +16,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="dev" />
+        <entry key="$PROJECT_DIR$" value="feat/better_potions" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -68,9 +63,9 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "code.cleanup.on.save": "true",
-    "git-widget-placeholder": "feat/1.21.5",
+    "git-widget-placeholder": "dev",
     "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "/home/illyrius/.jetbrains/IllyriaRP/illyriarp/assets/minecraft/models/item",
+    "last_opened_file_path": "/home/illyrius/.jetbrains/IllyriaRP/illyriarp/assets/minecraft/items",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -85,12 +80,12 @@
   <component name="RdControllerToolWindowsLayoutState" isNewUi="true">
     <layout>
       <window_info id="Bookmarks" show_stripe_button="false" side_tool="true" />
-      <window_info id="Welcome to GitHub Copilot" />
+      <window_info id="Welcome to GitHub Copilot" show_stripe_button="false" />
       <window_info id="Backup and Sync History" show_stripe_button="false" />
       <window_info id="Commit_Guest" show_stripe_button="false" />
       <window_info id="Pull Requests" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20390625" />
-      <window_info id="Commit" order="1" weight="0.20390625" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32994792" />
+      <window_info id="Commit" order="1" weight="0.32994792" />
       <window_info id="Structure" order="2" show_stripe_button="false" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="NextEditPredictionSettingsToolwindow" />
       <window_info anchor="bottom" id="TypeScript" />
@@ -103,7 +98,6 @@
       <window_info anchor="bottom" id="Services" order="4" show_stripe_button="false" />
       <window_info anchor="right" id="PR AI Assistant" />
       <window_info anchor="right" id="Endpoints" show_stripe_button="false" />
-      <window_info anchor="right" id="github.copilotToolWindow" />
       <window_info anchor="right" id="documentation.v2" side_tool="true" />
       <window_info anchor="right" id="Coverage" show_stripe_button="false" side_tool="true" />
       <window_info anchor="right" id="ElectroJunToolWindow" />
@@ -113,15 +107,16 @@
       <window_info anchor="right" id="Gradle" order="3" weight="0.25" />
       <window_info anchor="right" id="Maven" order="4" weight="0.25" />
       <window_info anchor="right" id="GitHub Copilot Chat" order="5" weight="0.32994792" />
+      <window_info anchor="right" id="github.copilotToolWindow" order="6" show_stripe_button="false" weight="0.32994792" />
     </layout>
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/illyriarp/assets/minecraft/items" />
+      <recent name="$PROJECT_DIR$/illyriarp/assets/minecraft" />
       <recent name="$PROJECT_DIR$/illyriarp/assets/minecraft/models/item" />
       <recent name="$PROJECT_DIR$/illyriarp/assets/minecraft/models/item/enchanted_books" />
-      <recent name="$PROJECT_DIR$/illyriarp/assets/minecraft/items" />
       <recent name="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/enchanted_books" />
-      <recent name="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/illyriarp" />
@@ -229,7 +224,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745930249797</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="init potions">
+      <option name="closed" value="true" />
+      <created>1745935201039</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1745935201039</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -248,7 +251,8 @@
     <MESSAGE value="Add JSON files for enchanted book textures" />
     <MESSAGE value="added excal 1.21.5" />
     <MESSAGE value="fix shield and shovel models" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix shield and shovel models" />
+    <MESSAGE value="init potions" />
+    <option name="LAST_COMMIT_MESSAGE" value="init potions" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
