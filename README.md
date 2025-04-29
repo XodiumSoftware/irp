@@ -68,12 +68,6 @@
   </tr>
   <tr>
     <td>
-      <a href="https://modrinth.com/resourcepack/enchant-display">
-        <img src="https://cdn.modrinth.com/data/sDjhAz4E/b3dba1f832001dfc09af0b526b224b00217c27e9_96.webp" alt="Enchant Display: Roman numerals" title="Enchant Display: Roman numerals" width="200" height="200">
-      </a>
-      <br><strong>Enchant Display: Roman numerals</strong>
-    </td>
-    <td>
       <a href="https://modrinth.com/resourcepack/vipers-enchantment-overhaul">
         <img src="https://cdn.modrinth.com/data/UvPRRT07/f000dbaa72ce3e8d227a2c3c8c6f4c90d41a895d.png" alt="Viper's Enchantment Overhaul" title="Viper's Enchantment Overhaul" width="200" height="200">
       </a>
