@@ -29,6 +29,10 @@
 - [Contributing][contributing_url]
 - [License][license_url]
 
+## NOTE
+
+- When updating Excalibur don't forget to adjust shovel and shield json files.
+
 ## Built With
 
 <div align="center">
