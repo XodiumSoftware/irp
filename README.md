@@ -29,10 +29,14 @@
 - [Contributing][contributing_url]
 - [License][license_url]
 
+## NOTE
+
+- When updating Excalibur don't forget to adjust shovel and shield json files.
+
 ## Built With
 
 <div align="center">
-  
+
 [![Built With][built_with_shield_url]][built_with_url]
 </div>
 
@@ -40,7 +44,7 @@
 
 <table>
   <tr>
-    <th colspan="4">Resource Packs + Links</th>
+    <th colspan="3">Resource Packs + Links</th>
   </tr>
   <tr>
     <td>
@@ -61,11 +65,19 @@
       </a>
       <br><strong>Shrimp's Immersive Interfaces</strong>
     </td>
+  </tr>
+  <tr>
     <td>
       <a href="https://modrinth.com/resourcepack/enchant-display">
         <img src="https://cdn.modrinth.com/data/sDjhAz4E/b3dba1f832001dfc09af0b526b224b00217c27e9_96.webp" alt="Enchant Display: Roman numerals" title="Enchant Display: Roman numerals" width="200" height="200">
       </a>
       <br><strong>Enchant Display: Roman numerals</strong>
+    </td>
+    <td>
+      <a href="https://modrinth.com/resourcepack/vipers-enchantment-overhaul">
+        <img src="https://cdn.modrinth.com/data/UvPRRT07/f000dbaa72ce3e8d227a2c3c8c6f4c90d41a895d.png" alt="Viper's Enchantment Overhaul" title="Viper's Enchantment Overhaul" width="200" height="200">
+      </a>
+      <br><strong>Viper's Enchantment Overhaul</strong>
     </td>
   </tr>
 </table>
@@ -73,13 +85,23 @@
 <p align="right"><a href="#readme-top">▲</a></p>
 
 [built_with_shield_url]: https://skillicons.dev/icons?i=github,githubactions
+
 [built_with_url]: https://skillicons.dev
+
 [code_of_conduct_url]: https://github.com/XodiumSoftware/IllyriaRP?tab=coc-ov-file
+
 [contributing_url]: https://github.com/XodiumSoftware/IllyriaRP/blob/main/CONTRIBUTING.md
+
 [contributors_shield_url]: https://img.shields.io/github/contributors/XodiumSoftware/IllyriaRP?style=for-the-badge&color=blue
+
 [contributors_url]: https://github.com/XodiumSoftware/IllyriaRP/graphs/contributors
+
 [issues_shield_url]: https://img.shields.io/github/issues/XodiumSoftware/IllyriaRP?style=for-the-badge&color=yellow
+
 [issues_url]: https://github.com/XodiumSoftware/IllyriaRP/issues
+
 [license_url]: https://github.com/XodiumSoftware/IllyriaRP?tab=AGPL-3.0-1-ov-file
+
 [roadmap_shield_url]: https://img.shields.io/badge/Roadmap-Click%20Me!-purple.svg?style=for-the-badge
+
 [roadmap_url]: https://github.com/orgs/XodiumSoftware/projects/4

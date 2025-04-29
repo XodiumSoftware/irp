@@ -1,22 +1,23 @@
 {
+	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "block/cake_plate",
 		"1": "block/cake_inner",
 		"top": "block/cake_top",
-		"side": "block/cake_side",
-		"particle": "block/cake_side"
+		"particle": "block/cake_side",
+		"side": "block/cake_side"
 	},
 	"elements": [
 		{
-			"name": "Cake",
+			"name": "cake",
 			"from": [8, 1, 2],
-			"to": [14, 7, 14],
+			"to": [14, 8, 14],
 			"faces": {
-				"north": {"uv": [1, 8, 8, 16], "texture": "#side"},
-				"east": {"uv": [1, 8, 15, 16], "texture": "#side"},
-				"south": {"uv": [8, 8, 15, 16], "texture": "#side"},
-				"west": {"uv": [1, 8, 15, 16], "texture": "#1"},
-				"up": {"uv": [8, 1, 15, 15], "texture": "#top"}
+				"north": {"uv": [2, 9, 8, 16], "texture": "#side"},
+				"east": {"uv": [2, 9, 14, 16], "texture": "#side"},
+				"south": {"uv": [8, 9, 14, 16], "texture": "#side"},
+				"west": {"uv": [2, 9, 14, 16], "texture": "#1"},
+				"up": {"uv": [8, 2, 14, 14], "texture": "#top"}
 			}
 		},
 		{
@@ -34,13 +35,27 @@
 		},
 		{
 			"name": "Slice",
-			"from": [2, 1, 10],
-			"to": [8, 7, 14],
+			"from": [2, 1, 11],
+			"to": [8, 8, 14],
 			"faces": {
-				"north": {"uv": [8, 8, 15, 16], "texture": "#1"},
-				"south": {"uv": [1, 8, 8, 16], "texture": "#side"},
-				"west": {"uv": [10, 8, 15, 16], "texture": "#side"},
-				"up": {"uv": [1, 10.32, 8, 15], "texture": "#top"}
+				"north": {"uv": [8, 9, 14, 16], "texture": "#1"},
+				"south": {"uv": [2, 9, 8, 16], "texture": "#side"},
+				"west": {"uv": [11, 9, 14, 16], "texture": "#side"},
+				"up": {"uv": [2, 11, 8, 14], "texture": "#top"}
+			}
+		},
+		{
+			"name": "Slice",
+			"from": [2.01, -1, 8.75],
+			"to": [8.01, 6, 10.75],
+			"rotation": {"angle": 22.5, "axis": "x", "origin": [6, 5.5, 13]},
+			"faces": {
+				"north": {"uv": [8, 9, 14, 16], "texture": "#1"},
+				"east": {"uv": [12, 9, 14, 16], "texture": "#side"},
+				"south": {"uv": [2, 9, 8, 16], "texture": "#1"},
+				"west": {"uv": [2, 9, 4, 16], "texture": "#side"},
+				"up": {"uv": [8, 9, 14, 11], "rotation": 180, "texture": "#1"},
+				"down": {"uv": [5, 14, 11, 16], "texture": "#1"}
 			}
 		}
 	]

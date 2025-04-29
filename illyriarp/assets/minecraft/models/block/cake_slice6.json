@@ -1,24 +1,12 @@
 {
+	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "block/cake_plate",
 		"1": "block/cake_inner",
-		"top": "block/cake_top",
-		"side": "block/cake_side",
-		"particle": "block/cake_side"
+		"particle": "block/cake_side",
+		"side": "block/cake_side"
 	},
 	"elements": [
-		{
-			"name": "Cake",
-			"from": [8, 1, 10],
-			"to": [14, 7, 14],
-			"faces": {
-				"north": {"uv": [1, 8, 8, 16], "texture": "#1"},
-				"east": {"uv": [1, 8, 6, 16], "texture": "#side"},
-				"south": {"uv": [8, 8, 15, 16], "texture": "#side"},
-				"west": {"uv": [10, 8, 15, 16], "texture": "#1"},
-				"up": {"uv": [8, 10.5, 15, 15], "texture": "#top"}
-			}
-		},
 		{
 			"name": "Plate",
 			"from": [1, 0, 1],
@@ -30,6 +18,20 @@
 				"west": {"uv": [1, 0, 15, 1], "texture": "#0"},
 				"up": {"uv": [1, 1, 15, 15], "texture": "#0"},
 				"down": {"uv": [1, 1, 15, 15], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Slice",
+			"from": [7, 1, 5],
+			"to": [13, 3, 12],
+			"rotation": {"angle": -22.5, "axis": "y", "origin": [10, 4.5, 6]},
+			"faces": {
+				"north": {"uv": [8, 9, 14, 11], "texture": "#1"},
+				"east": {"uv": [12, 9, 14, 16], "rotation": 90, "texture": "#side"},
+				"south": {"uv": [5, 14, 11, 16], "texture": "#1"},
+				"west": {"uv": [2, 9, 4, 16], "rotation": 270, "texture": "#side"},
+				"up": {"uv": [2, 9, 8, 16], "texture": "#1"},
+				"down": {"uv": [2, 9, 8, 16], "texture": "#1"}
 			}
 		}
 	]

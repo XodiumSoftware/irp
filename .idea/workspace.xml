@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9439fca7-19d3-4187-ac72-97b1a8893024" name="Changes" comment="+" />
+    <list default="true" id="9439fca7-19d3-4187-ac72-97b1a8893024" name="Changes" comment="fix shield and shovel models">
+      <change afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/models/item/shovel.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/assets/minecraft/models/item/stone_shovel.json" beforeDir="false" afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/models/item/stone_shovel.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/assets/minecraft/models/item/wooden_shovel.json" beforeDir="false" afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/models/item/wooden_shovel.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +25,8 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SHOW_RECENT_BRANCHES" value="false" />
+    <option name="SHOW_TAGS" value="false" />
     <option name="SIGN_OFF_COMMIT" value="true" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -31,7 +38,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/XodiumSoftware/IllyriaRP.git&quot;,
-    &quot;accountId&quot;: &quot;430d0b5f-0aef-48c1-a335-bc3abb7106af&quot;
+    &quot;accountId&quot;: &quot;3c1b27f6-3fa9-451d-b2dd-a9e7f6151fc2&quot;
   }
 }</component>
   <component name="MaliciousPackageCheckinHandlerState">
@@ -39,6 +46,9 @@
   </component>
   <component name="OptimizeOnSaveOptions">
     <option name="myRunOnSave" value="true" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
@@ -58,31 +68,64 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "code.cleanup.on.save": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/media/hdd/intellij/IllyriaRP/illyriarp/assets/minecraft/models/item",
+    "git-widget-placeholder": "feat/1.21.5",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "/home/illyrius/.jetbrains/IllyriaRP/illyriarp/assets/minecraft/models/item",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "rearrange.code.on.save": "true",
-    "settings.editor.selected.configurable": "actions.on.save",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "com.github.copilot.settings.ApplicationConfigurable",
     "update.copyright.on.save": "true"
   }
 }]]></component>
+  <component name="RdControllerToolWindowsLayoutState" isNewUi="true">
+    <layout>
+      <window_info id="Bookmarks" show_stripe_button="false" side_tool="true" />
+      <window_info id="Welcome to GitHub Copilot" />
+      <window_info id="Backup and Sync History" show_stripe_button="false" />
+      <window_info id="Commit_Guest" show_stripe_button="false" />
+      <window_info id="Pull Requests" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20390625" />
+      <window_info id="Commit" order="1" weight="0.20390625" />
+      <window_info id="Structure" order="2" show_stripe_button="false" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="NextEditPredictionSettingsToolwindow" />
+      <window_info anchor="bottom" id="TypeScript" />
+      <window_info anchor="bottom" id="TODO" />
+      <window_info anchor="bottom" id="Find" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Problems" order="1" />
+      <window_info anchor="bottom" id="Problems View" order="2" weight="0.32994187" />
+      <window_info anchor="bottom" id="Terminal" order="3" />
+      <window_info anchor="bottom" id="Services" order="4" show_stripe_button="false" />
+      <window_info anchor="right" id="PR AI Assistant" />
+      <window_info anchor="right" id="Endpoints" show_stripe_button="false" />
+      <window_info anchor="right" id="github.copilotToolWindow" />
+      <window_info anchor="right" id="documentation.v2" side_tool="true" />
+      <window_info anchor="right" id="Coverage" show_stripe_button="false" side_tool="true" />
+      <window_info anchor="right" id="ElectroJunToolWindow" />
+      <window_info anchor="right" id="Notifications" order="0" weight="0.32994792" />
+      <window_info anchor="right" id="AIAssistant" order="1" show_stripe_button="false" weight="0.25" />
+      <window_info anchor="right" id="Database" order="2" weight="0.25" />
+      <window_info anchor="right" id="Gradle" order="3" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.25" />
+      <window_info anchor="right" id="GitHub Copilot Chat" order="5" weight="0.32994792" />
+    </layout>
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/illyriarp/assets/minecraft/models/item" />
-      <recent name="$PROJECT_DIR$/illyriarp/assets/minecraft" />
+      <recent name="$PROJECT_DIR$/illyriarp/assets/minecraft/models/item/enchanted_books" />
+      <recent name="$PROJECT_DIR$/illyriarp/assets/minecraft/items" />
+      <recent name="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/enchanted_books" />
       <recent name="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item" />
     </key>
-  </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-WS-243.26053.12" />
-      </set>
-    </attachedChunks>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/illyriarp" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -95,6 +138,8 @@
       <workItem from="1743351534174" duration="1315000" />
       <workItem from="1743352999213" duration="102000" />
       <workItem from="1743353106209" duration="380000" />
+      <workItem from="1745919741391" duration="457000" />
+      <workItem from="1745920264321" duration="4954000" />
     </task>
     <task id="LOCAL-00001" summary="cleanup">
       <option name="closed" value="true" />
@@ -144,7 +189,47 @@
       <option name="project" value="LOCAL" />
       <updated>1743353117798</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="cleanup">
+      <option name="closed" value="true" />
+      <created>1745920662815</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1745920662815</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Update pack.mcmeta and README.md; add overlays support and note for Excalibur updates">
+      <option name="closed" value="true" />
+      <created>1745927189469</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1745927189469</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Add JSON files for enchanted book textures">
+      <option name="closed" value="true" />
+      <created>1745929778203</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1745929778203</updated>
+    </task>
+    <task id="LOCAL-00010" summary="added excal 1.21.5">
+      <option name="closed" value="true" />
+      <created>1745929871192</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1745929871192</updated>
+    </task>
+    <task id="LOCAL-00011" summary="fix shield and shovel models">
+      <option name="closed" value="true" />
+      <created>1745930249797</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1745930249797</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,11 +240,15 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="cleanup" />
     <MESSAGE value="more cleanup" />
     <MESSAGE value="added custom potion textures" />
     <MESSAGE value="+" />
-    <option name="LAST_COMMIT_MESSAGE" value="+" />
+    <MESSAGE value="cleanup" />
+    <MESSAGE value="Update pack.mcmeta and README.md; add overlays support and note for Excalibur updates" />
+    <MESSAGE value="Add JSON files for enchanted book textures" />
+    <MESSAGE value="added excal 1.21.5" />
+    <MESSAGE value="fix shield and shovel models" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix shield and shovel models" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
