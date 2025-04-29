@@ -4,141 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9439fca7-19d3-4187-ac72-97b1a8893024" name="Changes" comment="Update pack.mcmeta and README.md; add overlays support and note for Excalibur updates">
-      <change afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/items/enchanted_book.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/book.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/book_and_quill.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/enchanted_book.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/enchanted_books/aqua_affinity.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/enchanted_books/bane_of_arthropods.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/enchanted_books/bane_of_arthropods_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/enchanted_books/bane_of_arthropods_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/enchanted_books/bane_of_arthropods_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/enchanted_books/bane_of_arthropods_5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/enchanted_books/blast_protection.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/enchanted_books/blast_protection_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/enchanted_books/blast_protection_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/enchanted_books/blast_protection_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/enchanted_books/breach.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/enchanted_books/breach_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/enchanted_books/breach_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/enchanted_books/breach_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/enchanted_books/channeling.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/enchanted_books/curse_of_binding.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/enchanted_books/curse_of_vanishing.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/enchanted_books/density.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/enchanted_books/density_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/enchanted_books/density_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/enchanted_books/density_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/enchanted_books/density_5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/enchanted_books/depth_strider.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/enchanted_books/depth_strider_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/enchanted_books/depth_strider_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/enchanted_books/efficiency.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/enchanted_books/efficiency_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/enchanted_books/efficiency_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/enchanted_books/efficiency_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/enchanted_books/efficiency_5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/enchanted_books/feather_falling.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/enchanted_books/feather_falling_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/enchanted_books/feather_falling_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/enchanted_books/feather_falling_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/enchanted_books/fire_aspect.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/enchanted_books/fire_aspect_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/enchanted_books/fire_protection.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/enchanted_books/fire_protection_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/enchanted_books/fire_protection_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/enchanted_books/fire_protection_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/enchanted_books/flame.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/enchanted_books/fortune.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/enchanted_books/fortune_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/enchanted_books/fortune_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/enchanted_books/frost_walker.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/enchanted_books/frost_walker_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/enchanted_books/impaling.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/enchanted_books/impaling_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/enchanted_books/impaling_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/enchanted_books/impaling_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/enchanted_books/impaling_5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/enchanted_books/infinity.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/enchanted_books/knockback.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/enchanted_books/knockback_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/enchanted_books/looting.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/enchanted_books/looting_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/enchanted_books/looting_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/enchanted_books/loyalty.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/enchanted_books/loyalty_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/enchanted_books/loyalty_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/enchanted_books/luck_of_the_sea.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/enchanted_books/luck_of_the_sea_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/enchanted_books/luck_of_the_sea_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/enchanted_books/lure.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/enchanted_books/lure_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/enchanted_books/lure_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/enchanted_books/mending.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/enchanted_books/multishot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/enchanted_books/piercing.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/enchanted_books/piercing_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/enchanted_books/piercing_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/enchanted_books/piercing_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/enchanted_books/power.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/enchanted_books/power_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/enchanted_books/power_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/enchanted_books/power_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/enchanted_books/power_5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/enchanted_books/projectile_protection.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/enchanted_books/projectile_protection_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/enchanted_books/projectile_protection_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/enchanted_books/projectile_protection_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/enchanted_books/protection.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/enchanted_books/protection_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/enchanted_books/protection_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/enchanted_books/protection_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/enchanted_books/punch.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/enchanted_books/punch_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/enchanted_books/quick_charge.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/enchanted_books/quick_charge_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/enchanted_books/quick_charge_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/enchanted_books/respiration.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/enchanted_books/respiration_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/enchanted_books/respiration_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/enchanted_books/riptide.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/enchanted_books/riptide_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/enchanted_books/riptide_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/enchanted_books/sharpness.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/enchanted_books/sharpness_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/enchanted_books/sharpness_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/enchanted_books/sharpness_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/enchanted_books/sharpness_5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/enchanted_books/silk_touch.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/enchanted_books/smite.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/enchanted_books/smite_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/enchanted_books/smite_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/enchanted_books/smite_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/enchanted_books/smite_5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/enchanted_books/soul_speed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/enchanted_books/soul_speed_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/enchanted_books/soul_speed_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/enchanted_books/sweeping_edge.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/enchanted_books/sweeping_edge_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/enchanted_books/sweeping_edge_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/enchanted_books/swift_sneak.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/enchanted_books/swift_sneak_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/enchanted_books/swift_sneak_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/enchanted_books/thorns.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/enchanted_books/thorns_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/enchanted_books/thorns_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/enchanted_books/unbreaking.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/enchanted_books/unbreaking_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/enchanted_books/unbreaking_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/enchanted_books/wind_burst.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/enchanted_books/wind_burst_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/enchanted_books/wind_burst_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/knowledge_book.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/totem_of_undying.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/written_book.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="9439fca7-19d3-4187-ac72-97b1a8893024" name="Changes" comment="added excal 1.21.5" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -199,7 +65,7 @@
     "code.cleanup.on.save": "true",
     "git-widget-placeholder": "feat/1.21.5",
     "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "/home/illyrius/.jetbrains/IllyriaRP/illyriarp/assets/minecraft/items",
+    "last_opened_file_path": "/home/illyrius/.jetbrains/IllyriaRP/illyriarp/assets/minecraft/models/item/enchanted_books",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -246,11 +112,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/illyriarp/assets/minecraft/models/item/enchanted_books" />
       <recent name="$PROJECT_DIR$/illyriarp/assets/minecraft/items" />
       <recent name="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/enchanted_books" />
       <recent name="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item" />
       <recent name="$PROJECT_DIR$/illyriarp" />
-      <recent name="$PROJECT_DIR$/illyriarp/assets/minecraft/models/item" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/illyriarp" />
@@ -268,7 +134,7 @@
       <workItem from="1743352999213" duration="102000" />
       <workItem from="1743353106209" duration="380000" />
       <workItem from="1745919741391" duration="457000" />
-      <workItem from="1745920264321" duration="3463000" />
+      <workItem from="1745920264321" duration="3830000" />
     </task>
     <task id="LOCAL-00001" summary="cleanup">
       <option name="closed" value="true" />
@@ -334,7 +200,23 @@
       <option name="project" value="LOCAL" />
       <updated>1745927189469</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Add JSON files for enchanted book textures">
+      <option name="closed" value="true" />
+      <created>1745929778203</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1745929778203</updated>
+    </task>
+    <task id="LOCAL-00010" summary="added excal 1.21.5">
+      <option name="closed" value="true" />
+      <created>1745929871192</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1745929871192</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -350,7 +232,9 @@
     <MESSAGE value="+" />
     <MESSAGE value="cleanup" />
     <MESSAGE value="Update pack.mcmeta and README.md; add overlays support and note for Excalibur updates" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update pack.mcmeta and README.md; add overlays support and note for Excalibur updates" />
+    <MESSAGE value="Add JSON files for enchanted book textures" />
+    <MESSAGE value="added excal 1.21.5" />
+    <option name="LAST_COMMIT_MESSAGE" value="added excal 1.21.5" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
