@@ -68,10 +68,10 @@
   </tr>
   <tr>
     <td>
-      <a href="https://modrinth.com/resourcepack/enchant-display">
-        <img src="https://cdn.modrinth.com/data/sDjhAz4E/b3dba1f832001dfc09af0b526b224b00217c27e9_96.webp" alt="Enchant Display: Roman numerals" title="Enchant Display: Roman numerals" width="200" height="200">
+      <a href="https://modrinth.com/resourcepack/shrimps-distinct-potions">
+        <img src="https://cdn.modrinth.com/data/Q960kOT8/435f7866a6b10fbcf4c5a770dd083cc524597599_96.webp" alt="Shrimp's Distinct Potions" title="Shrimp's Distinct Potions" width="200" height="200">
       </a>
-      <br><strong>Enchant Display: Roman numerals</strong>
+      <br><strong>Shrimp's Distinct Potions</strong>
     </td>
     <td>
       <a href="https://modrinth.com/resourcepack/vipers-enchantment-overhaul">

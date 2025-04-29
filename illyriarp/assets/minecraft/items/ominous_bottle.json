@@ -1,42 +1,49 @@
 {
   "model": {
-    "type": "minecraft:condition",
-    "on_false": {
-      "type": "minecraft:model",
-      "model": "minecraft:item/ominous_bottle"
-    },
-    "on_true": {
-      "type": "minecraft:range_dispatch",
-      "entries": [
-        {
-          "model": {
-            "type": "minecraft:model",
-            "model": "minecraft:item/excalibur/eating_animation/ominous_bottle_drinking_0"
-          },
-          "threshold": 0.35
-        },
-        {
-          "model": {
-            "type": "minecraft:model",
-            "model": "minecraft:item/excalibur/eating_animation/ominous_bottle_drinking_1"
-          },
-          "threshold": 0.7
-        },
-        {
-          "model": {
-            "type": "minecraft:model",
-            "model": "minecraft:item/excalibur/eating_animation/ominous_bottle_drinking_2"
-          },
-          "threshold": 0.9
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component":"minecraft:ominous_bottle_amplifier",
+    "cases": [
+      {
+        "when": 0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/ominous/1"
         }
-      ],
-      "fallback": {
-        "type": "minecraft:model",
-        "model": "minecraft:item/ominous_bottle"
       },
-      "property": "minecraft:use_duration",
-      "scale": 0.035
-    },
-    "property": "minecraft:using_item"
+      {
+        "when": 1,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/ominous/2"
+        }
+      },
+      {
+        "when": 2,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/ominous/3"
+        }
+      },
+      {
+        "when": 3,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/ominous/4"
+        }
+      },
+      {
+        "when": 4,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/ominous/5"
+        }
+      }
+
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/ominous/3"
+    }
   }
 }
