@@ -68,6 +68,12 @@
   </tr>
   <tr>
     <td>
+      <a href="https://modrinth.com/resourcepack/shrimps-distinct-potions">
+        <img src="https://cdn.modrinth.com/data/Q960kOT8/435f7866a6b10fbcf4c5a770dd083cc524597599_96.webp" alt="Shrimp's Distinct Potions" title="Shrimp's Distinct Potions" width="200" height="200">
+      </a>
+      <br><strong>Shrimp's Distinct Potions</strong>
+    </td>
+    <td>
       <a href="https://modrinth.com/resourcepack/vipers-enchantment-overhaul">
         <img src="https://cdn.modrinth.com/data/UvPRRT07/f000dbaa72ce3e8d227a2c3c8c6f4c90d41a895d.png" alt="Viper's Enchantment Overhaul" title="Viper's Enchantment Overhaul" width="200" height="200">
       </a>
