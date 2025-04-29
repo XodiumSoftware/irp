@@ -79,6 +79,12 @@
       </a>
       <br><strong>Viper's Enchantment Overhaul</strong>
     </td>
+    <td>
+      <a href="https://modrinth.com/resourcepack/fresh-waystones-texture/versions">
+        <img src="https://cdn.modrinth.com/data/BcyGAwlg/2eb60785bd944562843b2cddd3cb57bae1f72108_96.webp" alt="Fresh Waystones Texture" title="Fresh Waystones Texture" width="200" height="200">
+      </a>
+      <br><strong>Fresh Waystones Texture</strong>
+    </td>
   </tr>
 </table>
 
