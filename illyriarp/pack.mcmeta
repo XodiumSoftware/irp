@@ -1,23 +1,6 @@
 {
   "pack": {
-    "pack_format": 15,
-    "supported_formats": [15, 100],
-    "description": "\u00A78Adventure Awaits \n\u00A78By \u00A74Xodium \u00A78for \u00A76MC 1.21.4"
-  },
-  "overlays": {
-    "entries": [
-      {
-        "directory": "1.21",
-        "formats": [18, 100]
-      },
-      {
-        "directory": "_1.21.4_sloticons",
-        "formats": [43, 100]
-      },
-      {
-        "directory": "_1.21_shaders",
-        "formats": [42, 100]
-      }
-    ]
+    "pack_format": 55,
+    "description": "\u00A78Adventure Awaits \n\u00A78By \u00A74Xodium \u00A78for \u00A76MC 1.21.5"
   }
 }

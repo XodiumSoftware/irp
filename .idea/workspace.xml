@@ -4,7 +4,327 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9439fca7-19d3-4187-ac72-97b1a8893024" name="Changes" comment="+" />
+    <list default="true" id="9439fca7-19d3-4187-ac72-97b1a8893024" name="Changes" comment="+">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/lang/_slots.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/lang/af_za.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/lang/ar_sa.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/lang/ast_es.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/lang/az_az.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/lang/ba_ru.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/lang/bar.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/lang/be_by.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/lang/bg_bg.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/lang/br_fr.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/lang/brb.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/lang/bs_ba.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/lang/ca_es.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/lang/cs_cz.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/lang/cy_gb.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/lang/da_dk.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/lang/de_at.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/lang/de_ch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/lang/de_de.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/lang/el_gr.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/lang/en_au.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/lang/en_ca.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/lang/en_gb.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/lang/en_nz.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/lang/en_pt.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/lang/en_ud.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/lang/en_us-1slot.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/lang/en_us-2mods.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/lang/en_us-3mdsl.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/lang/en_us.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/lang/enp.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/lang/enws.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/lang/eo_uy.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/lang/es_ar.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/lang/es_cl.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/lang/es_ec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/lang/es_es.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/lang/es_mx.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/lang/es_uy.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/lang/es_ve.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/lang/esan.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/lang/et_ee.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/lang/eu_es.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/lang/fa_ir.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/lang/fi_fi.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/lang/fil_ph.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/lang/fo_fo.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/lang/fr_ca.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/lang/fr_fr.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/lang/fra_de.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/lang/fur_it.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/lang/fy_nl.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/lang/ga_ie.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/lang/gd_gb.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/lang/gl_es.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/lang/haw_us.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/lang/he_il.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/lang/hi_in.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/lang/hr_hr.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/lang/hu_hu.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/lang/hy_am.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/lang/id_id.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/lang/ig_ng.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/lang/io_en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/lang/is_is.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/lang/isv.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/lang/it_it.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/lang/ja_jp.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/lang/jbo_en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/lang/ka_ge.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/lang/kk_kz.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/lang/kn_in.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/lang/ko_kr.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/lang/ksh.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/lang/kw_gb.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/lang/la_la.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/lang/lb_lu.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/lang/li_li.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/lang/lmo.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/lang/lo_la.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/lang/lol_us.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/lang/lt_lt.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/lang/lv_lv.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/lang/lzh.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/lang/mk_mk.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/lang/mn_mn.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/lang/ms_my.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/lang/mt_mt.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/lang/nah.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/lang/nds_de.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/lang/nl_be.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/lang/nl_nl.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/lang/nn_no.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/lang/no_noÔÇî.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/lang/oc_fr.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/lang/ovd.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/lang/pl_pl.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/lang/pt_br.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/lang/pt_pt.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/lang/qya_aa.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/lang/ro_ro.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/lang/rpr.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/lang/ru_ru.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/lang/ry_ua.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/lang/sah_sah.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/lang/se_no.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/lang/sk_sk.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/lang/sl_si.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/lang/so_so.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/lang/sq_al.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/lang/sr_cs.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/lang/sr_sp.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/lang/sv_se.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/lang/sxu.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/lang/szl.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/lang/ta_in.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/lang/th_th.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/lang/tl_ph.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/lang/tlh_aa.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/lang/tok.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/lang/tr_tr.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/lang/tt_ru.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/lang/uk_ua.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/lang/val_es.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/lang/vec_it.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/lang/vi_vn.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/lang/vp_vl.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/lang/yi_de.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/lang/yo_ng.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/lang/zh_cn.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/lang/zh_hk.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/lang/zh_tw.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/lang/zlm_arab.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/polytone/gui_modifiers/anvil.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/polytone/gui_modifiers/brewing_stand.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/polytone/gui_modifiers/cartography_table.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/polytone/gui_modifiers/chests/barrel.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/polytone/gui_modifiers/chests/boat_acacia.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/polytone/gui_modifiers/chests/boat_bamboo.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/polytone/gui_modifiers/chests/boat_birch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/polytone/gui_modifiers/chests/boat_cherry.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/polytone/gui_modifiers/chests/boat_dark_oak.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/polytone/gui_modifiers/chests/boat_jungle.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/polytone/gui_modifiers/chests/boat_mangrove.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/polytone/gui_modifiers/chests/boat_oak.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/polytone/gui_modifiers/chests/boat_pale.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/polytone/gui_modifiers/chests/boat_spruce.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/polytone/gui_modifiers/chests/chest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/polytone/gui_modifiers/chests/chest_ender.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/polytone/gui_modifiers/chests/chest_large.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/polytone/gui_modifiers/chests/chest_minecart.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/polytone/gui_modifiers/crafter.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/polytone/gui_modifiers/crafting_table.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/polytone/gui_modifiers/dispenser.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/polytone/gui_modifiers/dropper.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/polytone/gui_modifiers/enchanting_table.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/polytone/gui_modifiers/grindstone.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/polytone/gui_modifiers/hopper.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/polytone/gui_modifiers/hopper_minecart.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/polytone/gui_modifiers/loom.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/polytone/gui_modifiers/merchant.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/polytone/gui_modifiers/shulker_box.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/polytone/gui_modifiers/smithing_table.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/polytone/gui_modifiers/wandering_trader.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/textures/gui/recipe_book.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/textures/gui/sprites/container/anvil/error.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/textures/gui/sprites/container/anvil/text_field.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/textures/gui/sprites/container/anvil/text_field_disabled.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/textures/gui/sprites/container/blast_furnace/burn_progress.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/textures/gui/sprites/container/blast_furnace/lit_progress.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/textures/gui/sprites/container/brewing_stand/brew_progress.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/textures/gui/sprites/container/brewing_stand/bubbles.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/textures/gui/sprites/container/brewing_stand/fuel_length.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/textures/gui/sprites/container/bundle/slot_highlight_back.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/textures/gui/sprites/container/bundle/slot_highlight_front.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/textures/gui/sprites/container/cartography_table/duplicated_map.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/textures/gui/sprites/container/cartography_table/error.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/textures/gui/sprites/container/cartography_table/locked.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/textures/gui/sprites/container/cartography_table/map.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/textures/gui/sprites/container/cartography_table/scaled_map.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/textures/gui/sprites/container/crafter/disabled_slot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/textures/gui/sprites/container/crafter/powered_redstone.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/textures/gui/sprites/container/crafter/unpowered_redstone.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/textures/gui/sprites/container/enchanting_table/enchantment_slot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/textures/gui/sprites/container/enchanting_table/enchantment_slot_disabled.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/textures/gui/sprites/container/enchanting_table/enchantment_slot_highlighted.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/textures/gui/sprites/container/enchanting_table/level_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/textures/gui/sprites/container/enchanting_table/level_1_disabled.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/textures/gui/sprites/container/enchanting_table/level_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/textures/gui/sprites/container/enchanting_table/level_2_disabled.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/textures/gui/sprites/container/enchanting_table/level_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/textures/gui/sprites/container/enchanting_table/level_3_disabled.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/textures/gui/sprites/container/furnace/burn_progress.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/textures/gui/sprites/container/furnace/lit_progress.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/textures/gui/sprites/container/loom/banner_slot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/textures/gui/sprites/container/loom/dye_slot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/textures/gui/sprites/container/loom/error.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/textures/gui/sprites/container/loom/pattern.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/textures/gui/sprites/container/loom/pattern_highlighted.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/textures/gui/sprites/container/loom/pattern_selected.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/textures/gui/sprites/container/loom/pattern_slot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/textures/gui/sprites/container/loom/scroller.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/textures/gui/sprites/container/loom/scroller_disabled.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/textures/gui/sprites/container/slot/amethyst_shard.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/textures/gui/sprites/container/slot/axe.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/textures/gui/sprites/container/slot/banner.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/textures/gui/sprites/container/slot/banner_pattern.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/textures/gui/sprites/container/slot/boots.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/textures/gui/sprites/container/slot/brewing_fuel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/textures/gui/sprites/container/slot/chestplate.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/textures/gui/sprites/container/slot/diamond.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/textures/gui/sprites/container/slot/dye.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/textures/gui/sprites/container/slot/emerald.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/textures/gui/sprites/container/slot/helmet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/textures/gui/sprites/container/slot/hoe.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/textures/gui/sprites/container/slot/horse_armor.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/textures/gui/sprites/container/slot/ingot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/textures/gui/sprites/container/slot/lapis_lazuli.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/textures/gui/sprites/container/slot/leggings.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/textures/gui/sprites/container/slot/llama_armor.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/textures/gui/sprites/container/slot/pickaxe.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/textures/gui/sprites/container/slot/potion.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/textures/gui/sprites/container/slot/quartz.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/textures/gui/sprites/container/slot/redstone_dust.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/textures/gui/sprites/container/slot/saddle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/textures/gui/sprites/container/slot/shield.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/textures/gui/sprites/container/slot/shovel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/textures/gui/sprites/container/slot/smithing_template_armor_trim.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/textures/gui/sprites/container/slot/smithing_template_netherite_upgrade.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/textures/gui/sprites/container/slot/sword.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/textures/gui/sprites/container/slot_highlight_back.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/textures/gui/sprites/container/slot_highlight_front.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/textures/gui/sprites/container/slot_highlight_front.png.mcmeta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/textures/gui/sprites/container/smoker/burn_progress.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/textures/gui/sprites/container/smoker/lit_progress.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/textures/gui/sprites/container/villager/discount_strikethrough.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/textures/gui/sprites/container/villager/experience_bar_background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/textures/gui/sprites/container/villager/experience_bar_current.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/textures/gui/sprites/container/villager/experience_bar_result.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/textures/gui/sprites/container/villager/out_of_stock.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/textures/gui/sprites/container/villager/scroller.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/textures/gui/sprites/container/villager/scroller_disabled.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/textures/gui/sprites/container/villager/trade_arrow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/textures/gui/sprites/container/villager/trade_arrow_out_of_stock.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/textures/gui/sprites/hud/hotbar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/textures/gui/sprites/hud/hotbar_offhand_left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/textures/gui/sprites/hud/hotbar_offhand_right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/textures/gui/sprites/hud/hotbar_selection.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/textures/gui/sprites/recipe_book/button.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/textures/gui/sprites/recipe_book/button_highlighted.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/textures/gui/sprites/recipe_book/crafting_overlay.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/textures/gui/sprites/recipe_book/crafting_overlay_disabled.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/textures/gui/sprites/recipe_book/crafting_overlay_disabled_highlighted.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/textures/gui/sprites/recipe_book/crafting_overlay_highlighted.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/textures/gui/sprites/recipe_book/filter_disabled.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/textures/gui/sprites/recipe_book/filter_disabled_highlighted.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/textures/gui/sprites/recipe_book/filter_enabled.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/textures/gui/sprites/recipe_book/filter_enabled_highlighted.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/textures/gui/sprites/recipe_book/furnace_filter_disabled.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/textures/gui/sprites/recipe_book/furnace_filter_disabled_highlighted.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/textures/gui/sprites/recipe_book/furnace_filter_enabled.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/textures/gui/sprites/recipe_book/furnace_filter_enabled_highlighted.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/textures/gui/sprites/recipe_book/furnace_overlay.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/textures/gui/sprites/recipe_book/furnace_overlay_disabled.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/textures/gui/sprites/recipe_book/furnace_overlay_disabled_highlighted.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/textures/gui/sprites/recipe_book/furnace_overlay_highlighted.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/textures/gui/sprites/recipe_book/overlay_recipe.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/textures/gui/sprites/recipe_book/overlay_recipe.png.mcmeta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/textures/gui/sprites/recipe_book/page_backward.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/textures/gui/sprites/recipe_book/page_backward_highlighted.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/textures/gui/sprites/recipe_book/page_forward.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/textures/gui/sprites/recipe_book/page_forward_highlighted.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/textures/gui/sprites/recipe_book/slot_craftable.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/textures/gui/sprites/recipe_book/slot_many_craftable.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/textures/gui/sprites/recipe_book/slot_many_uncraftable.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/textures/gui/sprites/recipe_book/slot_uncraftable.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/textures/gui/sprites/recipe_book/tab.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/textures/gui/sprites/recipe_book/tab_selected.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/textures/gui/sprites/tooltip/background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/textures/gui/sprites/tooltip/background.png.mcmeta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/textures/gui/sprites/tooltip/frame.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/1.21/assets/minecraft/textures/gui/sprites/tooltip/frame.png.mcmeta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/_1.21.4_sloticons/assets/minecraft/textures/gui/sprites/container/slot/amethyst_shard.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/_1.21.4_sloticons/assets/minecraft/textures/gui/sprites/container/slot/axe.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/_1.21.4_sloticons/assets/minecraft/textures/gui/sprites/container/slot/banner.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/_1.21.4_sloticons/assets/minecraft/textures/gui/sprites/container/slot/banner_pattern.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/_1.21.4_sloticons/assets/minecraft/textures/gui/sprites/container/slot/boots.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/_1.21.4_sloticons/assets/minecraft/textures/gui/sprites/container/slot/brewing_fuel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/_1.21.4_sloticons/assets/minecraft/textures/gui/sprites/container/slot/chestplate.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/_1.21.4_sloticons/assets/minecraft/textures/gui/sprites/container/slot/diamond.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/_1.21.4_sloticons/assets/minecraft/textures/gui/sprites/container/slot/dye.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/_1.21.4_sloticons/assets/minecraft/textures/gui/sprites/container/slot/emerald.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/_1.21.4_sloticons/assets/minecraft/textures/gui/sprites/container/slot/helmet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/_1.21.4_sloticons/assets/minecraft/textures/gui/sprites/container/slot/hoe.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/_1.21.4_sloticons/assets/minecraft/textures/gui/sprites/container/slot/horse_armor.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/_1.21.4_sloticons/assets/minecraft/textures/gui/sprites/container/slot/ingot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/_1.21.4_sloticons/assets/minecraft/textures/gui/sprites/container/slot/lapis_lazuli.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/_1.21.4_sloticons/assets/minecraft/textures/gui/sprites/container/slot/leggings.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/_1.21.4_sloticons/assets/minecraft/textures/gui/sprites/container/slot/llama_armor.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/_1.21.4_sloticons/assets/minecraft/textures/gui/sprites/container/slot/pickaxe.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/_1.21.4_sloticons/assets/minecraft/textures/gui/sprites/container/slot/potion.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/_1.21.4_sloticons/assets/minecraft/textures/gui/sprites/container/slot/quartz.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/_1.21.4_sloticons/assets/minecraft/textures/gui/sprites/container/slot/redstone_dust.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/_1.21.4_sloticons/assets/minecraft/textures/gui/sprites/container/slot/saddle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/_1.21.4_sloticons/assets/minecraft/textures/gui/sprites/container/slot/shield.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/_1.21.4_sloticons/assets/minecraft/textures/gui/sprites/container/slot/shovel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/_1.21.4_sloticons/assets/minecraft/textures/gui/sprites/container/slot/smithing_template_armor_trim.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/_1.21.4_sloticons/assets/minecraft/textures/gui/sprites/container/slot/smithing_template_netherite_upgrade.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/_1.21.4_sloticons/assets/minecraft/textures/gui/sprites/container/slot/sword.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/_1.21_shaders/assets/minecraft/shaders/core/position_tex.fsh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/_1.21_shaders/assets/minecraft/shaders/core/position_tex.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/_1.21_shaders/assets/minecraft/shaders/core/position_tex.vsh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/_1.21_shaders/assets/minecraft/shaders/core/position_tex_color.fsh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/_1.21_shaders/assets/minecraft/shaders/core/position_tex_color.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/_1.21_shaders/assets/minecraft/shaders/core/position_tex_color.vsh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/pack.mcmeta" beforeDir="false" afterPath="$PROJECT_DIR$/illyriarp/pack.mcmeta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img.png" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +340,8 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SHOW_RECENT_BRANCHES" value="false" />
+    <option name="SHOW_TAGS" value="false" />
     <option name="SIGN_OFF_COMMIT" value="true" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -31,7 +353,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/XodiumSoftware/IllyriaRP.git&quot;,
-    &quot;accountId&quot;: &quot;430d0b5f-0aef-48c1-a335-bc3abb7106af&quot;
+    &quot;accountId&quot;: &quot;3c1b27f6-3fa9-451d-b2dd-a9e7f6151fc2&quot;
   }
 }</component>
   <component name="MaliciousPackageCheckinHandlerState">
@@ -39,6 +361,9 @@
   </component>
   <component name="OptimizeOnSaveOptions">
     <option name="myRunOnSave" value="true" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
@@ -52,37 +377,65 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "code.cleanup.on.save": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/media/hdd/intellij/IllyriaRP/illyriarp/assets/minecraft/models/item",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "rearrange.code.on.save": "true",
-    "settings.editor.selected.configurable": "actions.on.save",
-    "update.copyright.on.save": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;code.cleanup.on.save&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feat/1.21.5&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/media/hdd/intellij/IllyriaRP/illyriarp/assets/minecraft/models/item&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;rearrange.code.on.save&quot;: &quot;true&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;actions.on.save&quot;,
+    &quot;update.copyright.on.save&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RdControllerToolWindowsLayoutState" isNewUi="true">
+    <layout>
+      <window_info id="Bookmarks" show_stripe_button="false" side_tool="true" />
+      <window_info id="Welcome to GitHub Copilot" />
+      <window_info id="Backup and Sync History" show_stripe_button="false" />
+      <window_info id="Commit_Guest" show_stripe_button="false" />
+      <window_info id="Pull Requests" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15703125" />
+      <window_info id="Commit" order="1" weight="0.25" />
+      <window_info id="Structure" order="2" show_stripe_button="false" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="NextEditPredictionSettingsToolwindow" />
+      <window_info anchor="bottom" id="TypeScript" />
+      <window_info anchor="bottom" id="TODO" />
+      <window_info anchor="bottom" id="Find" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Problems" order="1" />
+      <window_info anchor="bottom" id="Problems View" order="2" weight="0.32994187" />
+      <window_info anchor="bottom" id="Terminal" order="3" />
+      <window_info anchor="bottom" id="Services" order="4" show_stripe_button="false" />
+      <window_info anchor="right" id="PR AI Assistant" />
+      <window_info anchor="right" id="Endpoints" show_stripe_button="false" />
+      <window_info anchor="right" id="github.copilotToolWindow" />
+      <window_info anchor="right" id="documentation.v2" side_tool="true" />
+      <window_info anchor="right" id="Coverage" show_stripe_button="false" side_tool="true" />
+      <window_info anchor="right" id="ElectroJunToolWindow" />
+      <window_info anchor="right" id="Notifications" order="0" weight="0.32994792" />
+      <window_info anchor="right" id="AIAssistant" order="1" show_stripe_button="false" weight="0.25" />
+      <window_info anchor="right" id="Database" order="2" weight="0.25" />
+      <window_info anchor="right" id="Gradle" order="3" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.25" />
+      <window_info anchor="right" id="GitHub Copilot Chat" order="5" weight="0.32994792" />
+    </layout>
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/illyriarp/assets/minecraft/models/item" />
       <recent name="$PROJECT_DIR$/illyriarp/assets/minecraft" />
       <recent name="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item" />
     </key>
-  </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-WS-243.26053.12" />
-      </set>
-    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -95,6 +448,8 @@
       <workItem from="1743351534174" duration="1315000" />
       <workItem from="1743352999213" duration="102000" />
       <workItem from="1743353106209" duration="380000" />
+      <workItem from="1745919741391" duration="457000" />
+      <workItem from="1745920264321" duration="320000" />
     </task>
     <task id="LOCAL-00001" summary="cleanup">
       <option name="closed" value="true" />
