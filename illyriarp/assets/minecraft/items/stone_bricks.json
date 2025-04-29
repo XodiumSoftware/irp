@@ -1,0 +1,19 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "model",
+      "model": "block/stone_bricks"
+    },
+    "cases": [
+      {
+        "when": "waystone",
+        "model": {
+          "type": "model",
+          "model": "waystone:item/waystone"
+        }
+      }
+    ]
+  }
+}

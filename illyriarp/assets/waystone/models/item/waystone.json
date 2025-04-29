@@ -1,4 +1,4 @@
 {
 	"parent": "item/handheld",
-	"textures": {"layer0": "waystone:item/waystone/waystone"}
+	"textures": {"layer0": "waystone:item/waystone"}
 }
