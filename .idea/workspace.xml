@@ -4,7 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9439fca7-19d3-4187-ac72-97b1a8893024" name="Changes" comment="init potions" />
+    <list default="true" id="9439fca7-19d3-4187-ac72-97b1a8893024" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/illyriarp/assets/waystone/blockstates/waystone.json" beforeDir="false" afterPath="$PROJECT_DIR$/illyriarp/assets/xodium/blockstates/waystone.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/assets/waystone/items/waystone.json" beforeDir="false" afterPath="$PROJECT_DIR$/illyriarp/assets/xodium/items/waystone.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/assets/waystone/models/block/waystone_bottom.json" beforeDir="false" afterPath="$PROJECT_DIR$/illyriarp/assets/xodium/models/block/waystone_bottom.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/assets/waystone/models/block/waystone_top.json" beforeDir="false" afterPath="$PROJECT_DIR$/illyriarp/assets/xodium/models/block/waystone_top.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/assets/waystone/models/item/waystone.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/assets/waystone/textures/block/waystone.png" beforeDir="false" afterPath="$PROJECT_DIR$/illyriarp/assets/xodium/textures/block/waystone.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/assets/waystone/textures/block/waystone_bottom.png" beforeDir="false" afterPath="$PROJECT_DIR$/illyriarp/assets/xodium/textures/block/waystone_bottom.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/assets/waystone/textures/block/waystone_top.png" beforeDir="false" afterPath="$PROJECT_DIR$/illyriarp/assets/xodium/textures/block/waystone_top.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/assets/waystone/textures/entity/waystone_active.png" beforeDir="false" afterPath="$PROJECT_DIR$/illyriarp/assets/xodium/textures/entity/waystone_active.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/assets/waystone/textures/item/waystone.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/assets/waystone/textures/overlays/waystone_active.png" beforeDir="false" afterPath="$PROJECT_DIR$/illyriarp/assets/xodium/textures/overlays/waystone_active.png" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,7 +28,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="feat/better_potions" />
+        <entry key="$PROJECT_DIR$" value="feat/waystone" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -63,7 +75,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "code.cleanup.on.save": "true",
-    "git-widget-placeholder": "dev",
+    "git-widget-placeholder": "#96 on dev",
     "junie.onboarding.icon.badge.shown": "true",
     "last_opened_file_path": "/home/illyrius/.jetbrains/IllyriaRP/illyriarp/assets/minecraft/items",
     "node.js.detected.package.eslint": "true",
@@ -84,7 +96,7 @@
       <window_info id="Backup and Sync History" show_stripe_button="false" />
       <window_info id="Commit_Guest" show_stripe_button="false" />
       <window_info id="Pull Requests" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32994792" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16223958" />
       <window_info id="Commit" order="1" weight="0.32994792" />
       <window_info id="Structure" order="2" show_stripe_button="false" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="NextEditPredictionSettingsToolwindow" />
@@ -96,6 +108,7 @@
       <window_info anchor="bottom" id="Problems View" order="2" weight="0.32994187" />
       <window_info anchor="bottom" id="Terminal" order="3" />
       <window_info anchor="bottom" id="Services" order="4" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Debug" order="5" weight="0.32994187" />
       <window_info anchor="right" id="PR AI Assistant" />
       <window_info anchor="right" id="Endpoints" show_stripe_button="false" />
       <window_info anchor="right" id="documentation.v2" side_tool="true" />
@@ -106,7 +119,7 @@
       <window_info anchor="right" id="Database" order="2" weight="0.25" />
       <window_info anchor="right" id="Gradle" order="3" weight="0.25" />
       <window_info anchor="right" id="Maven" order="4" weight="0.25" />
-      <window_info anchor="right" id="GitHub Copilot Chat" order="5" weight="0.32994792" />
+      <window_info active="true" anchor="right" id="GitHub Copilot Chat" order="5" visible="true" weight="0.32994792" />
       <window_info anchor="right" id="github.copilotToolWindow" order="6" show_stripe_button="false" weight="0.32994792" />
     </layout>
   </component>
