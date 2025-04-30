@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9439fca7-19d3-4187-ac72-97b1a8893024" name="Changes" comment="" />
+    <list default="true" id="9439fca7-19d3-4187-ac72-97b1a8893024" name="Changes" comment="init potions" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -64,7 +64,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "code.cleanup.on.save": "true",
-    "git-widget-placeholder": "#94 on feat/waystone",
+    "git-widget-placeholder": "dev",
     "junie.onboarding.icon.badge.shown": "true",
     "last_opened_file_path": "/home/illyrius/.jetbrains/IllyriaRP/illyriarp/assets/minecraft/items",
     "node.js.detected.package.eslint": "true",
@@ -85,19 +85,18 @@
       <window_info id="Backup and Sync History" show_stripe_button="false" />
       <window_info id="Commit_Guest" show_stripe_button="false" />
       <window_info id="Pull Requests" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16223958" />
-      <window_info id="Commit" order="1" weight="0.16223958" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32994792" />
+      <window_info id="Commit" order="1" weight="0.32994792" />
       <window_info id="Structure" order="2" show_stripe_button="false" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="NextEditPredictionSettingsToolwindow" />
       <window_info anchor="bottom" id="TypeScript" />
       <window_info anchor="bottom" id="TODO" />
+      <window_info anchor="bottom" id="Find" />
       <window_info anchor="bottom" id="Version Control" order="0" />
       <window_info anchor="bottom" id="Problems" order="1" />
       <window_info anchor="bottom" id="Problems View" order="2" weight="0.32994187" />
       <window_info anchor="bottom" id="Terminal" order="3" />
       <window_info anchor="bottom" id="Services" order="4" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Debug" order="5" weight="0.32994187" />
-      <window_info anchor="bottom" id="Find" order="6" weight="0.32994187" />
       <window_info anchor="right" id="PR AI Assistant" />
       <window_info anchor="right" id="Endpoints" show_stripe_button="false" />
       <window_info anchor="right" id="documentation.v2" side_tool="true" />
@@ -108,7 +107,7 @@
       <window_info anchor="right" id="Database" order="2" weight="0.25" />
       <window_info anchor="right" id="Gradle" order="3" weight="0.25" />
       <window_info anchor="right" id="Maven" order="4" weight="0.25" />
-      <window_info active="true" anchor="right" id="GitHub Copilot Chat" order="5" weight="0.32994792" />
+      <window_info anchor="right" id="GitHub Copilot Chat" order="5" weight="0.32994792" />
       <window_info anchor="right" id="github.copilotToolWindow" order="6" show_stripe_button="false" weight="0.32994792" />
     </layout>
   </component>
@@ -239,23 +238,7 @@
       <option name="project" value="LOCAL" />
       <updated>1745935201039</updated>
     </task>
-    <task id="LOCAL-00013" summary="cleanup">
-      <option name="closed" value="true" />
-      <created>1746001711206</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1746001711206</updated>
-    </task>
-    <task id="LOCAL-00014" summary="cleanup">
-      <option name="closed" value="true" />
-      <created>1746001849626</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1746001849626</updated>
-    </task>
-    <option name="localTasksCounter" value="15" />
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,13 +253,13 @@
     <MESSAGE value="more cleanup" />
     <MESSAGE value="added custom potion textures" />
     <MESSAGE value="+" />
+    <MESSAGE value="cleanup" />
     <MESSAGE value="Update pack.mcmeta and README.md; add overlays support and note for Excalibur updates" />
     <MESSAGE value="Add JSON files for enchanted book textures" />
     <MESSAGE value="added excal 1.21.5" />
     <MESSAGE value="fix shield and shovel models" />
     <MESSAGE value="init potions" />
-    <MESSAGE value="cleanup" />
-    <option name="LAST_COMMIT_MESSAGE" value="cleanup" />
+    <option name="LAST_COMMIT_MESSAGE" value="init potions" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
