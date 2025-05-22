@@ -4,18 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9439fca7-19d3-4187-ac72-97b1a8893024" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/illyriarp/assets/waystone/blockstates/waystone.json" beforeDir="false" afterPath="$PROJECT_DIR$/illyriarp/assets/xodium/blockstates/waystone.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/illyriarp/assets/waystone/items/waystone.json" beforeDir="false" afterPath="$PROJECT_DIR$/illyriarp/assets/xodium/items/waystone.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/illyriarp/assets/waystone/models/block/waystone_bottom.json" beforeDir="false" afterPath="$PROJECT_DIR$/illyriarp/assets/xodium/models/block/waystone_bottom.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/illyriarp/assets/waystone/models/block/waystone_top.json" beforeDir="false" afterPath="$PROJECT_DIR$/illyriarp/assets/xodium/models/block/waystone_top.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/illyriarp/assets/waystone/models/item/waystone.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/illyriarp/assets/waystone/textures/block/waystone.png" beforeDir="false" afterPath="$PROJECT_DIR$/illyriarp/assets/xodium/textures/block/waystone.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/illyriarp/assets/waystone/textures/block/waystone_bottom.png" beforeDir="false" afterPath="$PROJECT_DIR$/illyriarp/assets/xodium/textures/block/waystone_bottom.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/illyriarp/assets/waystone/textures/block/waystone_top.png" beforeDir="false" afterPath="$PROJECT_DIR$/illyriarp/assets/xodium/textures/block/waystone_top.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/illyriarp/assets/waystone/textures/entity/waystone_active.png" beforeDir="false" afterPath="$PROJECT_DIR$/illyriarp/assets/xodium/textures/entity/waystone_active.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/illyriarp/assets/waystone/textures/item/waystone.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/illyriarp/assets/waystone/textures/overlays/waystone_active.png" beforeDir="false" afterPath="$PROJECT_DIR$/illyriarp/assets/xodium/textures/overlays/waystone_active.png" afterDir="false" />
+    <list default="true" id="9439fca7-19d3-4187-ac72-97b1a8893024" name="Changes" comment="added chisel texture">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/assets/minecraft/items/brush.json" beforeDir="false" afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/items/chisel.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/illyriarp/assets/xodium/models/item/chisel.json" beforeDir="false" afterPath="$PROJECT_DIR$/illyriarp/assets/xodium/models/item/chisel.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +20,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="feat/waystone" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -69,26 +61,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "code.cleanup.on.save": "true",
-    "git-widget-placeholder": "#96 on dev",
-    "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "/home/illyrius/.jetbrains/IllyriaRP/illyriarp/assets/minecraft/items",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "rearrange.code.on.save": "true",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "com.github.copilot.settings.ApplicationConfigurable",
-    "update.copyright.on.save": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.GPG_PINENTRY_CONFIGURATION_PROPOSAL&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;code.cleanup.on.save&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;dev&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/illyrius/.jetbrains/IllyriaRP/illyriarp/assets/xodium/textures/item&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;rearrange.code.on.save&quot;: &quot;true&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.github.copilot.settings.ApplicationConfigurable&quot;,
+    &quot;update.copyright.on.save&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RdControllerToolWindowsLayoutState" isNewUi="true">
     <layout>
       <window_info id="Bookmarks" show_stripe_button="false" side_tool="true" />
@@ -96,19 +89,19 @@
       <window_info id="Backup and Sync History" show_stripe_button="false" />
       <window_info id="Commit_Guest" show_stripe_button="false" />
       <window_info id="Pull Requests" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16223958" />
-      <window_info id="Commit" order="1" weight="0.32994792" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20703125" />
+      <window_info id="Commit" order="1" weight="0.20703125" />
       <window_info id="Structure" order="2" show_stripe_button="false" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="NextEditPredictionSettingsToolwindow" />
       <window_info anchor="bottom" id="TypeScript" />
       <window_info anchor="bottom" id="TODO" />
-      <window_info anchor="bottom" id="Find" />
-      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Version Control" order="0" weight="0.32994187" />
       <window_info anchor="bottom" id="Problems" order="1" />
       <window_info anchor="bottom" id="Problems View" order="2" weight="0.32994187" />
       <window_info anchor="bottom" id="Terminal" order="3" />
       <window_info anchor="bottom" id="Services" order="4" show_stripe_button="false" />
       <window_info anchor="bottom" id="Debug" order="5" weight="0.32994187" />
+      <window_info anchor="bottom" id="Find" order="6" weight="0.32994187" />
       <window_info anchor="right" id="PR AI Assistant" />
       <window_info anchor="right" id="Endpoints" show_stripe_button="false" />
       <window_info anchor="right" id="documentation.v2" side_tool="true" />
@@ -119,17 +112,17 @@
       <window_info anchor="right" id="Database" order="2" weight="0.25" />
       <window_info anchor="right" id="Gradle" order="3" weight="0.25" />
       <window_info anchor="right" id="Maven" order="4" weight="0.25" />
-      <window_info active="true" anchor="right" id="GitHub Copilot Chat" order="5" visible="true" weight="0.32994792" />
+      <window_info anchor="right" id="GitHub Copilot Chat" order="5" weight="0.32994792" />
       <window_info anchor="right" id="github.copilotToolWindow" order="6" show_stripe_button="false" weight="0.32994792" />
     </layout>
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/illyriarp/assets/xodium/textures/item" />
       <recent name="$PROJECT_DIR$/illyriarp/assets/minecraft/items" />
       <recent name="$PROJECT_DIR$/illyriarp/assets/minecraft" />
       <recent name="$PROJECT_DIR$/illyriarp/assets/minecraft/models/item" />
       <recent name="$PROJECT_DIR$/illyriarp/assets/minecraft/models/item/enchanted_books" />
-      <recent name="$PROJECT_DIR$/illyriarp/assets/minecraft/textures/item/enchanted_books" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/illyriarp" />
@@ -148,6 +141,7 @@
       <workItem from="1743353106209" duration="380000" />
       <workItem from="1745919741391" duration="457000" />
       <workItem from="1745920264321" duration="4954000" />
+      <workItem from="1747918635776" duration="324000" />
     </task>
     <task id="LOCAL-00001" summary="cleanup">
       <option name="closed" value="true" />
@@ -245,7 +239,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745935201039</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="added chisel texture">
+      <option name="closed" value="true" />
+      <created>1747917107714</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1747917107714</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -265,7 +267,8 @@
     <MESSAGE value="added excal 1.21.5" />
     <MESSAGE value="fix shield and shovel models" />
     <MESSAGE value="init potions" />
-    <option name="LAST_COMMIT_MESSAGE" value="init potions" />
+    <MESSAGE value="added chisel texture" />
+    <option name="LAST_COMMIT_MESSAGE" value="added chisel texture" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
