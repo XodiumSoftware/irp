@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9439fca7-19d3-4187-ac72-97b1a8893024" name="Changes" comment="added chisel texture">
+    <list default="true" id="9439fca7-19d3-4187-ac72-97b1a8893024" name="Changes" comment="fixed chisel">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/illyriarp/assets/minecraft/items/brush.json" beforeDir="false" afterPath="$PROJECT_DIR$/illyriarp/assets/minecraft/items/chisel.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/illyriarp/assets/xodium/models/item/chisel.json" beforeDir="false" afterPath="$PROJECT_DIR$/illyriarp/assets/xodium/models/item/chisel.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,7 +139,8 @@
       <workItem from="1743353106209" duration="380000" />
       <workItem from="1745919741391" duration="457000" />
       <workItem from="1745920264321" duration="4954000" />
-      <workItem from="1747918635776" duration="324000" />
+      <workItem from="1747918635776" duration="845000" />
+      <workItem from="1749103041109" duration="34000" />
     </task>
     <task id="LOCAL-00001" summary="cleanup">
       <option name="closed" value="true" />
@@ -247,7 +246,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747917107714</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="fixed chisel">
+      <option name="closed" value="true" />
+      <created>1747919460541</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1747919460541</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -268,7 +275,8 @@
     <MESSAGE value="fix shield and shovel models" />
     <MESSAGE value="init potions" />
     <MESSAGE value="added chisel texture" />
-    <option name="LAST_COMMIT_MESSAGE" value="added chisel texture" />
+    <MESSAGE value="fixed chisel" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed chisel" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
