@@ -12,11 +12,11 @@
 			"to": [3, 16, 16],
 			"faces": {
 				"north": {"uv": [11, 0, 8, 16], "texture": "#1", "cullface": "north"},
-				"east": {"uv": [0, 0, 16, 16], "texture": "#bottom", "cullface": "west"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#bottom"},
 				"south": {"uv": [12, 0, 15, 16], "texture": "#1", "cullface": "south"},
 				"west": {"uv": [0, 0, 16, 16], "texture": "#bottom", "cullface": "west"},
 				"up": {"uv": [3, 0, 6, 16], "texture": "#bottom"},
-				"down": {"uv": [3, 0, 6, 16], "texture": "#bottom"}
+				"down": {"uv": [3, 0, 6, 16], "texture": "#bottom", "cullface": "down"}
 			}
 		}
 	]

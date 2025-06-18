@@ -70,7 +70,7 @@
 			"faces": {
 				"north": {"uv": [6, 7, 10, 11], "texture": "#wood", "cullface": "north"},
 				"east": {"uv": [14, 7, 16, 11], "texture": "#wood"},
-				"south": {"uv": [6, 7, 10, 11], "texture": "#wood", "cullface": "north"},
+				"south": {"uv": [6, 7, 10, 11], "texture": "#wood", "cullface": "south"},
 				"west": {"uv": [0, 7, 2, 11], "texture": "#wood"},
 				"up": {"uv": [6, 0, 10, 2], "texture": "#wood"},
 				"down": {"uv": [6, 2, 10, 0], "texture": "#wood"}

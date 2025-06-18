@@ -1,8 +1,8 @@
 {
 	"parent": "block/block",
 	"textures": {
-		"all": "block/lantern",
-		"particle": "block/lantern"
+		"particle": "block/lantern",
+		"all": "block/lantern"
 	},
 	"elements": [
 		{
@@ -12,9 +12,7 @@
 				"north": {"uv": [0, 2, 6, 9], "texture": "#all"},
 				"east": {"uv": [0, 2, 6, 9], "texture": "#all"},
 				"south": {"uv": [0, 2, 6, 9], "texture": "#all"},
-				"west": {"uv": [0, 2, 6, 9], "texture": "#all"},
-				"up": {"uv": [0, 9, 6, 15], "texture": "#all"},
-				"down": {"uv": [0, 9, 6, 15], "texture": "#all"}
+				"west": {"uv": [0, 2, 6, 9], "texture": "#all"}
 			}
 		},
 		{

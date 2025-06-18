@@ -1,5 +1,5 @@
 {
-	"parent": "block/block",
+	"parent": "block/fence_inventory",
 	"ambientocclusion": false,
 	"textures": {
 		"texture": "block/fence_crimson"
