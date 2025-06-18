@@ -31,7 +31,8 @@
 
 ## NOTE
 
-- When updating Excalibur don't forget to adjust shovel and shield json files.
+> [!CAUTION]
+> When updating Excalibur don't forget to adjust `shovel` and `shield` json files.
 
 ## Built With
 
