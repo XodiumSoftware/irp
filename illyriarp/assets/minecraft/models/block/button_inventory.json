@@ -1,7 +1,9 @@
 {
 	"credit": "Made by Maffhew",
 	"parent": "block/block",
-	"textures": {},
+    "textures": {
+        "particle": "#texture"
+    },
 	"elements": [
 		{
 			"name": "cube",

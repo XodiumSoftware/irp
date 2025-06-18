@@ -10,21 +10,21 @@
           "when": { "minecraft:luck_of_the_sea": 1 },
           "model": {
             "type": "minecraft:model",
-            "model": "minecraft:item/excalibur/fishing_rod/fishing_rod"
+            "model": "minecraft:item/excalibur/fishing_rod/luck_of_the_sea"
           }
         },
         {
           "when": { "minecraft:luck_of_the_sea": 2 },
           "model": {
             "type": "minecraft:model",
-            "model": "minecraft:item/excalibur/fishing_rod/fishing_rod"
+            "model": "minecraft:item/excalibur/fishing_rod/luck_of_the_sea"
           }
         },
         {
           "when": { "minecraft:luck_of_the_sea": 3 },
           "model": {
             "type": "minecraft:model",
-            "model": "minecraft:item/excalibur/fishing_rod/fishing_rod"
+            "model": "minecraft:item/excalibur/fishing_rod/luck_of_the_sea"
           }
         }		
       ],
@@ -42,21 +42,21 @@
           "when": { "minecraft:luck_of_the_sea": 1 },
           "model": {
             "type": "minecraft:model",
-            "model": "minecraft:item/excalibur/fishing_rod/fishing_rod_cast"
+            "model": "minecraft:item/excalibur/fishing_rod/luck_of_the_sea_cast"
           }
         },
         {
           "when": { "minecraft:luck_of_the_sea": 2 },
           "model": {
             "type": "minecraft:model",
-            "model": "minecraft:item/excalibur/fishing_rod/fishing_rod_cast"
+            "model": "minecraft:item/excalibur/fishing_rod/luck_of_the_sea_cast"
           }
         },
         {
           "when": { "minecraft:luck_of_the_sea": 3 },
           "model": {
             "type": "minecraft:model",
-            "model": "minecraft:item/excalibur/fishing_rod/fishing_rod_cast"
+            "model": "minecraft:item/excalibur/fishing_rod/luck_of_the_sea_cast"
           }
         }		
       ],

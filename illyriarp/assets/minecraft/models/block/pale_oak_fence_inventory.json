@@ -1,6 +1,5 @@
 {
-	"credit": "Made with Blockbench",
-	"parent": "block/block",
+	"parent": "block/fence_inventory",
 	"ambientocclusion": false,
 	"textures": {
 		"texture": "block/fence_pale_oak"

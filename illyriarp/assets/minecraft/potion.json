@@ -22,6 +22,8 @@
           "model": "minecraft:item/potions/fire_Resistance/l.json"
         }
       },
+
+
       {
         "when": [
           "minecraft:invisibilty"
@@ -40,6 +42,9 @@
           "model": "minecraft:item/potions/invisibilty/l.json"
         }
       },
+
+
+
       {
         "when": [
           "minecraft:night_vision"
@@ -58,6 +63,8 @@
           "model": "minecraft:item/potions/night_vision/l.json"
         }
       },
+
+
       {
         "when": [
           "minecraft:slow_falling"
@@ -76,6 +83,8 @@
           "model": "minecraft:item/potions/slow_falling/l.json"
         }
       },
+
+
       {
         "when": [
           "minecraft:weakness"
@@ -94,6 +103,8 @@
           "model": "minecraft:item/potions/weakness/l.json"
         }
       },
+
+
       {
         "when": [
           "minecraft:water_breathing"
@@ -112,6 +123,12 @@
           "model": "minecraft:item/potions/water_breathing/l.json"
         }
       },
+
+
+
+
+
+
       {
         "when": [
           "minecraft:harming"
@@ -130,6 +147,8 @@
           "model": "minecraft:item/potions/harming/2.json"
         }
       },
+      
+
       {
         "when": [
           "minecraft:healing"
@@ -148,6 +167,12 @@
           "model": "minecraft:item/potions/healing/2.json"
         }
       },
+
+
+
+
+
+
       {
         "when": [
           "minecraft:leaping"
@@ -175,6 +200,9 @@
           "model": "minecraft:item/potions/jump_boost/2.json"
         }
       },
+
+
+
       {
         "when": [
           "minecraft:poison"
@@ -202,6 +230,9 @@
           "model": "minecraft:item/potions/poison/2.json"
         }
       },
+
+
+
       {
         "when": [
           "minecraft:regeneration"
@@ -229,6 +260,9 @@
           "model": "minecraft:item/potions/regeneration/2.json"
         }
       },
+
+
+
       {
         "when": [
           "minecraft:slowness"
@@ -256,6 +290,9 @@
           "model": "minecraft:item/potions/slowness/2.json"
         }
       },
+
+
+
       {
         "when": [
           "minecraft:swiftness"
@@ -283,6 +320,9 @@
           "model": "minecraft:item/potions/speed/2.json"
         }
       },
+
+
+
       {
         "when": [
           "minecraft:strength"
@@ -310,6 +350,9 @@
           "model": "minecraft:item/potions/strength/2.json"
         }
       },
+
+
+
       {
         "when": [
           "minecraft:turtle_master"
@@ -337,6 +380,8 @@
           "model": "minecraft:item/potions/turtle_master/2.json"
         }
       }
+
+
     ],
     "fallback": {
       "type": "minecraft:model",
