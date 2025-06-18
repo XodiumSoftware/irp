@@ -140,7 +140,7 @@
       <workItem from="1747918635776" duration="845000" />
       <workItem from="1749103041109" duration="34000" />
       <workItem from="1749103196719" duration="72000" />
-      <workItem from="1750226465674" duration="2180000" />
+      <workItem from="1750226465674" duration="2501000" />
     </task>
     <task id="LOCAL-00001" summary="cleanup">
       <option name="closed" value="true" />
@@ -374,7 +374,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750228418163</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="fixed shield issue">
+      <option name="closed" value="true" />
+      <created>1750228911726</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1750228911726</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -386,7 +394,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="added custom potion textures" />
     <MESSAGE value="+" />
     <MESSAGE value="cleanup" />
     <MESSAGE value="Update pack.mcmeta and README.md; add overlays support and note for Excalibur updates" />
@@ -411,7 +418,8 @@
     <MESSAGE value="updated models" />
     <MESSAGE value="updated to use custom (enchanted)books &amp; potions" />
     <MESSAGE value="woops" />
-    <option name="LAST_COMMIT_MESSAGE" value="woops" />
+    <MESSAGE value="fixed shield issue" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed shield issue" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
