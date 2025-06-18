@@ -4,12 +4,17 @@
       "when": {
         "up": "true"
       },
-      "apply": {
-        "model": "minecraft:block/glow_lichen",
-        "x": 270,
-        "uvlock": true
-      }
-    },
+        "apply":    [
+                    { "model": "minecraft:block/glow_lichen/glow_lichen_silk_1" },
+                    { "model": "minecraft:block/glow_lichen/glow_lichen_silk_2" },
+                    { "model": "minecraft:block/glow_lichen/glow_lichen_silk_3" },
+                    { "model": "minecraft:block/glow_lichen/glow_lichen_silk_4" },
+                    { "model": "minecraft:block/glow_lichen/glow_lichen_silk_5" },
+                    { "model": "minecraft:block/glow_lichen/glow_lichen_silk_6" },
+                    { "model": "minecraft:block/glow_lichen/glow_lichen_silk_7" },
+                    { "model": "minecraft:block/glow_lichen/glow_lichen_silk_8" }
+                    ]
+	},
     {
       "when": {
         "up": "false",
@@ -29,10 +34,13 @@
       "when": {
         "north": "true"
       },
-      "apply": {
-        "model": "minecraft:block/foliage/glow_lichen/glow_lichen_side"
-      }
-    },
+        "apply":  [
+          { "model": "minecraft:block/glow_lichen/glow_lichen_side_1", "y": 0, "uvlock": false },
+          { "model": "minecraft:block/glow_lichen/glow_lichen_side_2", "y": 0, "uvlock": false },
+          { "model": "minecraft:block/glow_lichen/glow_lichen_side_3", "y": 0, "uvlock": false },
+          { "model": "minecraft:block/glow_lichen/glow_lichen_side_4", "y": 0, "uvlock": false }
+          ]
+	},
     {
       "when": {
         "up": "false",
@@ -50,12 +58,13 @@
       "when": {
         "west": "true"
       },
-      "apply": {
-        "model": "minecraft:block/foliage/glow_lichen/glow_lichen_side",
-        "y": 270,
-        "uvlock": false
-      }
-    },
+        "apply":  [
+          { "model": "minecraft:block/glow_lichen/glow_lichen_side_1", "y": 270, "uvlock": false },
+          { "model": "minecraft:block/glow_lichen/glow_lichen_side_2", "y": 270, "uvlock": false },
+          { "model": "minecraft:block/glow_lichen/glow_lichen_side_3", "y": 270, "uvlock": false },
+          { "model": "minecraft:block/glow_lichen/glow_lichen_side_4", "y": 270, "uvlock": false }
+          ]
+	},
     {
       "when": {
         "up": "false",
@@ -75,12 +84,13 @@
       "when": {
         "south": "true"
       },
-      "apply": {
-        "model": "minecraft:block/foliage/glow_lichen/glow_lichen_side",
-        "y": 180,
-        "uvlock": false
-      }
-    },
+        "apply":  [
+          { "model": "minecraft:block/glow_lichen/glow_lichen_side_1", "y": 180, "uvlock": false },
+          { "model": "minecraft:block/glow_lichen/glow_lichen_side_2", "y": 180, "uvlock": false },
+          { "model": "minecraft:block/glow_lichen/glow_lichen_side_3", "y": 180, "uvlock": false },
+          { "model": "minecraft:block/glow_lichen/glow_lichen_side_4", "y": 180, "uvlock": false }
+          ]
+	},
     {
       "when": {
         "up": "false",
@@ -100,12 +110,13 @@
       "when": {
         "east": "true"
       },
-      "apply": {
-        "model": "minecraft:block/foliage/glow_lichen/glow_lichen_side",
-        "y": 90,
-        "uvlock": false
-      }
-    },
+        "apply":  [
+                  { "model": "minecraft:block/glow_lichen/glow_lichen_side_1", "y": 90, "uvlock": false },
+                  { "model": "minecraft:block/glow_lichen/glow_lichen_side_2", "y": 90, "uvlock": false },
+                  { "model": "minecraft:block/glow_lichen/glow_lichen_side_3", "y": 90, "uvlock": false },
+                  { "model": "minecraft:block/glow_lichen/glow_lichen_side_4", "y": 90, "uvlock": false }
+                  ]
+      },
     {
       "when": {
         "up": "false",
@@ -121,16 +132,29 @@
         "uvlock": true
       }
     },
-    {
-      "when": {
-        "down": "true"
+      {
+        "when": {
+          "down": "true"
+        },
+        "apply": [
+            { "model": "minecraft:block/glow_lichen/glow_lichen_shroom_1", "y": 0 },
+            { "model": "minecraft:block/glow_lichen/glow_lichen_shroom_1", "y": 90 },
+            { "model": "minecraft:block/glow_lichen/glow_lichen_shroom_1", "y": 180 },
+            { "model": "minecraft:block/glow_lichen/glow_lichen_shroom_1", "y": 270 },
+            { "model": "minecraft:block/glow_lichen/glow_lichen_shroom_2", "y": 0 },
+            { "model": "minecraft:block/glow_lichen/glow_lichen_shroom_2", "y": 90 },
+            { "model": "minecraft:block/glow_lichen/glow_lichen_shroom_2", "y": 180 },
+            { "model": "minecraft:block/glow_lichen/glow_lichen_shroom_2", "y": 270 },
+            { "model": "minecraft:block/glow_lichen/glow_lichen_shroom_3", "y": 0 },
+            { "model": "minecraft:block/glow_lichen/glow_lichen_shroom_3", "y": 90 },
+            { "model": "minecraft:block/glow_lichen/glow_lichen_shroom_3", "y": 180 },
+            { "model": "minecraft:block/glow_lichen/glow_lichen_shroom_3", "y": 270 },
+            { "model": "minecraft:block/glow_lichen/glow_lichen_shroom_4", "y": 0 },
+            { "model": "minecraft:block/glow_lichen/glow_lichen_shroom_4", "y": 90 },
+            { "model": "minecraft:block/glow_lichen/glow_lichen_shroom_4", "y": 180 },
+            { "model": "minecraft:block/glow_lichen/glow_lichen_shroom_4", "y": 270 }
+        ]
       },
-      "apply": {
-        "model": "minecraft:block/glow_lichen",
-        "x": 90,
-        "uvlock": true
-      }
-    },
     {
       "when": {
         "up": "false",

@@ -2,8 +2,8 @@
 	"parent": "block/block",
 	"textures": {
 		"top": "block/anvil_top",
-		"body": "block/anvil",
 		"particle": "block/anvil",
+		"body": "block/anvil",
 		"side": "block/anvil_side"
 	},
 	"elements": [
@@ -16,7 +16,7 @@
 				"south": {"uv": [2, 13, 14, 16], "texture": "#side"},
 				"west": {"uv": [2, 13, 14, 16], "texture": "#side"},
 				"up": {"uv": [2, 2, 14, 14], "texture": "#body"},
-				"down": {"uv": [2, 2, 14, 14], "texture": "#body"}
+				"down": {"uv": [2, 2, 14, 14], "texture": "#body", "cullface": "down"}
 			}
 		},
 		{
@@ -34,11 +34,11 @@
 			"from": [3, 10, 0],
 			"to": [13, 16, 16],
 			"faces": {
-				"north": {"uv": [3, 0, 13, 6], "texture": "#side"},
+				"north": {"uv": [3, 0, 13, 6], "texture": "#side", "cullface": "north"},
 				"east": {"uv": [0, 0, 16, 6], "texture": "#side"},
-				"south": {"uv": [3, 0, 13, 6], "texture": "#side"},
+				"south": {"uv": [3, 0, 13, 6], "texture": "#side", "cullface": "south"},
 				"west": {"uv": [0, 0, 16, 6], "texture": "#side"},
-				"up": {"uv": [3, 0, 13, 16], "texture": "#top"},
+				"up": {"uv": [3, 0, 13, 16], "texture": "#top", "cullface": "up"},
 				"down": {"uv": [3, 0, 13, 16], "texture": "#body"}
 			}
 		},

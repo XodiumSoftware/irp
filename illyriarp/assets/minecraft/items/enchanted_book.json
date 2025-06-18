@@ -1,18 +1,29 @@
 {
   "model": {
+
     "type": "minecraft:condition","property": "minecraft:component","predicate": "stored_enchantments",
+
     "value": [{"enchantments": "minecraft:aqua_affinity"}],
     "on_true": {
       "type": "minecraft:model",
       "model": "minecraft:item/enchanted_books/aqua_affinity"
     },
+
+
+
+
+
+    
+    
     "on_false": {
     "type": "minecraft:condition","property": "minecraft:component","predicate": "stored_enchantments",
+
     "value": [{"enchantments": "minecraft:bane_of_arthropods","levels":1}],
     "on_true": {
       "type": "minecraft:model",
       "model": "minecraft:item/enchanted_books/bane_of_arthropods"
     },
+    
     "on_false": {
       "type": "minecraft:condition","property": "minecraft:component","predicate": "stored_enchantments",
 

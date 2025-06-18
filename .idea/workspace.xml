@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9439fca7-19d3-4187-ac72-97b1a8893024" name="Changes" comment="fixed chisel">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="9439fca7-19d3-4187-ac72-97b1a8893024" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,7 +16,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="dev" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -59,27 +57,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.GPG_PINENTRY_CONFIGURATION_PROPOSAL&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;code.cleanup.on.save&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;dev&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/illyrius/.jetbrains/IllyriaRP/illyriarp/assets/xodium/textures/item&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;rearrange.code.on.save&quot;: &quot;true&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.github.copilot.settings.ApplicationConfigurable&quot;,
-    &quot;update.copyright.on.save&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.GPG_PINENTRY_CONFIGURATION_PROPOSAL": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "code.cleanup.on.save": "true",
+    "git-widget-placeholder": "feat/1.21.6",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "/home/illyrius/.jetbrains/IllyriaRP/illyriarp/assets/minecraft",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "rearrange.code.on.save": "true",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "com.github.copilot.settings.ApplicationConfigurable",
+    "update.copyright.on.save": "true"
   }
-}</component>
+}]]></component>
   <component name="RdControllerToolWindowsLayoutState" isNewUi="true">
     <layout>
       <window_info id="Bookmarks" show_stripe_button="false" side_tool="true" />
@@ -87,15 +85,15 @@
       <window_info id="Backup and Sync History" show_stripe_button="false" />
       <window_info id="Commit_Guest" show_stripe_button="false" />
       <window_info id="Pull Requests" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20703125" />
-      <window_info id="Commit" order="1" weight="0.20703125" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32994792" />
+      <window_info id="Commit" order="1" weight="0.32994792" />
       <window_info id="Structure" order="2" show_stripe_button="false" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="NextEditPredictionSettingsToolwindow" />
       <window_info anchor="bottom" id="TypeScript" />
       <window_info anchor="bottom" id="TODO" />
       <window_info anchor="bottom" id="Version Control" order="0" weight="0.32994187" />
       <window_info anchor="bottom" id="Problems" order="1" />
-      <window_info anchor="bottom" id="Problems View" order="2" weight="0.32994187" />
+      <window_info active="true" anchor="bottom" id="Problems View" order="2" visible="true" weight="0.16908915" />
       <window_info anchor="bottom" id="Terminal" order="3" />
       <window_info anchor="bottom" id="Services" order="4" show_stripe_button="false" />
       <window_info anchor="bottom" id="Debug" order="5" weight="0.32994187" />
@@ -116,9 +114,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/illyriarp/assets/minecraft" />
       <recent name="$PROJECT_DIR$/illyriarp/assets/xodium/textures/item" />
       <recent name="$PROJECT_DIR$/illyriarp/assets/minecraft/items" />
-      <recent name="$PROJECT_DIR$/illyriarp/assets/minecraft" />
       <recent name="$PROJECT_DIR$/illyriarp/assets/minecraft/models/item" />
       <recent name="$PROJECT_DIR$/illyriarp/assets/minecraft/models/item/enchanted_books" />
     </key>
@@ -141,6 +139,8 @@
       <workItem from="1745920264321" duration="4954000" />
       <workItem from="1747918635776" duration="845000" />
       <workItem from="1749103041109" duration="34000" />
+      <workItem from="1749103196719" duration="72000" />
+      <workItem from="1750226465674" duration="2501000" />
     </task>
     <task id="LOCAL-00001" summary="cleanup">
       <option name="closed" value="true" />
@@ -254,7 +254,135 @@
       <option name="project" value="LOCAL" />
       <updated>1747919460541</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="removed chisel">
+      <option name="closed" value="true" />
+      <created>1749103245842</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1749103245842</updated>
+    </task>
+    <task id="LOCAL-00016" summary="removed chisel, v+">
+      <option name="closed" value="true" />
+      <created>1750226707011</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1750226707011</updated>
+    </task>
+    <task id="LOCAL-00017" summary="updated pack.mcmeta">
+      <option name="closed" value="true" />
+      <created>1750226982489</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1750226982489</updated>
+    </task>
+    <task id="LOCAL-00018" summary="updated mod_support">
+      <option name="closed" value="true" />
+      <created>1750227097579</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1750227097579</updated>
+    </task>
+    <task id="LOCAL-00019" summary="updated sounds.json">
+      <option name="closed" value="true" />
+      <created>1750227168612</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1750227168612</updated>
+    </task>
+    <task id="LOCAL-00020" summary="updated optifine">
+      <option name="closed" value="true" />
+      <created>1750227401739</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1750227401739</updated>
+    </task>
+    <task id="LOCAL-00021" summary="updated splashes.txt">
+      <option name="closed" value="true" />
+      <created>1750227441519</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1750227441519</updated>
+    </task>
+    <task id="LOCAL-00022" summary="updated blockstates">
+      <option name="closed" value="true" />
+      <created>1750227473475</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1750227473476</updated>
+    </task>
+    <task id="LOCAL-00023" summary="updated items">
+      <option name="closed" value="true" />
+      <created>1750227558957</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1750227558957</updated>
+    </task>
+    <task id="LOCAL-00024" summary="updated lang">
+      <option name="closed" value="true" />
+      <created>1750227639555</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1750227639555</updated>
+    </task>
+    <task id="LOCAL-00025" summary="updated textures">
+      <option name="closed" value="true" />
+      <created>1750227821890</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1750227821890</updated>
+    </task>
+    <task id="LOCAL-00026" summary="updated totem_of_undying.png to use crusifix">
+      <option name="closed" value="true" />
+      <created>1750227856129</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1750227856129</updated>
+    </task>
+    <task id="LOCAL-00027" summary="updated models">
+      <option name="closed" value="true" />
+      <created>1750228112656</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1750228112656</updated>
+    </task>
+    <task id="LOCAL-00028" summary="updated to use custom (enchanted)books &amp; potions">
+      <option name="closed" value="true" />
+      <created>1750228301328</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1750228301328</updated>
+    </task>
+    <task id="LOCAL-00029" summary="woops">
+      <option name="closed" value="true" />
+      <created>1750228418163</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1750228418163</updated>
+    </task>
+    <task id="LOCAL-00030" summary="fixed shield issue">
+      <option name="closed" value="true" />
+      <created>1750228911726</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1750228911726</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -265,8 +393,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="more cleanup" />
-    <MESSAGE value="added custom potion textures" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="+" />
     <MESSAGE value="cleanup" />
     <MESSAGE value="Update pack.mcmeta and README.md; add overlays support and note for Excalibur updates" />
@@ -276,7 +403,23 @@
     <MESSAGE value="init potions" />
     <MESSAGE value="added chisel texture" />
     <MESSAGE value="fixed chisel" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed chisel" />
+    <MESSAGE value="removed chisel" />
+    <MESSAGE value="removed chisel, v+" />
+    <MESSAGE value="updated pack.mcmeta" />
+    <MESSAGE value="updated mod_support" />
+    <MESSAGE value="updated sounds.json" />
+    <MESSAGE value="updated optifine" />
+    <MESSAGE value="updated splashes.txt" />
+    <MESSAGE value="updated blockstates" />
+    <MESSAGE value="updated items" />
+    <MESSAGE value="updated lang" />
+    <MESSAGE value="updated textures" />
+    <MESSAGE value="updated totem_of_undying.png to use crusifix" />
+    <MESSAGE value="updated models" />
+    <MESSAGE value="updated to use custom (enchanted)books &amp; potions" />
+    <MESSAGE value="woops" />
+    <MESSAGE value="fixed shield issue" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed shield issue" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
