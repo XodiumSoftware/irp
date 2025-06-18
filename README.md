@@ -29,7 +29,7 @@
 - [Contributing][contributing_url]
 - [License][license_url]
 
-## NOTE
+## Notes
 
 > [!CAUTION]
 > When updating Excalibur don't forget to adjust `shovel` and `shield` json files.
