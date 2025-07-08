@@ -60,12 +60,6 @@
       </a>
       <br><strong>Totem Cross</strong>
     </td>
-    <td>
-      <a href="https://modrinth.com/resourcepack/shrimps-immersive-interfaces">
-        <img src="https://cdn.modrinth.com/data/3sV1gvyJ/94e543bad6d9a3745deb5354703d2babe066badd.png" alt="Shrimp's Immersive Interfaces" title="Shrimp's Immersive Interfaces" width="200" height="200">
-      </a>
-      <br><strong>Shrimp's Immersive Interfaces</strong>
-    </td>
   </tr>
   <tr>
     <td>
