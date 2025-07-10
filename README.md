@@ -60,8 +60,6 @@
       </a>
       <br><strong>Totem Cross</strong>
     </td>
-  </tr>
-  <tr>
     <td>
       <a href="https://modrinth.com/resourcepack/shrimps-distinct-potions">
         <img src="https://cdn.modrinth.com/data/Q960kOT8/435f7866a6b10fbcf4c5a770dd083cc524597599_96.webp" alt="Shrimp's Distinct Potions" title="Shrimp's Distinct Potions" width="200" height="200">
@@ -83,19 +81,19 @@
 
 [built_with_url]: https://skillicons.dev
 
-[code_of_conduct_url]: https://github.com/XodiumSoftware/IllyriaRP?tab=coc-ov-file
+[code_of_conduct_url]: https://github.com/XodiumSoftware/irp?tab=coc-ov-file
 
-[contributing_url]: https://github.com/XodiumSoftware/IllyriaRP/blob/main/CONTRIBUTING.md
+[contributing_url]: https://github.com/XodiumSoftware/irp/blob/main/CONTRIBUTING.md
 
-[contributors_shield_url]: https://img.shields.io/github/contributors/XodiumSoftware/IllyriaRP?style=for-the-badge&color=blue
+[contributors_shield_url]: https://img.shields.io/github/contributors/XodiumSoftware/irp?style=for-the-badge&color=blue
 
-[contributors_url]: https://github.com/XodiumSoftware/IllyriaRP/graphs/contributors
+[contributors_url]: https://github.com/XodiumSoftware/irp/graphs/contributors
 
-[issues_shield_url]: https://img.shields.io/github/issues/XodiumSoftware/IllyriaRP?style=for-the-badge&color=yellow
+[issues_shield_url]: https://img.shields.io/github/issues/XodiumSoftware/irp?style=for-the-badge&color=yellow
 
-[issues_url]: https://github.com/XodiumSoftware/IllyriaRP/issues
+[issues_url]: https://github.com/XodiumSoftware/irp/issues
 
-[license_url]: https://github.com/XodiumSoftware/IllyriaRP?tab=AGPL-3.0-1-ov-file
+[license_url]: https://github.com/XodiumSoftware/irp?tab=AGPL-3.0-1-ov-file
 
 [roadmap_shield_url]: https://img.shields.io/badge/Roadmap-Click%20Me!-purple.svg?style=for-the-badge
 
