@@ -1,5 +1,4 @@
 name: Xodium CI/CD
-run-name: "Xodium CI/CD"
 
 on:
   push:
@@ -30,6 +29,8 @@ jobs:
       - id: checkout
         name: Checkout
         uses: actions/checkout@main
+        with:
+          fetch-depth: 0
 
       - id: get_version
         name: Get Version
