@@ -77,20 +77,38 @@ jobs:
           # Install lftp (SFTP client)
           sudo apt-get update && sudo apt-get install -y lftp
 
-          # Download server.properties
+          # Download with error handling
           lftp -u "$SFTP_USER,$SFTP_PASSWORD" -p $SFTP_PORT sftp://$SFTP_HOST <<EOF
           get $SERVER_PROPERTIES_PATH
           quit
           EOF
+          then
+            echo "❌ Failed to download server.properties"
+            exit 1
+          fi
 
-          # Modify server.properties
-          sed -i "s|^resource-pack=.*|resource-pack=$RESOURCE_PACK_URL|" server.properties
-          sed -i "s|^resource-pack-sha1=.*|resource-pack-sha1=${{ steps.calculate_sha1.outputs.SHA1 }}|" server.properties
+          # Verify download
+          if [ ! -f "./server.properties.tmp" ]; then
+            echo "::error::❌ Downloaded file missing"
+            exit 1
+          fi
 
-          # Upload modified file back
-          lftp -u "$SFTP_USER,$SFTP_PASSWORD" -p $SFTP_PORT sftp://$SFTP_HOST <<EOF
-          put server.properties -o $SERVER_PROPERTIES_PATH
+          # Modify in-place
+          sed -i \
+            -e "s|^resource-pack=.*|resource-pack=$RESOURCE_PACK_URL|" \
+            -e "s|^resource-pack-sha1=.*|resource-pack-sha1=${{ steps.calculate_sha1.outputs.SHA1 }}|" \
+            ./server.properties.tmp
+
+          # Upload back to server
+          if ! lftp -u "$SFTP_USER,$SFTP_PASSWORD" -p $SFTP_PORT sftp://$SFTP_HOST <<EOF
+          put ./server.properties.tmp -o $SERVER_PROPERTIES_PATH
           quit
           EOF
+          then
+            echo "::error::❌ Failed to upload server.properties"
+            exit 1
+          fi
 
-          echo "✅ Successfully updated server.properties via SFTP"
+          # Cleanup
+          rm -f ./server.properties.tmp
+          echo "✅ Successfully updated $SERVER_PROPERTIES_PATH"
