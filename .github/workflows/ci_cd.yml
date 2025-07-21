@@ -39,7 +39,7 @@ jobs:
         name: Create Zip & Optimize with Packsquash
         uses: ComunidadAylas/PackSquash-action@v4.0.3
         with:
-          packsquash_version: latest
+          packsquash_version: latest-unstable
           options: |
             pack_directory = 'irp'
             output_file_path = 'irp_${{ steps.get_version.outputs.VERSION }}.zip'
