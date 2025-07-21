@@ -28,7 +28,7 @@ jobs:
     steps:
       - id: checkout
         name: Checkout
-        uses: actions/checkout@main
+        uses: actions/checkout@v4.2.2
         with:
           fetch-depth: 0
 
@@ -36,25 +36,27 @@ jobs:
         name: Get Version
         run: echo "VERSION=$(jq -r '.version' version.json)" >> $GITHUB_OUTPUT
 
-      - id: create_zip
-        name: Create Zip File
-        run: |
-          mkdir -p temp
-          cd irp
-          zip -r "../temp/irp_${{ steps.get_version.outputs.VERSION }}.zip" .
+      - id: packsquash
+        name: Create Zip & Optimize with Packsquash
+        uses: ComunidadAylas/PackSquash-action@v4.0.3
+        with:
+          packsquash_version: latest
+          options: |
+            pack_directory = 'irp'
+            output_file_path = 'irp_${{ steps.get_version.outputs.VERSION }}.zip'
 
       - id: calculate_sha1
         name: Calculate SHA1
-        run: echo "SHA1=$(sha1sum "temp/irp_${{ steps.get_version.outputs.VERSION }}.zip" | awk '{ print $1 }')" >> $GITHUB_OUTPUT
+        run: echo "SHA1=$(sha1sum "irp_${{ steps.get_version.outputs.VERSION }}.zip" | awk '{ print $1 }')" >> $GITHUB_OUTPUT
 
       - id: create_release
         name: Create Release
-        uses: softprops/action-gh-release@db560141c659d99bd86de129a0070ee5c0577390
+        uses: softprops/action-gh-release@v2.3.2
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           draft: ${{ contains(github.event.head_commit.message, '.draft') }}
-          files: temp/irp_${{ steps.get_version.outputs.VERSION }}.zip
+          files: irp_${{ steps.get_version.outputs.VERSION }}.zip
           body: |
             Direct Download Link: https://github.com/${{ github.repository }}/releases/download/${{ steps.get_version.outputs.VERSION }}/irp_${{ steps.get_version.outputs.VERSION }}.zip
             SHA-1 Hash: ${{ steps.calculate_sha1.outputs.SHA1 }}
