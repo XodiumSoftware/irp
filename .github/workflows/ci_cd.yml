@@ -9,7 +9,6 @@ on:
 
 permissions:
   contents: write
-  packages: write
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
@@ -18,7 +17,7 @@ concurrency:
 jobs:
   release:
     name: Release
-    runs-on: [ubuntu-latest]
+    runs-on: ubuntu-latest
     environment:
       name: ${{ github.ref_name }}
       url: ${{ steps.create_release.outputs.url }}
@@ -63,3 +62,35 @@ jobs:
           generate_release_notes: true
           prerelease: ${{ contains(github.event.head_commit.message, '.pre') }}
           tag_name: ${{ steps.get_version.outputs.VERSION }}
+
+      - id: deploy
+        name: Deploy to Server
+        if: success()
+        env:
+          SFTP_USER: ${{ secrets.SFTP_USER }}
+          SFTP_HOST: ${{ secrets.SFTP_HOST }}
+          SFTP_PORT: ${{ secrets.SFTP_PORT }}
+          SFTP_PASSWORD: ${{ secrets.SFTP_PASSWORD }}
+          SERVER_PROPERTIES_PATH: ${{ secrets.SERVER_PROPERTIES_PATH }}
+          RESOURCE_PACK_URL: https://github.com/${{ github.repository }}/releases/download/${{ steps.get_version.outputs.VERSION }}/irp_${{ steps.get_version.outputs.VERSION }}.zip
+        run: |
+          # Install lftp (SFTP client)
+          sudo apt-get update && sudo apt-get install -y lftp
+
+          # Download server.properties
+          lftp -u "$SFTP_USER,$SFTP_PASSWORD" -p $SFTP_PORT sftp://$SFTP_HOST <<EOF
+          get $SERVER_PROPERTIES_PATH
+          quit
+          EOF
+
+          # Modify server.properties
+          sed -i "s|^resource-pack=.*|resource-pack=$RESOURCE_PACK_URL|" server.properties
+          sed -i "s|^resource-pack-sha1=.*|resource-pack-sha1=${{ steps.calculate_sha1.outputs.SHA1 }}|" server.properties
+
+          # Upload modified file back
+          lftp -u "$SFTP_USER,$SFTP_PASSWORD" -p $SFTP_PORT sftp://$SFTP_HOST <<EOF
+          put server.properties -o $SERVER_PROPERTIES_PATH
+          quit
+          EOF
+
+          echo "✅ Successfully updated server.properties via SFTP"
