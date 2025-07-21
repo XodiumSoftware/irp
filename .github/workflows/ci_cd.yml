@@ -43,8 +43,6 @@ jobs:
           options: |
             pack_directory = 'irp'
             output_file_path = 'irp_${{ steps.get_version.outputs.VERSION }}.zip'
-            [file_options."assets/minecraft/models/item/enchanted_book.json"]
-            force_include = true
 
       - id: calculate_sha1
         name: Calculate SHA1
