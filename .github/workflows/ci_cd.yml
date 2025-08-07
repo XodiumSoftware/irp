@@ -37,7 +37,7 @@ jobs:
 
       - id: packsquash
         name: Create Zip & Optimize with Packsquash
-        uses: ComunidadAylas/PackSquash-action@v4.0.3
+        uses: ComunidadAylas/PackSquash-action@a9128decf6503efc143586d8eebbf52a861fcb6e
         with:
           packsquash_version: latest-unstable
           options: |
@@ -50,7 +50,7 @@ jobs:
 
       - id: create_release
         name: Create Release
-        uses: softprops/action-gh-release@v2.3.2
+        uses: softprops/action-gh-release@72f2c25fcb47643c292f7107632f7a47c1df5cd8
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
@@ -72,7 +72,7 @@ jobs:
     steps:
       - id: uspr
         name: Update server.properties remotely
-        uses: appleboy/ssh-action@v1.0.0
+        uses: appleboy/ssh-action@2ead5e36573f08b82fbfce1504f1a4b05a647c6f
         with:
           host: ${{ secrets.SFTP_HOST }}
           username: ${{ secrets.SFTP_USER }}
