@@ -37,7 +37,7 @@ jobs:
 
       - id: packsquash
         name: Create Zip & Optimize with Packsquash
-        uses: ComunidadAylas/PackSquash-action@a9128decf6503efc143586d8eebbf52a861fcb6e
+        uses: ComunidadAylas/PackSquash-action@5b6776fcb75058d5fa1d02a5c3078d97c847cbee
         with:
           packsquash_version: latest-unstable
           options: |
