@@ -1,8 +1,8 @@
 {
+	"format_version": "1.21.6",
 	"credit": "Made with Blockbench",
 	"texture_size": [32, 32],
 	"textures": {
-		"1": "item/excalibur/carved_pumpkin/carved_pumpkin",
 		"particle": "item/excalibur/carved_pumpkin/carved_pumpkin"
 	},
 	"elements": [
@@ -11,12 +11,12 @@
 			"to": [12, 8, 12],
 			"rotation": {"angle": 0, "axis": "y", "origin": [4, 0, 4]},
 			"faces": {
-				"north": {"uv": [0, 8, 8, 16], "texture": "#1"},
-				"east": {"uv": [8, 8, 16, 16], "texture": "#1"},
-				"south": {"uv": [8, 8, 16, 16], "texture": "#1"},
-				"west": {"uv": [8, 8, 16, 16], "texture": "#1"},
-				"up": {"uv": [0, 0, 8, 8], "texture": "#1"},
-				"down": {"uv": [8, 0, 16, 8], "texture": "#1"}
+				"north": {"uv": [0, 8, 8, 16], "texture": "#particle"},
+				"east": {"uv": [8, 8, 16, 16], "texture": "#particle"},
+				"south": {"uv": [8, 8, 16, 16], "texture": "#particle"},
+				"west": {"uv": [8, 8, 16, 16], "texture": "#particle"},
+				"up": {"uv": [0, 0, 8, 8], "texture": "#particle"},
+				"down": {"uv": [8, 0, 16, 8], "texture": "#particle"}
 			}
 		},
 		{
@@ -24,11 +24,11 @@
 			"to": [9, 9, 9],
 			"rotation": {"angle": 0, "axis": "y", "origin": [3, 7, 3]},
 			"faces": {
-				"north": {"uv": [3, 3, 5, 5], "texture": "#1"},
-				"east": {"uv": [3, 3, 5, 5], "texture": "#1"},
-				"south": {"uv": [3, 3, 5, 5], "texture": "#1"},
-				"west": {"uv": [3, 3, 5, 5], "texture": "#1"},
-				"up": {"uv": [3, 3, 5, 5], "texture": "#1"}
+				"north": {"uv": [3, 3, 5, 5], "texture": "#particle"},
+				"east": {"uv": [3, 3, 5, 5], "texture": "#particle"},
+				"south": {"uv": [3, 3, 5, 5], "texture": "#particle"},
+				"west": {"uv": [3, 3, 5, 5], "texture": "#particle"},
+				"up": {"uv": [3, 3, 5, 5], "texture": "#particle"}
 			}
 		}
 	],
@@ -48,7 +48,7 @@
 			"scale": [0.4, 0.4, 0.4]
 		},
 		"firstperson_lefthand": {
-			"rotation": [0, 225, 0],
+			"rotation": [0, -135, 0],
 			"scale": [0.4, 0.4, 0.4]
 		},
 		"ground": {
@@ -56,7 +56,7 @@
 			"scale": [0.25, 0.25, 0.25]
 		},
 		"gui": {
-			"rotation": [30, 225, 0],
+			"rotation": [30, -135, 0],
 			"scale": [0.625, 0.625, 0.625]
 		},
 		"head": {
