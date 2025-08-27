@@ -72,7 +72,7 @@ jobs:
     steps:
       - id: uspr
         name: Update server.properties remotely
-        uses: appleboy/ssh-action@2ead5e36573f08b82fbfce1504f1a4b05a647c6f
+        uses: appleboy/ssh-action@3ca8a7c5359ac6ad91aa47f1946ece1c3b025004
         with:
           host: ${{ secrets.SFTP_HOST }}
           username: ${{ secrets.SFTP_USER }}
