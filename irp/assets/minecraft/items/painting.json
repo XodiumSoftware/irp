@@ -106,6 +106,13 @@
             }
           },
           {
+            "when": "minecraft:dennis",
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/excalibur/painting/dennis"
+            }
+          },		  
+          {
             "when": "minecraft:donkey_kong",
             "model": {
               "type": "minecraft:model",

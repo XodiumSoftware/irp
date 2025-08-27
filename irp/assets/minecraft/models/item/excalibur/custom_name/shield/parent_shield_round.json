@@ -1,0 +1,168 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [32, 32],
+	"textures": {
+		"handle": "item/excalibur/custom_name/shield/shield_handle",
+		"particle": "item/excalibur/custom_name/shield/shield_particle",
+		"front": "item/excalibur/custom_name/shield/round_front",
+		"back": "item/excalibur/custom_name/shield/round_back"
+	},
+	"elements": [
+		{
+			"name": "handle",
+			"from": [7, 5, 8],
+			"to": [9, 11, 14],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [6, 10, 8, 16], "texture": "#handle"},
+				"east": {"uv": [0, 10, 6, 16], "texture": "#handle"},
+				"south": {"uv": [14, 10, 16, 16], "texture": "#handle"},
+				"west": {"uv": [8, 10, 14, 16], "texture": "#handle"},
+				"up": {"uv": [8, 10, 6, 4], "texture": "#handle"},
+				"down": {"uv": [10, 4, 8, 10], "texture": "#handle"}
+			}
+		},
+		{
+			"from": [4, -3, 7],
+			"to": [12, 19, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [4, -3, 7]},
+			"faces": {
+				"north": {"uv": [6, 2.5, 10, 13.5], "texture": "#front"},
+				"east": {"uv": [6, 2.5, 6.5, 13.5], "texture": "#front"},
+				"south": {"uv": [10, 2.5, 6, 13.5], "texture": "#back"},
+				"west": {"uv": [9.5, 2.5, 10, 13.5], "texture": "#front"},
+				"up": {"uv": [10, 2.5, 6, 3], "texture": "#front"},
+				"down": {"uv": [10, 13, 6, 13.5], "texture": "#front"}
+			}
+		},
+		{
+			"from": [2, -2, 7],
+			"to": [14, 18, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [2, -2, 7]},
+			"faces": {
+				"north": {"uv": [5, 3, 11, 13], "texture": "#front"},
+				"east": {"uv": [5, 3, 5.5, 13], "texture": "#front"},
+				"south": {"uv": [11, 3, 5, 13], "texture": "#back"},
+				"west": {"uv": [10.5, 3, 11, 13], "texture": "#front"},
+				"up": {"uv": [11, 3, 5, 3.5], "texture": "#front"},
+				"down": {"uv": [11, 12.5, 5, 13], "texture": "#front"}
+			}
+		},
+		{
+			"from": [1, -1, 7],
+			"to": [15, 17, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [1, -1, 7]},
+			"faces": {
+				"north": {"uv": [4.5, 3.5, 11.5, 12.5], "texture": "#front"},
+				"east": {"uv": [4.5, 3.5, 5, 12.5], "texture": "#front"},
+				"south": {"uv": [11.5, 3.5, 4.5, 12.5], "texture": "#back"},
+				"west": {"uv": [11, 3.5, 11.5, 12.5], "texture": "#front"},
+				"up": {"uv": [11.5, 3.5, 4.5, 4], "texture": "#front"},
+				"down": {"uv": [11.5, 12, 4.5, 12.5], "texture": "#front"}
+			}
+		},
+		{
+			"from": [0, 0, 7],
+			"to": [16, 16, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 7]},
+			"faces": {
+				"north": {"uv": [4, 4, 12, 12], "texture": "#front"},
+				"east": {"uv": [4, 4, 4.5, 12], "texture": "#front"},
+				"south": {"uv": [12, 4, 4, 12], "texture": "#back"},
+				"west": {"uv": [11.5, 4, 12, 12], "texture": "#front"},
+				"up": {"uv": [12, 4, 4, 4.5], "texture": "#front"},
+				"down": {"uv": [12, 11.5, 4, 12], "texture": "#front"}
+			}
+		},
+		{
+			"from": [-1, 1, 7],
+			"to": [17, 15, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-1, 1, 7]},
+			"faces": {
+				"north": {"uv": [3.5, 4.5, 12.5, 11.5], "texture": "#front"},
+				"east": {"uv": [3.5, 4.5, 4, 11.5], "texture": "#front"},
+				"south": {"uv": [12.5, 4.5, 3.5, 11.5], "texture": "#back"},
+				"west": {"uv": [12, 4.5, 12.5, 11.5], "texture": "#front"},
+				"up": {"uv": [12.5, 4.5, 3.5, 5], "texture": "#front"},
+				"down": {"uv": [12.5, 11, 3.5, 11.5], "texture": "#front"}
+			}
+		},
+		{
+			"from": [-2, 2, 7],
+			"to": [18, 14, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-2, 2, 7]},
+			"faces": {
+				"north": {"uv": [3, 5, 13, 11], "texture": "#front"},
+				"east": {"uv": [3.5, 5, 3, 11], "texture": "#front"},
+				"south": {"uv": [13, 5, 3, 11], "texture": "#back"},
+				"west": {"uv": [12.5, 5, 13, 11], "texture": "#front"},
+				"up": {"uv": [13, 5, 3, 5.5], "texture": "#front"},
+				"down": {"uv": [13, 10.5, 3, 11], "texture": "#front"}
+			}
+		},
+		{
+			"from": [-3, 4, 7],
+			"to": [19, 12, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-3, 4, 7]},
+			"faces": {
+				"north": {"uv": [2.5, 6, 13.5, 10], "texture": "#front"},
+				"east": {"uv": [2.5, 6, 3, 10], "texture": "#front"},
+				"south": {"uv": [13.5, 6, 2.5, 10], "texture": "#back"},
+				"west": {"uv": [13, 6, 13.5, 10], "texture": "#front"},
+				"up": {"uv": [13.5, 6, 2.5, 6.5], "texture": "#front"},
+				"down": {"uv": [13.5, 9.5, 2.5, 10], "texture": "#front"}
+			}
+		}
+	],
+	"gui_light": "front",
+	"overrides": [
+		{"predicate": {"blocking": 1}, "model": "item/excalibur/custom_name/shield/parent_shield_round_blocking"}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, -90, 0],
+			"translation": [3, -2, 4]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, -90, 0],
+			"translation": [3, -2, 4]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, -90, 2],
+			"translation": [4, -10, 1]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, -90, 2],
+			"translation": [4, -10, 1]
+		},
+		"ground": {
+			"translation": [0, 2, -2],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"gui": {
+			"rotation": [15, 155, 0],
+			"translation": [0, 0, 0.25],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"fixed": {
+			"translation": [0, 0, -0.38],
+			"scale": [2, 2, 2]
+		}
+	},
+	"groups": [
+		{
+			"name": "shield",
+			"origin": [0, 11, 1],
+			"color": 0,
+			"children": [
+				0,
+				{
+					"name": "plate",
+					"origin": [0, 11, 1],
+					"color": 0,
+					"children": [1, 2, 3, 4, 5, 6, 7]
+				}
+			]
+		}
+	]
+}

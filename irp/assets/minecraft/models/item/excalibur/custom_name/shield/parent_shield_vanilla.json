@@ -1,0 +1,90 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [32, 32],
+	"textures": {
+		"handle": "item/excalibur/custom_name/shield/shield_handle",
+		"particle": "item/excalibur/custom_name/shield/shield_particle",
+		"front": "item/excalibur/custom_name/shield/shield_front",
+		"back": "item/excalibur/custom_name/shield/shield_back"
+	},
+	"elements": [
+		{
+			"name": "handle",
+			"from": [7, 5, 8],
+			"to": [9, 11, 14],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [6, 10, 8, 16], "texture": "#handle"},
+				"east": {"uv": [0, 10, 6, 16], "texture": "#handle"},
+				"south": {"uv": [14, 10, 16, 16], "texture": "#handle"},
+				"west": {"uv": [8, 10, 14, 16], "texture": "#handle"},
+				"up": {"uv": [8, 10, 6, 4], "texture": "#handle"},
+				"down": {"uv": [10, 4, 8, 10], "texture": "#handle"}
+			}
+		},
+		{
+			"from": [2, -3, 7],
+			"to": [14, 19, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [2, -3, 7]},
+			"faces": {
+				"north": {"uv": [5, 2.5, 11, 13.5], "texture": "#front"},
+				"east": {"uv": [5.5, 2.5, 5, 13.5], "texture": "#front"},
+				"south": {"uv": [11, 2.5, 5, 13.5], "texture": "#back"},
+				"west": {"uv": [10.5, 2.5, 11, 13.5], "texture": "#front"},
+				"up": {"uv": [11, 2.5, 5, 3], "texture": "#front"},
+				"down": {"uv": [11, 13, 5, 13.5], "texture": "#front"}
+			}
+		}
+	],
+	"gui_light": "front",
+	"overrides": [
+		{"predicate": {"blocking": 1}, "model": "item/excalibur/custom_name/shield/parent_shield_vanilla_blocking"}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, -90, 0],
+			"translation": [3, -2, 4]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, -90, 0],
+			"translation": [3, -2, 4]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, -90, 2],
+			"translation": [4, -10, 1]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, -90, 2],
+			"translation": [4, -10, 1]
+		},
+		"ground": {
+			"translation": [0, 2, -2],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"gui": {
+			"rotation": [15, 155, 0],
+			"translation": [0, 0, 0.25],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"fixed": {
+			"translation": [0, 0, -0.38],
+			"scale": [2, 2, 2]
+		}
+	},
+	"groups": [
+		{
+			"name": "shield",
+			"origin": [0, 11, 1],
+			"color": 0,
+			"children": [
+				0,
+				{
+					"name": "plate",
+					"origin": [0, 11, 1],
+					"color": 0,
+					"children": [1]
+				}
+			]
+		}
+	]
+}

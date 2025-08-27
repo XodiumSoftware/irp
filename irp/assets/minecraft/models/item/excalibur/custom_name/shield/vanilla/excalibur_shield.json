@@ -1,0 +1,9 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/excalibur/custom_name/shield/parent_shield_vanilla",
+	"textures": {
+		"particle": "item/excalibur/custom_name/shield/shield_particle",
+		"front": "item/excalibur/custom_name/shield/shield_front",
+		"back": "item/excalibur/custom_name/shield/shield_back"
+	}
+}
