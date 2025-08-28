@@ -82,4 +82,4 @@ jobs:
             sed -i \
               -e "s|^resource-pack=.*|resource-pack=https://github.com/${{ github.repository }}/releases/download/${{ needs.release.outputs.VERSION }}/irp_${{ needs.release.outputs.VERSION }}.zip|" \
               -e "s|^resource-pack-sha1=.*|resource-pack-sha1=${{ needs.release.outputs.SHA1 }}|" \
-              ${{ secrets.SFTP_MCS_PLUGINS_UPDATE_FOLDER_PATH }}
+              ${{ secrets.SFTP_MCS_PROPERTIES_PATH }}
