@@ -50,7 +50,7 @@ jobs:
 
       - id: create_release
         name: Create Release
-        uses: softprops/action-gh-release@72f2c25fcb47643c292f7107632f7a47c1df5cd8
+        uses: softprops/action-gh-release@97d42c1b50f585f357413698aa1b779307aa0d52
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
