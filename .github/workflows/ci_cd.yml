@@ -37,7 +37,7 @@ jobs:
 
       - id: packsquash
         name: Create Zip & Optimize with Packsquash
-        uses: ComunidadAylas/PackSquash-action@30838f1148024bc7090e024d5de9bfc6d21b04e4
+        uses: ComunidadAylas/PackSquash-action@8b185e4432f907fb43a1fee4ed90788edab9c599
         with:
           packsquash_version: latest-unstable
           options: |
@@ -50,7 +50,7 @@ jobs:
 
       - id: create_release
         name: Create Release
-        uses: softprops/action-gh-release@97d42c1b50f585f357413698aa1b779307aa0d52
+        uses: softprops/action-gh-release@6da8fa9354ddfdc4aeace5fc48d7f679b5214090
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
