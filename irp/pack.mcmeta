@@ -1,15 +1,19 @@
 {
-  "pack": {
-    "pack_format": 55,
-    "supported_formats": { "min_inclusive": 18, "max_inclusive": 99 },
-    "description": "\u00A78Adventure Awaits \n\u00A78By \u00A74Xodium \u00A78for \u00A76MC 1.21.8"
-  },
-   	"overlays": {
-   		"entries": [
-   			{
-   				"directory": "mod_support",
-   				"formats": { "min_inclusive": 42, "max_inclusive": 99 }
-   			}
-   		]
-   	}
+    "pack": {
+        "pack_format": 69,
+        "supported_formats": { "min_inclusive": 18, "max_inclusive": 999 },
+        "min_format": [ 18,0 ],
+        "max_format": [ 999,0 ],
+        "description": "\u00A77Adventure Awaits \n\u00A74By Xodium \u00A77for \u00A76MC 1.21.10"
+    },
+    "overlays": {
+        "entries": [
+            {
+                "directory": "mod_support",
+                "formats": { "min_inclusive": 18, "max_inclusive": 999 },
+                "min_format": [ 18,0 ],
+                "max_format": [ 999,0 ]
+            }
+        ]
+    }
 }
