@@ -7,24 +7,35 @@
 			{"name": "music/game/a_familiar_room", "stream": true},			
 			{"name": "music/game/bromeliad", "stream": true},			
 			{"name": "music/game/left_to_bloom", "stream": true},
+			{"name": "music/game/os_piano", "stream": true},					
 			{"name": "music/game/one_more_day", "stream": true},			
 			{"name": "music/game/stand_tall", "stream": true},
 			{"name": "music/game/nether/soulsand_valley/so_below", "stream": true},			
 			{"name": "music/game/featherfall", "stream": true},
 			{"name": "music/game/watcher", "stream": true},			
-			{"name": "music/game/komorebi", "stream": true},					
+			{"name": "music/game/komorebi", "stream": true},
+			{"name": "music/game/lilypad", "stream": true},			
 			{"name": "music/game/end/alpha", "stream": true}		
 		] 
+	},	
+	"block.anvil.place": {
+        "replace": true,		
+		"sounds": [
+			{"name": "random/anvil_land", "volume": 0.25}
+		],
+	"subtitle": "subtitles.block.generic.place"	
+	},		
+    "block.lever.click": {
+        "replace": true,
+        "sounds": [ 
+			{"name": "excalibur/lever", "pitch": 1.5}	
+		],
+	"subtitle": "subtitles.block.lever.click"	 
 	},	
 	"block.portal.ambient": {
         "replace": true,		
 		"sounds": [
-			{
-			"name": "portal/portal",
-			"attenuation_distance": 8,
-			"volume": 0.75,
-			"pitch": 0.5
-			}
+			{"name": "portal/portal", "attenuation_distance": 8, "volume": 0.75, "pitch": 0.5}
 		],
 	"subtitle": "subtitles.block.portal.ambient"
 	},
@@ -40,21 +51,7 @@
 			{"name": "portal/trigger", "volume": 0.25}
 		],
 	"subtitle": "subtitles.block.portal.trigger"
-	},
-	"block.anvil.place": {
-        "replace": true,		
-		"sounds": [
-			{"name": "random/anvil_land", "volume": 0.25}
-		],
-	"subtitle": "subtitles.block.generic.place"	
 	},	
-    "block.lever.click": {
-        "replace": true,
-        "sounds": [ 
-			{"name": "excalibur/lever", "pitch": 1.5}	
-		],
-	"subtitle": "subtitles.block.lever.click"	 
-	},		
     "entity.player.death": {
         "replace": true,
         "sounds": [ 
