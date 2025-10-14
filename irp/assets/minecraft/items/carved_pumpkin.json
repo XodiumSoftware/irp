@@ -10,6 +10,20 @@
       "component": "minecraft:custom_name",
       "cases": [
         {
+          "when": "Chef Hat",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/excalibur/carved_pumpkin/chef_hat"
+          }
+        },
+        {
+          "when": "Toque Blanche",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/excalibur/carved_pumpkin/chef_hat"
+          }
+        },	  		
+        {
           "when": "Hood",
           "model": {
             "type": "minecraft:model",
@@ -22,7 +36,35 @@
             "type": "minecraft:model",
             "model": "minecraft:item/excalibur/carved_pumpkin/jar"
           }
+        },
+        {
+          "when": "Brick Jar",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/excalibur/carved_pumpkin/jar_brick"
+          }
         },		
+        {
+          "when": "Mushroom Cap",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/excalibur/carved_pumpkin/mushroom_cap_red"
+          }
+        },	
+        {
+          "when": "Red Mushroom Cap",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/excalibur/carved_pumpkin/mushroom_cap_red"
+          }
+        },	
+        {
+          "when": "Brown Mushroom Cap",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/excalibur/carved_pumpkin/mushroom_cap_brown"
+          }
+        },			
         {
           "when": "Red Headband",
           "model": {
@@ -42,6 +84,20 @@
           "model": {
             "type": "minecraft:model",
             "model": "minecraft:item/excalibur/carved_pumpkin/wizard_hat"
+          }
+        },		
+        {
+          "when": "Black Wizard Hat",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/excalibur/carved_pumpkin/wizard_hat_black"
+          }
+        },		
+        {
+          "when": "Brown Wizard Hat",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/excalibur/carved_pumpkin/wizard_hat_brown"
           }
         }
       ],

@@ -43,7 +43,7 @@ DawnCraft!
 Excalibur's Crate!
 Medieval Minecraft!
 Strictly Medieval!
-...!
+! ! !
 Adventure!
 Arondight!
 Arthurian!
@@ -89,7 +89,7 @@ Wander!
 Wizards!
 Wonder!
 Wonderful!
-!!!!
+! ! !
 Minecraft!
 Don't dig straight down!
 Manage your inventory!
@@ -120,7 +120,7 @@ Also try Minecraft Dungeons!
 Also try Minecraft Legends!
 Also try Minecraft Realms!
 Thank you, Mojang!
-!!!!
+! ! !
 Also try The Elder Scrolls!
 By Azura, by Azura, by Azura!
 The Grand Champion!
@@ -139,7 +139,7 @@ Stop right there, illager scum!
 Villager has wares, if you have coin...
 Free Horse Armor!
 You're finally awake...
-!!!!
+! ! !
 You shall not pass!
 Fly, you fools!
 A wizard is never late, nor is he early.
@@ -181,7 +181,7 @@ Do not cite the Deep Magic to me, Witch!
 I was there when it was written.
 Are you a animal, vegetable, or mineral?
 Thank you, C.S. Lewis.
-!!!!
+! ! !
 Go Berserk!
 [CLANG!]
 Eclipse!
@@ -190,7 +190,7 @@ Gather your forces!
 Dragon Slayer!
 The Golden Age!
 Thank you, Kentaro Miura.
-!!!!
+! ! !
 Also try Dark Souls!
 Praise the Sun!
 Praise the Moon!
@@ -199,7 +199,7 @@ Also try Elden Ring!
 A lowly tarnished, playing as a Lord...
 No maidens?
 Touch Grace!
-!!!!
+! ! !
 Dungeons & Dragons!
 Sword & Sorcery!
 Swords & Sorcerers!
@@ -217,7 +217,7 @@ Chaotic Good!
 Mimics!
 Gelatinous Cubes!
 Also try Baldur's Gate!
-!!!!
+! ! !
 MY CABBAGES!
 Secret tunnel!
 Cactus Juice!
@@ -225,7 +225,7 @@ It’s the quenchiest!
 Regain your honor!
 In love with the moon!
 That's rough buddy.
-!!!!
+! ! !
 Also try RuneScape!
 Free Armor Trimming!
 Gnome Child.
@@ -235,7 +235,7 @@ Also try World of Warcraft!
 LEEEEEEEEEROOY JEEEEEENKIIIINS!!!
 An illusion! What are you hiding?
 Something's not quite right...
-!!!!
+! ! !
 Also try Valheim!
 The bees are happy.
 The forest is moving...
@@ -245,12 +245,12 @@ Kraa!
 Well met, wanderer…
 Hail warrior.
 I bring tidings
-!!!!
+! ! !
 But you have heard of me...
 Madness... or brilliance...
 Why is the rum gone?!
 I've got a jar of dirt!
-!!!!
+! ! !
 Brace yourselves...
 Winter is coming...
 Stick 'em with the pointy end.
@@ -264,7 +264,7 @@ Dracarys...
 Tyrion would love it!
 Ice and Fire!
 Dragon Dance!
-!!!!
+! ! !
 Also try The Legend of Zelda!
 Hey! Listen!
 Take this!
@@ -322,7 +322,9 @@ Flow like water...
 Find comfort in the process...
 Trust the process...
 Relax, my friend.
-!!!!
+Never Doom!
+! ! !
+Also try Ashen!
 Also try Castle Crashers!
 Also try Conquest!
 Also try Cuphead!
@@ -353,6 +355,10 @@ My warrior spirit burns.
 The wolf hunts for it's prey!
 Heroes never die!
 'Till Valhalla!
+The moon!
+Born Again!
+Tremble before Bast!
+Behold, the God of Thunder!
 By Thor's Hammer!
 By Odin's Beard!
 By the Allfather!

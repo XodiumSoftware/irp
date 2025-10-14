@@ -15,14 +15,7 @@
             "when": "Round Shield",
             "model": {
               "type": "minecraft:model",
-              "model": "minecraft:item/excalibur/custom_name/shield/round/excalibur_shield"
-            }
-          },
-          {
-            "when": "Shield",
-            "model": {
-              "type": "minecraft:model",
-              "model": "minecraft:item/excalibur/custom_name/shield/vanilla/excalibur_shield"
+              "model": "minecraft:item/excalibur/custom_name/shield/shield_round"
             }
           }
         ],
@@ -56,14 +49,7 @@
             "when": "Round Shield",
             "model": {
               "type": "minecraft:model",
-              "model": "minecraft:item/excalibur/custom_name/shield/round/excalibur_shield_blocking"
-            }
-          },
-          {
-            "when": "Shield",
-            "model": {
-              "type": "minecraft:model",
-              "model": "minecraft:item/excalibur/custom_name/shield/vanilla/excalibur_shield_blocking"
+              "model": "minecraft:item/excalibur/custom_name/shield/shield_round_blocking"
             }
           }
         ],

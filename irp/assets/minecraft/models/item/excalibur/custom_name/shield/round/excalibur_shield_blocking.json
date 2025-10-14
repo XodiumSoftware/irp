@@ -1,8 +1,0 @@
-{
-	"parent": "item/excalibur/custom_name/shield/parent_shield_round_blocking",
-	"textures": {
-		"particle": "item/excalibur/custom_name/shield/shield_particle",
-		"front": "item/excalibur/custom_name/shield/round_front",
-		"back": "item/excalibur/custom_name/shield/round_back"
-	}
-}
