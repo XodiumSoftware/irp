@@ -11,7 +11,7 @@
   <br />
 </h1>
 
-<h4 align="center">IllyriaRPG Resource Pack</h4><br />
+<h4 align="center">Illyria Resource Pack</h4><br />
 
 <div align="center">
 
