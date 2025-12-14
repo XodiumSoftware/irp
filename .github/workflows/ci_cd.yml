@@ -42,11 +42,11 @@ jobs:
           packsquash_version: latest-unstable
           options: |
             pack_directory = 'irp'
-            output_file_path = 'irp_${{ steps.get_version.outputs.VERSION }}.zip'
+            output_file_path = 'irp_v${{ steps.get_version.outputs.VERSION }}.zip'
 
       - id: calculate_sha1
         name: Calculate SHA1
-        run: echo "SHA1=$(sha1sum "irp_${{ steps.get_version.outputs.VERSION }}.zip" | awk '{ print $1 }')" >> $GITHUB_OUTPUT
+        run: echo "SHA1=$(sha1sum "irp_v${{ steps.get_version.outputs.VERSION }}.zip" | awk '{ print $1 }')" >> $GITHUB_OUTPUT
 
       - id: create_release
         name: Create Release
@@ -55,13 +55,13 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           draft: ${{ contains(github.event.head_commit.message, '.draft') }}
-          files: irp_${{ steps.get_version.outputs.VERSION }}.zip
+          files: irp_v${{ steps.get_version.outputs.VERSION }}.zip
           body: |
             Direct Download Link: https://github.com/${{ github.repository }}/releases/download/${{ steps.get_version.outputs.VERSION }}/irp_${{ steps.get_version.outputs.VERSION }}.zip
             SHA-1 Hash: ${{ steps.calculate_sha1.outputs.SHA1 }}
           generate_release_notes: true
           prerelease: ${{ contains(github.event.head_commit.message, '.pre') }}
-          tag_name: ${{ steps.get_version.outputs.VERSION }}
+          tag_name: v${{ steps.get_version.outputs.VERSION }}
 
   deploy:
     name: Deploy
