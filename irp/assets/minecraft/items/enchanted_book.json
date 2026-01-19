@@ -439,6 +439,27 @@
         }
       },
       {
+        "when": { "minecraft:lunge": 1 },
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/excalibur/enchanted_book/lunge"
+        }
+      },
+      {
+        "when": { "minecraft:lunge": 2 },
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/excalibur/enchanted_book/lunge"
+        }
+      },
+      {
+        "when": { "minecraft:lunge": 3 },
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/excalibur/enchanted_book/lunge"
+        }
+      },	  
+      {
         "when": { "minecraft:lure": 1 },
         "model": {
           "type": "minecraft:model",
