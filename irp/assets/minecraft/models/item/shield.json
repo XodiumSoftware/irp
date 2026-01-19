@@ -1,0 +1,6 @@
+{
+  "gui_light": "front",
+  "textures": {
+    "particle": "block/dark_oak_planks"
+  }
+}

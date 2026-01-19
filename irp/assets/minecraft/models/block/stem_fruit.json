@@ -1,9 +1,10 @@
 {
+	"format_version": "1.21.6",
 	"ambientocclusion": false,
 	"textures": {
-		"stem": "block/pumpkin_stem_stage5",
 		"bottom": "block/pumpkin_stem_bottom",
-		"particle": "block/pumpkin_stem_attached"
+		"stem": "block/pumpkin_stem_stage7_attached",
+		"particle": "block/pumpkin_stem"
 	},
 	"elements": [
 		{
@@ -12,17 +13,21 @@
 			"to": [8.001, 15, 16],
 			"rotation": {"angle": 45, "axis": "y", "origin": [8, 8, 8]},
 			"faces": {
-				"east": {"uv": [0, 0, 16, 16], "texture": "#stem"},
-				"west": {"uv": [0, 0, 16, 16], "texture": "#stem"}
+				"east": {"uv": [0, 0, 16, 16], "texture": "#particle"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#particle"}
 			}
 		},
 		{
-			"name": "Stem",
-			"from": [0, -1, 7.999],
-			"to": [16, 15, 8],
+			"from": [-16, 0, 8],
+			"to": [16, 32, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 16, 8]},
 			"faces": {
-				"north": {"uv": [16, 0, 0, 16], "texture": "#particle"},
-				"south": {"uv": [0, 0, 16, 16], "texture": "#particle"}
+				"north": {"uv": [0, 0, 16, 16], "texture": "#stem"},
+				"east": {"uv": [0, 0, 0, 48], "texture": "#missing"},
+				"south": {"uv": [16, 0, 0, 16], "texture": "#stem"},
+				"west": {"uv": [0, 0, 0, 48], "texture": "#missing"},
+				"up": {"uv": [0, 0, 0, 48], "rotation": 270, "texture": "#missing"},
+				"down": {"uv": [0, 0, 0, 48], "rotation": 90, "texture": "#missing"}
 			}
 		},
 		{
@@ -31,8 +36,8 @@
 			"to": [8, 15, 16],
 			"rotation": {"angle": -45, "axis": "y", "origin": [8, 8, 8]},
 			"faces": {
-				"east": {"uv": [0, 0, 16, 16], "texture": "#stem"},
-				"west": {"uv": [0, 0, 16, 16], "texture": "#stem"}
+				"east": {"uv": [0, 0, 16, 16], "texture": "#particle"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#particle"}
 			}
 		},
 		{

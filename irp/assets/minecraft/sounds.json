@@ -10,18 +10,41 @@
 			{"name": "music/game/os_piano", "stream": true},					
 			{"name": "music/game/one_more_day", "stream": true},			
 			{"name": "music/game/stand_tall", "stream": true},
-			{"name": "music/game/nether/soulsand_valley/so_below", "stream": true},			
-			{"name": "music/game/featherfall", "stream": true},
-			{"name": "music/game/watcher", "stream": true},			
+			{"name": "music/game/subwoofer_lullaby", "stream": true},				
+			{"name": "music/game/nether/nether_wastes/rubedo", "stream": true},						
+			{"name": "music/game/nether/soulsand_valley/so_below", "stream": true},					
+			{"name": "music/game/featherfall", "stream": true},	
 			{"name": "music/game/komorebi", "stream": true},
-			{"name": "music/game/lilypad", "stream": true},			
+			{"name": "music/game/lilypad", "stream": true},				
+			{"name": "music/game/watcher", "stream": true},			
 			{"name": "music/game/end/alpha", "stream": true}		
 		] 
 	},	
+	"block.anvil.break": {
+        "replace": true,		
+		"sounds": [
+			{"name": "block/iron/break1"},
+			{"name": "block/iron/break2"},
+			{"name": "block/iron/break3"},
+			{"name": "block/iron/break4"},
+			{"name": "block/iron/break5"},
+			{"name": "block/iron/break6"},
+			{"name": "block/iron/break7"},
+			{"name": "block/iron/break8"}
+		],
+	"subtitle": "subtitles.block.generic.break"	
+	},	
+	"block.anvil.land": {
+        "replace": true,		
+		"sounds": [
+			{"name": "random/anvil_land", "volume": 0.50, "pitch": 0.85}
+		],
+	"subtitle": "subtitles.block.anvil.land"	
+	},		
 	"block.anvil.place": {
         "replace": true,		
 		"sounds": [
-			{"name": "random/anvil_land", "volume": 0.25}
+			{"name": "random/anvil_land", "volume": 0.20, "pitch": 0.85}
 		],
 	"subtitle": "subtitles.block.generic.place"	
 	},		
@@ -52,6 +75,45 @@
 		],
 	"subtitle": "subtitles.block.portal.trigger"
 	},	
+	"block.sculk_sensor.clicking": {
+		"replace": true,
+		"sounds": [
+			{"name": "excalibur/sculk_whisper","attenuation_distance": 16, "volume": 0.85, "pitch": 1},
+			{"name": "excalibur/sculk_whisper2", "attenuation_distance": 16, "volume": 0.9, "pitch": 1}
+		],
+	"subtitle": "subtitles.block.sculk_sensor.clicking"	
+	},	
+	"block.sculk_sensor.clicking_stop": {
+        "replace": true,		
+		"sounds": [
+			{"name": "excalibur/sculk_stop", "attenuation_distance": 16, "volume": 1.5, "pitch": 1}
+		],
+	"subtitle": "subtitles.block.sculk_sensor.clicking_stop"
+	},	
+	"block.sculk_sensor.break": {
+		"replace": true,
+		"sounds": [
+			"block/deepslate_bricks/place1",
+			"block/deepslate_bricks/place2",
+			"block/deepslate_bricks/place3",
+			"block/deepslate_bricks/place4",
+			"block/deepslate_bricks/place5",
+			"block/deepslate_bricks/place6"
+		],
+	"subtitle": "subtitles.block.generic.break"	
+	},		
+	"block.sculk_sensor.place": {
+		"replace": true,
+		"sounds": [
+			"block/deepslate_bricks/place1",
+			"block/deepslate_bricks/place2",
+			"block/deepslate_bricks/place3",
+			"block/deepslate_bricks/place4",
+			"block/deepslate_bricks/place5",
+			"block/deepslate_bricks/place6"
+		],
+	"subtitle": "subtitles.block.generic.place"	
+	},		
     "entity.player.death": {
         "replace": true,
         "sounds": [ 
