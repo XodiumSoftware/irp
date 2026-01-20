@@ -62,24 +62,3 @@ jobs:
           generate_release_notes: true
           prerelease: ${{ contains(github.event.head_commit.message, '.pre') }}
           tag_name: v${{ steps.get_version.outputs.VERSION }}
-
-  deploy:
-    name: Deploy
-    needs: release
-    runs-on: ubuntu-latest
-    environment:
-      name: ${{ github.ref_name }}
-    steps:
-      - id: uspr
-        name: Update server.properties remotely
-        uses: appleboy/ssh-action@3ca8a7c5359ac6ad91aa47f1946ece1c3b025004
-        with:
-          host: ${{ secrets.SFTP_HOST }}
-          username: ${{ secrets.SFTP_USER }}
-          password: ${{ secrets.SFTP_PASSWORD }}
-          port: ${{ secrets.SFTP_PORT }}
-          script: |
-            sed -i \
-              -e "s|^resource-pack=.*|resource-pack=https://github.com/${{ github.repository }}/releases/download/${{ needs.release.outputs.VERSION }}/irp_${{ needs.release.outputs.VERSION }}.zip|" \
-              -e "s|^resource-pack-sha1=.*|resource-pack-sha1=${{ needs.release.outputs.SHA1 }}|" \
-              ${{ secrets.SFTP_MCS_PROPERTIES_PATH }}
