@@ -1,10 +1,9 @@
-name: Xodium CI/CD
+name: Xodium CI/CD - Release
 
 on:
   push:
     branches: [main]
-    paths:
-      - "irp/**"
+    paths: [ "irp/**" ]
   workflow_dispatch:
 
 permissions:
