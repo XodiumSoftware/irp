@@ -32,7 +32,9 @@ jobs:
 
       - id: get_version
         name: Get Version
-        run: echo "VERSION=$(jq -r '.version' version.json)" >> $GITHUB_OUTPUT
+        run: |
+          MC_VERSION=$(jq -r '.pack.description' irp/pack.mcmeta | grep -oP '\d+\.\d+\.\d+')
+          echo "VERSION=${MC_VERSION}-${{ github.run_number }}" >> $GITHUB_OUTPUT
 
       - id: packsquash
         name: Create Zip & Optimize with Packsquash
