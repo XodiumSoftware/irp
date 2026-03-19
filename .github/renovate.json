@@ -12,6 +12,6 @@
   ],
   "automerge": true,
   "baseBranchPatterns": [
-    "dev"
+    "main"
   ]
 }
